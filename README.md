@@ -9,7 +9,7 @@ In deze repository worden diverse onderwerpen rondom mijn modelspoorbaan beschre
 5. Elektrisch schema under construction
 6. DCC sniffers under construction
 7. DCC++ under construction
-8. [Tooling](Tooling.md)
+8. [Tooling](./Tooling.md)
 
 ![English flag](./images/gb.gif)
 
@@ -22,4 +22,4 @@ In this repository several subjects concerning my model railroad can be found.
 5. Elektrical schema under construction
 6. DCC sniffers under construction
 7. DCC++ under construction
-8.[Tooling](Tooling.md)
+8. [Tooling](./Tooling.md)
