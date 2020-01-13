@@ -2,10 +2,11 @@
 
 In deze repository worden een aantal onderzoeken beschreven uitgevoerd op de Digikeijs schakeldecoder DR4018 beschreven. Ook worden een aantal configuraties getoond in combinatie met het besturingsprogramma RocRail.
 
-1. [DR4018 overzicht alle fabrieksinstellingen](/DR4018/DR4018_overview/README.md)
-2. DR4018 mengvorm seinen en wissels under construction
-3. DR4018 preset 1 en RocRail under construction
-4. DR4018 preset 7 en RocRail under construction
+1. DR4018 tester
+2. [DR4018 overzicht alle fabrieksinstellingen](/DR4018/DR4018_overview/README.md)
+3. DR4018 mengvorm seinen en wissels under construction
+4. DR4018 preset 1 en RocRail under construction
+5. DR4018 preset 7 en RocRail under construction
 
 
 ![English flag](../images/gb.gif)
