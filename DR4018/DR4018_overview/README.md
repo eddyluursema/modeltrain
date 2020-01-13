@@ -2,14 +2,11 @@
 
 In deze repository alle 14 standaard aanwezige CV-settings van de Digikeijs schakeldecoder DR4018 beschreven in [tabelvorm](DR4018_overview.md). Helaas is deze tabel niet beschikbaar bij de documentatie van Digikeijs.
 
-Hoe zijn deze CV-settings verzameld?
-* Sluit een DR4018 aan op een DR5000 command station op het programmeerspoor
-* Start de gebruikersinterface van de DR5000 op de laptop [afbeelding](./images/DR5000commandstationinterface.JPG)
-* Klik in de interface op 'Control GO STOP'
-* Klik in het daaropvolgende scherm op 'Schakel' [afbeelding](./images/DriveSwitchSelect.JPG)
-* Klik in het daaropvolgende scherm op de combobox totdat adres 497 verschijnt en dat we dus wissel 501 zouden kunnen bedienen [afbeelding](./images/SwitchAdress.JPG)
-* Geef de DR4018 een adres b.v. 501 door op de DR4018 de programmeerknop in te drukken en op het scherm wissel 501 te 'bedienen' door op rood of groen te drukken
-* Klik op het hoofdscherm van de DR5000 op de aansluiting van het programmeerspoor
+Kijk voor het instellen van een adres en preset in de DR4018 [hier](DR4018_adresCVRW.md).
+
+Hoe is deze tabel verkregen?
+
+* Klik op het hoofdscherm van de DR5000 op de aansluiting van het **programmeer** spoor
 * Schrijf de gekozen standaardinstelling (0 - 13) weg onder CV 47 [afbeelding](./images/CV_programming_reading.JPG)
 * Maak een tekstbestand met daarin alle op te vragen CV-adressen (behalve 47) b.v. 1-46, 48-255
 * Zet de DR4018 in programmeermode door de knop in te drukken
@@ -22,9 +19,14 @@ Hoe zijn deze CV-settings verzameld?
 
 ![English flag](../../images/gb.gif)
 
-In this repository all of the 14 standard programmed settings of the Digikeijs switching decoder DR4018 are shown in a [table](DR4018_overview.md).
+In this repository all of the 14 standard programmed settings of the Digikeijs switching decoder DR4018 are shown in a [table](DR4018_overview.md).This overview is not available from Digikeijs.
+
+Look [here](DR4018_adresCVRW.md) for setting the adresa and preset in de DR4018.
+
+
 In which way have these CV-settings been collected?
-* Connect a DR4018 to a DR5000 command station on the programming track
+
+* Connect a DR4018 to a DR5000 command station on the **programming** track
 * Start user interface of the DR5000 on a laptop [picture Dutch interface](./images/DR5000commandstationinterface.JPG)
 * Give the DR4018 an adress e.g. 501 and write the choosen standard configuration (0-13) at CV 47 [picture Dutch interface](./images/CV_programming_reading.JPG)
 * Create a text file with all CV-adresses to select (except 47) e.g. 1-46, 48-255
