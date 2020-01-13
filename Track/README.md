@@ -4,4 +4,4 @@ Mijn baan is getekend in [3D Modelbahn Studio](TrackDesign3D.png) en in [RocRail
 
 ![English flag](../images/gb.gif)
 
-These are the digital tools used to construct my model railroad.
+My model railroad is drawn with [3D Modelbahn Studio](TrackDesign3D.png) and with [RocRail](TrackDesignRocRail.png)
