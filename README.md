@@ -5,7 +5,7 @@ Eddy Luursema Januari 2020
 
 1. [DR4018](/DR4018/README.md)
 2. DR4088 under construction
-3. Banenplan under construction
+3. [Banenplan](/Track/README.md)
 4. Tafelconstructie under construction
 5. Elektrisch schema under construction
 6. DCC sniffers under construction
@@ -19,7 +19,7 @@ Eddy Luursema January 2020
 
 1. [DR4018](/DR4018/README.md)
 2. DR4088 under construction
-3. Track plan under construction
+3. [Track plan](/Track/README.md)
 4. Table design under construction
 5. Elektrical schema under construction
 6. DCC sniffers under construction
