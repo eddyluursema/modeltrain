@@ -4,7 +4,9 @@ In deze repository alle 14 standaard aanwezige CV-settings van de Digikeijs scha
 
 Hoe zijn deze CV-settings verzameld?
 * Sluit een DR4018 aan op een DR5000 command station op het programmeerspoor
-* Start de gebruikersinterface van de DR5000 op de laptop [afbeelding](../images/DR5000commandstationinterface.JPG)
+* Start de gebruikersinterface van de DR5000 op de laptop [afbeelding](./images/DR5000commandstationinterface.JPG)
+
+
 * Geef de DR4018 een adres b.v. 501 en schrijf de gekozen standaardinstelling (0 - 13) weg onder CV 47
 * Maak een tekstbestand met daarin alle op te vragen CV-adressen (behalve 47) b.v. 1-46, 48-255
 * Zet de DR4018 in programmeermode door de knop in te drukken
