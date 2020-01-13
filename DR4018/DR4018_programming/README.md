@@ -30,5 +30,5 @@ The DR4018 can be given an adress and CV values can be written:
 CV-values of the DR4018 can be read:
 
 * Connect a DR4018 on a DR5000 command station on the **programming** track
-* Choose the wantwed CV-adress and click the button (white sheet with green arrow)
-* The reads the CV-value oor an error message is produced
+* Choose the wanted CV-adress and click the button (white sheet with green arrow)
+* The program then reads the CV-value or produces an error message
