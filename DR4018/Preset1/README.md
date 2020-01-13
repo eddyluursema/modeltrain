@@ -22,8 +22,8 @@ To have a DR4018 work under RocRail the follwing steps have been taken:
 * Check the fucntionality with the switch interface of the DR5000 to set adresses 501, 502 etc. GREEN OR RED
 * Go to RocRail
 * Make (if neccessary) a test signal
-* In the tab General fill the name e.g. sg7 [zie](./images/TabGeneralSG7Preset1.JPG)
-* In the tab Interface fill the adresses 501, 502 and 503 for RED, GREEN and YELLOW [zie](./images/TabInterfaceSG7Preset1.JPG)
+* In the tab General fill the name e.g. sg7 [look at](./images/TabGeneralSG7Preset1.JPG)
+* In the tab Interface fill the adresses 501, 502 and 503 for RED, GREEN and YELLOW [look at](./images/TabInterfaceSG7Preset1.JPG)
 * **Check the box 'Pair gates' on**
 * Click on the signal sg7 in the RocRail interface several times
 * Look at the test DR4018 and the logging

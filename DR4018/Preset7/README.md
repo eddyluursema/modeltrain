@@ -22,7 +22,7 @@ To have a DR4018 with preset 7 work under RocRail the follwing steps have been t
 * Check the fucntionality with the switch interface of the DR5000 to set adresses 501 and 502 in turn or simultanious GREEN OR RED
 * Go to RocRail
 * Make (if neccessary) a test signal
-* In the tab General fill the name e.g. sg7 [zie](./images/TabGeneralSG7Preset7.JPG)
+* In the tab General fill the name e.g. sg7 [look at](./images/TabGeneralSG7Preset7.JPG)
 * In the tab Interface fill the adresses 501 and 502 for a red and green adress and set Control on **Patterns** [look at](./images/TabInterfaceSG7Preset7.png)
 * Put in the tab Details G1 and G2 for RED, R1 and G2 for GREEN and G1 and R2 for YELLOW look at](./images/TabDetailsSG7Preset7.png)
 * Click on the signal sg7 in the RocRail interface several times
