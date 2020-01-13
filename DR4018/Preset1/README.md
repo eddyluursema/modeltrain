@@ -30,4 +30,4 @@ To have a DR4018 work under RocRail the follwing steps have been taken:
 * Click on the signal sg7 in the RocRail interface several times
 * Look at the test DR4018 and the logging
 
-**Using preset 1 has the advantage of not wasting an extra output to a superfluous light.**
+**Using preset 1 has the advantage of not wasting an extra output to a superfluous white light.**
