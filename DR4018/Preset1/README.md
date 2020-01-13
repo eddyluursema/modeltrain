@@ -1,4 +1,4 @@
-![Nederlandse vlag](../images/nl.gif)
+![Nederlandse vlag](../../images/nl.gif)
 
 Om een DR4018 samen te laten werken zijn de volgende stappen ondernomen:
 
@@ -11,6 +11,6 @@ Om een DR4018 samen te laten werken zijn de volgende stappen ondernomen:
 * Vul in het tabblad Interface de adressen 501, 502 en 503 voor resp. de seinkeluren RED, GREEN en YELLOW [zie](TabInterfaceSG7Preset1.JPG)
 * **Vink het vakje 'Pair gates' aan**
 
-![English flag](../images/gb.gif)
+![English flag](../../images/gb.gif)
 
 My model railroad is drawn with [3D Modelbahn Studio](TrackDesign3D.png) and with [RocRail](TrackDesignRocRail.png)
