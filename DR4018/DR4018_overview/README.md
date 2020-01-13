@@ -1,6 +1,8 @@
 ![Nederlandse vlag](../../images/nl.gif)
 
-In deze repository alle 14 standaard aanwezige CV-settings van de Digikeijs schakeldecoder DR4018 beschreven in [tabelvorm](../DR4018_overview.md)
+In deze repository alle 14 standaard aanwezige CV-settings van de Digikeijs schakeldecoder DR4018 beschreven in [tabelvorm](DR4018_overview.md)
+
+https://github.com/eddyluursema/modeltrain/blob/master/DR4018/DR4018_overview/DR4018_overview.md
 
 ![English flag](../../images/gb.gif)
 
