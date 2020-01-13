@@ -7,7 +7,7 @@ In deze repository worden een aantal onderzoeken beschreven uitgevoerd op de Dig
 3. [DR4018 overzicht alle fabrieksinstellingen](/DR4018/DR4018_overview/README.md)
 4. DR4018 mengvorm seinen en wissels under construction
 5. [DR4018 preset 1 en RocRail](/DR4018/Preset1/README.md)
-6. DR4018 preset 7 en RocRail under construction
+6. [DR4018 preset 7 en RocRail](/DR4018/Preset7/README.md)
 
 
 ![English flag](../images/gb.gif)
@@ -19,4 +19,4 @@ In this repository some research on the Digikeijs switching decoder are describe
 3. [DR4018 overview all presets](/DR4018/DR4018_overview/README.md)
 4. DR4018 signals and switches mixed under construction
 5. [DR4018 preset 1 and RocRail](/DR4018/Preset1/README.md)
-6. DR4018 preset 7 and RocRail under construction
+6. [DR4018 preset 7 and RocRail](/DR4018/Preset7/README.md)
