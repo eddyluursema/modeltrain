@@ -9,6 +9,9 @@ RocRail gebruikt [PADA](./images/DR4018_RocRail_PADA_adressing.JPG) en [MADA](./
 
 ![English flag](../../images/gb.gif)
 
-There are several ways of adressing an accessory decoder like the DR4018.
+There are several ways of adressing accessory decoders like the DR4018 and manufacturers use differnt ways and even Digikeijs use more than one.
 
-RocRail uses PADA and MADA.
+In the DR5000 we can use the switch board to control switches and signals. Switching adress 501 will show in the [logging](./images/DR5000_adress_one_down.png) the adress minus 1!!
+In de [Arduino-sniffer](./images/DR4018_sniffer_output.png) worden zowel PADA als MADA getoond; dus zowel 501 als 126:0.
+
+RocRail uses both [PADA](./images/DR4018_RocRail_PADA_adressing.JPG) and [MADA](./images/DR4018_RocRail_MADA_adressing.JPG) for a DR4018. For preset 1 we can use adresses 501, 502 en 503 but also 126:1, 126:2 en 126:3 (because a value 0 in the RocRail interface means 'no meaning' the values are 1 higher).
