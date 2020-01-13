@@ -1,10 +1,10 @@
 ![Nederlandse vlag](../../images/nl.gif)
 
-In deze repository alle 14 standaard aanwezige CV-settings van de Digikeijs schakeldecoder DR4018 beschreven in [tabelvorm](DR4018_overview.md).
+In deze repository alle 14 standaard aanwezige CV-settings van de Digikeijs schakeldecoder DR4018 beschreven in [tabelvorm](DR4018_overview.md). Helaas is deze tabel niet beschikbaar bij de documentatie van Digikeijs.
 
 Hoe zijn deze CV-settings verzameld?
 * Sluit een DR4018 aan op een DR5000 command station op het programmeerspoor
-* Start de gebruikersinterface van de DR5000 op de laptop
+* Start de gebruikersinterface van de DR5000 op de laptop (../images/DR5000commandstationinterface.JPG)
 * Geef de DR4018 een adres b.v. 501 en schrijf de gekozen standaardinstelling (0 - 13) weg onder CV 47
 * Maak een tekstbestand met daarin alle op te vragen CV-adressen (behalve 47) b.v. 1-46, 48-255
 * Zet de DR4018 in programmeermode door de knop in te drukken
@@ -28,4 +28,4 @@ In which way have these CV-settings been collected?
 * Wait approx. 6 minutes
 * Save the Excel file with CV-adresses and values
 
-* Attention: sometimes the DR4018 leaves the programming mode. THe process of reading can not be stopped so wait and try again.
+* Attention: sometimes the DR4018 leaves the programming mode. THe process of reading can not be stopped so wait and try again. Unfortunately this table is not available by Digikeijs.
