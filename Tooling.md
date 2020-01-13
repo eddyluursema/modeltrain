@@ -6,6 +6,7 @@ De volgende digitale gereedschappen zijn gebruikt bij het realiseren van mijn mo
 
 These are the digital tools used to construct my model railroad.
 
+|Tool|Explanation|
 |-----------------------|-------------------|
 Github + Github desktop|Versioning software
 Atom|Text editor
