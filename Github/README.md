@@ -1,6 +1,6 @@
 ![Nederlandse vlag](../images/nl.gif)
 
-De volgend stappen zijn nodig om documentatie zoals deze sit te realiseren:
+De volgende stappen zijn nodig om documentatie zoals deze site te realiseren:
 
 * Maak een account aan op github en bewaar gebruikersnaam en wachtwoord
 * Download github-desktop en installeer
@@ -11,8 +11,21 @@ Herhaal onderstaande stappen steeds weer als de documentatie moet worden bijgewe
 
 * Maak/wijzig of verwijder een bestand en/of directory
 * [Commit](./images/githubdesktop_commit.PNG) de wijzigingen door linksonder op de knop te drukken. Geef eventueel commentaar mee in het vakje daarboven. Links zie je alle wijzigingen aan bestanden. Door op een bestand te klikken zie je zelfs de wijzigingen binnen de bestanden (indien mogelijk) bekijken.
-* [Push](./images/githubdesktop_push.PNG) de wijzigingen
+* [Push](./images/githubdesktop_push.PNG) de wijzigingen naar github. De wijzigingen zijn nu zichtbaar voor de hele wereld.
 
 
 
 ![English flag](../images/gb.gif)
+
+The next steps are neccessary te create documentation like this site:
+
+* Create an account on github and save username and wachtwoord
+* Download github-desktop and install
+* Set your github-account in github-desktop
+* Clone the directory
+
+Repeat the following steps eacht time tyhe documentation needs an update:
+
+* Create/change/delete files and/or directories
+* [Commit](./images/githubdesktop_commit.PNG) the cahnges by clicking down left. It's possible to add a comment to your commit. On the left you see all files. By clicking a file you can see (if possible) the changes made to that particular file.
+* [Push](./images/githubdesktop_push.PNG) the changes to github. These changes are now available to the whole world.
