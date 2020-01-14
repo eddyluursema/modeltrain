@@ -1,3 +1,4 @@
+# Nederlands
 ![Nederlandse vlag](../../images/nl.gif)
 
 Er zijn diverse manieren om schakeldecoders te adresseren en de diverse fabrikanten verschillen onderling, maar zelfs binnen Digikeijs en RocRail verschillen qua adressering binnen één produkt.
@@ -40,8 +41,9 @@ Ook de logging van de RocRail server toont adressen 1 lager ongeacht PADA/MADA:
 ## On en off
 Daarnaast zijn er twee begrippen om een wissel/sein te bedienen nl. on/off, groen/rood en rechtdoor/afbuigend. ON = GROEN = RECHTDOOR. Dit kun je o.a. testen door de schakelinterface en de logging van de DR5000 tegelijk open te zetten. Op de bediening van de MultiMaus (plaatje uit handleiding Fleischmann) is de linker wisseltoets rechtdoor en de rechter wisseltoets afbuigend zoals dat ook op het LCD wordt getoond.
 
-![MultiMaus](./images/MultiMaus.png.png)
+![MultiMaus](./images/MultiMaus.png)
 
+# English
 ![English flag](../../images/gb.gif)
 
 There are several ways of adressing accessory decoders like the DR4018 and manufacturers use different ways and even Digikeijs and RocRail use more than one adressing method in the same product.
