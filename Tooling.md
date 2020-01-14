@@ -1,10 +1,10 @@
-![Nederlandse vlag](./images/nl.gif)
+# ![Nederlandse vlag](./images/nl.gif)Nederlands
 
-De volgende digitale gereedschappen zijn gebruikt bij het realiseren van mijn modelbaan.
+De volgende digitale gereedschappen zijn gebruikt bij het realiseren van mijn modelbaan:
 
-![English flag](./images/gb.gif)
+# ![English flag](./images/gb.gif)English
 
-These are the digital tools used to construct my model railroad.
+These are the digital tools used to construct my model railroad:
 
 |Tool|Explanation|
 |-----------------------|-------------------|
