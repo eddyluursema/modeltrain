@@ -2,7 +2,7 @@
 
 Om een DR4018 met preset 7 samen te laten werken met RocRail zijn de volgende stappen ondernomen:
 
-* Sluit een testcircuit aan op de DR4018
+* Sluit een testcircuit aan op de DR4018 of [4 NS-seinen](./images/DR4018_preset7_schematic.png)
 * Geef de DR4018 een adres b.v. 501 en preset 7 (in CV 47)
 * Controleer de werking door het schakelbord van de DR5000 te gebruiken om adres 501 en 502 steeds om beurten of beide GROEN en ROOD te geven. Kijk of dit overeenkomt met de handleiding van de DR4018, Nederlands seinbeeld.
 * Ga naar RocRail
@@ -19,7 +19,7 @@ Om een DR4018 met preset 7 samen te laten werken met RocRail zijn de volgende st
 
 To have a DR4018 with preset 7 work under RocRail the follwing steps have been taken:
 
-* Connect the DR4018 to a test circuit
+* Connect the DR4018 to a test circuit or [4 Dutch signals](./images/DR4018_preset7_schematic.png)
 * Give the DR4018 an adress e.g. 501 and preset 7 (in CV 47)
 * Check the functionality with the switch interface of the DR5000 to set adresses 501 and 502 in turn or simultanious GREEN OR RED. Check if this is according the DR4018 manual for a Dutch signal.
 * Go to RocRail
