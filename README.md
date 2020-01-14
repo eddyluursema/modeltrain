@@ -28,4 +28,4 @@ Eddy Luursema January 2020
 7. DCC sniffers under construction
 8. DCC++ under construction
 9. [Tooling](./Tooling.md)
-10. Using [github en github-desktop](/Github/README.md) for documentation
+10. Using [github and github-desktop](/Github/README.md) for documentation
