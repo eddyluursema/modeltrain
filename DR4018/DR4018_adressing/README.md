@@ -1,5 +1,4 @@
-# Nederlands
-![Nederlandse vlag](../../images/nl.gif)
+# Nederlands ![Nederlandse vlag](../../images/nl.gif)
 
 Er zijn diverse manieren om schakeldecoders te adresseren en de diverse fabrikanten verschillen onderling, maar zelfs binnen Digikeijs en RocRail verschillen qua adressering binnen één produkt.
 
