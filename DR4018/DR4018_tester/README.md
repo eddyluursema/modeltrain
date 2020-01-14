@@ -6,7 +6,7 @@ Een kleine experimentele printplaat is gebouwd met 16 LED's telkens in de kleure
 
 ![zie je hier](./images/DR4018testcircuit.jpg).
 
-In de situatie van een modelspoorbaan is het zeer handig te weten (na het loshalen van een DR4018) welke draden bij welk sein horen. Een tip van collega Theo Goumans van de HCCm gebruikt gekleurd krimpkous. Kijk ook naar de gebruikte kabelbinders en gekleurde adereindhulzen met dezelfde kleur als de bedrading:
+In de situatie van een modelspoorbaan is het zeer handig te weten (na het loshalen van een DR4018) welke draden bij welk sein horen. Een tip van collega Theo Goumans van de HCCm. Hij gebruikt gekleurd krimpkous. Kijk ook naar de gebruikte kabelbinders en gekleurde adereindhulzen met dezelfde kleur als de bedrading:
 
 ![zie](./images/DR4018_modeltrainsituation.jpg)
 
