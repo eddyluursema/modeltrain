@@ -1,4 +1,4 @@
-![Nederlandse vlag](./images/nl.gif)
+# ![Nederlandse vlag](../../images/nl.gif)Nederlands
 
 In deze repository worden diverse onderwerpen rondom mijn modelspoorbaan beschreven. Plaatjes zijn zelf gemaakt; indien ze van derden zijn staat de bron vermeld.
 Eddy Luursema Januari 2020
@@ -14,7 +14,7 @@ Eddy Luursema Januari 2020
 9. [Tooling](./Tooling.md)
 10. Gebruik van [github en github-desktop](/Github/README.md) voor documentatie
 
-![English flag](./images/gb.gif)
+# ![English flag](../../images/gb.gif)English
 
 In this repository several subjects concerning my model railroad can be found. Most pictures are made by me; otherwise the source is mentioned.
 Eddy Luursema January 2020

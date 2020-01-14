@@ -84,4 +84,4 @@ The logging of the RocRail server shows adresses 1 lower despite PADA/MADA:
 ## On en off
 There are two concepts in manipulating switches/signals on/off, green/red and straight/branch off. ON = GREEN = STRAIGHT. THis can be checked by opening the switch and logging interface of the DR5000 at the same time. On the (picture from Fleischmann manual) the left key is straight and the left key is branch off. The cooresponding symbol is shown in the LCD:
 
-![MultiMaus](./images/MultiMaus.png.png)
+![MultiMaus](./images/MultiMaus.png)
