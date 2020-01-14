@@ -6,7 +6,7 @@ Een kleine experimentele printplaat is gebouwd met 16 LED's telkens in de kleure
 
 ![zie je hier](./images/DR4018testcircuit.jpg).
 
-In de situatie van een modelspoorbaan is het zeer handig te weten (na het loshalen van een DR4018) welke draden bij welk sein horen. Een tip van collega Theo Goumans van de HCCm gebruikt gekleurd krimpkous:
+In de situatie van een modelspoorbaan is het zeer handig te weten (na het loshalen van een DR4018) welke draden bij welk sein horen. Een tip van collega Theo Goumans van de HCCm gebruikt gekleurd krimpkous. Kijk ook naar de gebruikte kabelbinders en gekleurde adereindhulzen met dezelfde kleur als de bedrading:
 
 ![zie](./images/DR4018_modeltrainsituation.jpg)
 
@@ -18,6 +18,6 @@ A small printed experimental circuit board with 16 LED's in the colours red, yel
 
 ![can be seen here](./images/DR4018testcircuit.jpg).
 
-In the situation of a modeltrain a very usefull tip for knowing which wire belongs to which signal (after disconnecting a DR4018) is to use coloured shrinking tube. This tip came from a college Theo Goumans from the Modeltrain Department of the Dutch Hobby Computer Club:
+In the situation of a modeltrain a very usefull tip for knowing which wire belongs to which signal (after disconnecting a DR4018) is to use coloured shrinking tube. This tip came from a college Theo Goumans from the Modeltrain Department of the Dutch Hobby Computer Club. Take also a look at the cable ties and coloured terminal crimps with the same colour as the wires:
 
 ![zie](./images/DR4018_modeltrainsituation.jpg).
