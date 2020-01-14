@@ -16,7 +16,7 @@ In de gebruikersinterface van RocRail kan voor het adresseren van de DR4018 zowe
 
 ![PADA](./images/DR4018_RocRail_PADA_adressing.JPG)
 
-OF MADA:
+Of MADA:
 
 ![MADA](./images/DR4018_RocRail_MADA_adressing.png)
 
@@ -35,10 +35,12 @@ De RocView-logging toont echter weer een adres 1 lager onafhankelijk van PADA/MA
 
 Ook de logging van de RocRail server toont adressen 1 lager ongeacht PADA/MADA:
 
-![server](./images/DR4018_RocRail_server_logging.png) 
+![server](./images/DR4018_RocRail_server_logging.png)
 
 ## On en off
-Daarnaast zijn er twee begrippen om een wissel/sein te bedienen nl. on/off, groen/rood en rechtdoor/afbuigend. ON = GROEN = RECHTDOOR. Dit kun je o.a. testen door de schakelinterface en de logging van de DR5000 tegelijk open te zetten. Op de bediening van de [MultiMaus](./images/MultiMaus.png.png) (plaatje uit handleiding Fleischmann) is de linker wisseltoets rechtdoor en de rechter wisseltoets afbuigend zoals dat ook op het LCD wordt getoond.
+Daarnaast zijn er twee begrippen om een wissel/sein te bedienen nl. on/off, groen/rood en rechtdoor/afbuigend. ON = GROEN = RECHTDOOR. Dit kun je o.a. testen door de schakelinterface en de logging van de DR5000 tegelijk open te zetten. Op de bediening van de MultiMaus (plaatje uit handleiding Fleischmann) is de linker wisseltoets rechtdoor en de rechter wisseltoets afbuigend zoals dat ook op het LCD wordt getoond.
+
+![MultiMaus](./images/MultiMaus.png.png)
 
 ![English flag](../../images/gb.gif)
 
