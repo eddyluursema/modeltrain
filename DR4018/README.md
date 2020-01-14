@@ -1,4 +1,4 @@
-![Nederlandse vlag](../images/nl.gif)
+# ![Nederlandse vlag](../images/nl.gif)Nederlands
 
 In deze repository worden een aantal onderzoeken beschreven uitgevoerd op de Digikeijs schakeldecoder DR4018 beschreven. Ook worden een aantal configuraties getoond in combinatie met het besturingsprogramma RocRail.
 
@@ -11,7 +11,7 @@ In deze repository worden een aantal onderzoeken beschreven uitgevoerd op de Dig
 7. [DR4018 preset 7 en RocRail](/DR4018/Preset7/README.md)
 
 
-![English flag](../images/gb.gif)
+# ![English flag](../images/gb.gif)English
 
 In this repository some research on the Digikeijs switching decoder are described. Configurations connecting the DR4018 to the modeltrain controlling software RocRail are available.
 
