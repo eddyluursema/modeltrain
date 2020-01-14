@@ -1,4 +1,4 @@
-# Nederlands ![Nederlandse vlag](../../images/nl.gif)
+# ![Nederlandse vlag](../../images/nl.gif)Nederlands
 
 Er zijn diverse manieren om schakeldecoders te adresseren en de diverse fabrikanten verschillen onderling, maar zelfs binnen Digikeijs en RocRail verschillen qua adressering binnen één produkt.
 
@@ -42,8 +42,8 @@ Daarnaast zijn er twee begrippen om een wissel/sein te bedienen nl. on/off, groe
 
 ![MultiMaus](./images/MultiMaus.png)
 
-# English
-![English flag](../../images/gb.gif)
+# ![English flag](../../images/gb.gif)English
+
 
 There are several ways of adressing accessory decoders like the DR4018 and manufacturers use different ways and even Digikeijs and RocRail use more than one adressing method in the same product.
 
@@ -57,7 +57,31 @@ In de Arduino-sniffer worden zowel PADA als MADA getoond; dus zowel 501 als 126:
 ![Arduino-sniffer](./images/DR4018_sniffer_output.png)
 
 ## RocRail
-For RocRail you can use [PADA](./images/DR4018_RocRail_PADA_adressing.JPG) or [MADA](./images/DR4018_RocRail_MADA_adressing.png) for a DR4018. For preset 1 we can use adresses 501, 502 en 503 but also 126:1, 126:2 en 126:3 (because a value 0 in the RocRail interface means 'no meaning' the values are 1 higher). The RocRail user interface shows the [given adress](./images/DR4018_RocRail_Userinterface.png) with PADA; using [MADA](./images/DR4018_RocRail_UserinterfaceMADA.png) for adressing the signal we suddenly see an adress 1001 next to 501 ?? The RocView logging shows 1 [lower](./images/DR4018_RocRail_Logging.png) despite PADA/MADA!! The logging of the RocRail [server](./images/DR4018_RocRail_server_logging.png) shows adresses 1 lower despite PADA/MADA.
+For RocRail you can use PADA for adressing the DR4018:
+
+![PADA](./images/DR4018_RocRail_PADA_adressing.JPG)
+
+or MADA:
+
+![MADA](./images/DR4018_RocRail_MADA_adressing.png)
+
+For preset 1 we can use adresses 501, 502 en 503 but also 126:1, 126:2 en 126:3 (because a value 0 in the RocRail interface means 'no meaning' the values are 1 higher). The RocRail user interface shows the given adress 501 with PADA:
+
+![given adress](./images/DR4018_RocRail_Userinterface.png)
+
+Using MADA  for adressing the signal we suddenly see an adress 1001 next to 501 ??
+
+![MADA](./images/DR4018_RocRail_UserinterfaceMADA.png)
+
+The RocView logging shows 1 lower  despite PADA/MADA!!
+
+![lower](./images/DR4018_RocRail_Logging.png)
+
+The logging of the RocRail server shows adresses 1 lower despite PADA/MADA:
+
+![server](./images/DR4018_RocRail_server_logging.png)
 
 ## On en off
-There are two concepts in manipulating switches/signals on/off, green/red and straight/branch off. ON = GREEN = STRAIGHT. THis can be checked by opening the switch and logging interface of the DR5000 at the same time. On the [MultiMaus](./images/MultiMaus.png.png) (picture from Fleischmann manual) the left key is straight and the left key is branch off. The cooresponding symbol is shown in the LCD.
+There are two concepts in manipulating switches/signals on/off, green/red and straight/branch off. ON = GREEN = STRAIGHT. THis can be checked by opening the switch and logging interface of the DR5000 at the same time. On the (picture from Fleischmann manual) the left key is straight and the left key is branch off. The cooresponding symbol is shown in the LCD:
+
+![MultiMaus](./images/MultiMaus.png.png)
