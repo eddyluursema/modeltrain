@@ -5,7 +5,7 @@ in mijn baan gebruik ik de schakeldecoder DR4018 op de hoeken van de tafel. Om b
 Devolgende CV-adres-value-combinaties moeten in de DR4018 worden geprogrammeerd:
 
 CV|Waarde
-++|++++++
+--|------
 47|7
 113|143
 114|143
