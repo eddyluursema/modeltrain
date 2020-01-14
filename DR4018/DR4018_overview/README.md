@@ -1,6 +1,8 @@
-![Nederlandse vlag](../../images/nl.gif)
+# ![Nederlandse vlag](../../images/nl.gif)Nederlands
 
-In deze repository zijn alle 14 standaard aanwezige CV-settings van de Digikeijs schakeldecoder DR4018 beschreven in [tabelvorm](DR4018_overview.md). Helaas is deze tabel niet beschikbaar bij de documentatie van Digikeijs.
+In deze repository zijn alle 14 standaard aanwezige CV-settings van de Digikeijs schakeldecoder DR4018 beschreven in. Helaas is deze tabel niet beschikbaar bij de documentatie van Digikeijs.
+
+![tabelvorm](DR4018_overview.md)
 
 Kijk voor het instellen van een adres en preset in de DR4018 [hier](DR4018_adresCVRW.md).
 
@@ -17,7 +19,7 @@ Hoe is deze tabel verkregen?
 * Pas op: soms verlaat de DR4018 de programmeermode. Het leesproces is niet te stoppen dus afwachten en opnieuw proberen.
 
 
-![English flag](../../images/gb.gif)
+# ![English flag](../../images/gb.gif)English
 
 In this repository all of the 14 standard programmed settings of the Digikeijs switching decoder DR4018 are shown in a [table](DR4018_overview.md).This overview is not available from Digikeijs.
 
