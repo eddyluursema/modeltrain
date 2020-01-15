@@ -4,6 +4,8 @@ In mijn baan gebruik ik 4 schakeldecoders DR4018 op de vier hoeken van de tafel.
 
 ![2 wissels als 3 NS-seinen op één decoder](./images/DR4018_mixedswitchesandsignals.png)
 
+Dit plaatje is samengesteld uit twee plaatjes uit de handleiding over de DR4018 van Digikeijs.
+
 De volgende CV-adres-value-combinaties moeten in de DR4018 worden geprogrammeerd:
 
 CV|Waarde
@@ -27,6 +29,8 @@ CV|Waarde
 In my modeltrain track I use 4 accessory decoders DR4018 in four the corners of the table. To save wiring both 2 switches and 3 Dutch signals are connected to the same decoder. The documentation comes from the site of Digikeijs and is a Dutch document "DR4018 toepassing handleiding_beneluxforum.pdf":
 
 ![2 switches and 3 Dutch signals](./images/DR4018_mixedswitchesandsignals.png)
+
+This picture was constructed from two pictures from the DR4018 manual by Digikeijs.
 
 The next CV-adres-value-combinations must be written to the DR4018:
 
