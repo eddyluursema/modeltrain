@@ -12,7 +12,7 @@ Om een DR4018 met preset 7 samen te laten werken met RocRail zijn de volgende st
 * Maak (eventueel) een testsein b.v. sg7
 * Vul in het tabblad General de naam in b.v. sg7
 
-![zie](./images/TabGeneralSG7Preset7.JPG)
+![zie](./images/TabGeneralSG7Preset7.png)
 
 * Vul in het tabblad Interface de adressen 501 en 502 voor een rood- en een groen en zet Control op **Patterns**
 
@@ -41,7 +41,7 @@ To have a DR4018 with preset 7 work under RocRail the follwing steps have been t
 * Make (if neccessary) a test signal
 * In the tab General fill the name e.g. sg7
 
-![look at](./images/TabGeneralSG7Preset7.JPG)
+![look at](./images/TabGeneralSG7Preset7.png)
 
 * In the tab Interface fill the adresses 501 and 502 for a red and green adress and set Control on **Patterns**
 
