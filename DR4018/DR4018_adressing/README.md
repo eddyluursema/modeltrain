@@ -52,7 +52,7 @@ In the DR5000 we can use the switch board to control switches and signals. Switc
 
 ![logging](./images/DR5000_adress_one_down.png)
 
-In de Arduino-sniffer worden zowel PADA als MADA getoond; dus zowel 501 als 126:0.
+In the Arduino sniffer both PADA en MADA are shown; so both 501 and 126:0.
 
 ![Arduino-sniffer](./images/DR4018_sniffer_output.png)
 
