@@ -30,8 +30,7 @@ Om een CV-waarde op te slaan in de DR4018:
 
 ![afbeelding](./images/CV_programming_reading.png)
 
-De interface zegt dat de waarde is weggeschreven, maar als deze niet op het programmeerspoor zit weet je dat nooit zeker!!
-{: .alert .alert-gitlab-orange}
+<span style="color:red">De interface zegt dat de waarde is weggeschreven, maar als deze niet op het programmeerspoor zit weet je dat nooit zeker!!</span>.
 
 Van de DR4018 kunnen ook CV-waarden worden uitgelezen:
 
