@@ -9,7 +9,7 @@ Hoe is deze tabel verkregen?
 * Klik op het hoofdscherm van de DR5000 op de aansluiting van het **programmeer** spoor
 * Schrijf de gekozen standaardinstelling (0 - 13) weg onder CV 47
 
-![afbeelding](./images/CV_programming_reading.JPG)
+![afbeelding](./images/CV_programming_reading.png)
 
 * Maak een tekstbestand met daarin alle op te vragen CV-adressen (behalve 47) b.v. 1-46, 48-255
 * Zet de DR4018 in programmeermode door de knop in te drukken
@@ -32,7 +32,7 @@ In which way have these CV-settings been collected?
 * Connect a DR4018 to a DR5000 command station on the **programming** track
 * Give the DR4018 an adress e.g. 501 and write the choosen standard configuration (0-13) at CV 47
 
-![picture Dutch interface](./images/CV_programming_reading.JPG)
+![picture Dutch interface](./images/CV_programming_reading.png)
 
 * Create a text file with all CV-adresses to select (except 47) e.g. 1-46, 48-255
 * Put the DR4108 in programming mode by pushing the button
