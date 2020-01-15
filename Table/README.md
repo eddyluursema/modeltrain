@@ -3,7 +3,6 @@
 Mijn tafel is getekend m.b.v. SketchUp:
 
 ![Bovenzijde](./images/TableDesign1.png)
-
 ![Onderzijde](./images/TableDesign2.png)
 
 De onderzijde is voorzien van kabelgoten en modules, die met bouten en slagmoeren aan de tafel vastzitten:
