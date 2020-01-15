@@ -41,6 +41,7 @@ Ook de logging van de RocRail server toont adressen 1 lager ongeacht PADA/MADA:
 Daarnaast zijn er twee begrippen om een wissel/sein te bedienen nl. on/off, groen/rood en rechtdoor/afbuigend.
 
 ON  = GROEN = RECHTDOOR
+
 OFF = ROOD  = AFBUIGEND
 
 Dit kun je o.a. testen door de schakelinterface en de logging van de DR5000 tegelijk open te zetten. Op de bediening van de MultiMaus (plaatje uit handleiding Fleischmann) is de linker wisseltoets rechtdoor en de rechter wisseltoets afbuigend zoals dat ook op het LCD wordt getoond.
