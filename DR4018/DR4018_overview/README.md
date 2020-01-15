@@ -24,8 +24,7 @@ Hoe is deze tabel verkregen?
 
 In this repository all of the 14 standard programmed CV settings of the Digikeijs switching decoder DR4018 are shown in a [table](DR4018_overview.md).This overview is not available from Digikeijs.
 
-Look [here](DR4018_adresCVRW.md) for setting the adress and preset of a DR4018.
-
+Look [here](../DR4018_programming/README.md) for setting the adress and preset of a DR4018.
 
 In which way have these CV-settings been collected?
 
