@@ -10,10 +10,13 @@ De volgende stappen zijn nodig om documentatie zoals deze site te realiseren:
 Herhaal onderstaande stappen steeds weer als de documentatie moet worden bijgewerkt:
 
 * Maak/wijzig of verwijder een bestand en/of directory
-* [Commit](./images/githubdesktop_commit.PNG) de wijzigingen door linksonder op de knop te drukken. Geef eventueel commentaar mee in het vakje daarboven. Links zie je alle wijzigingen aan bestanden. Door op een bestand te klikken zie je zelfs de wijzigingen binnen de bestanden (indien mogelijk) bekijken.
-* [Push](./images/githubdesktop_push.PNG) de wijzigingen naar github. De wijzigingen zijn nu zichtbaar voor de hele wereld.
+* Commit de wijzigingen door linksonder op de knop te drukken. Geef eventueel commentaar mee in het vakje daarboven. Links zie je alle wijzigingen aan bestanden. Door op een bestand te klikken zie je zelfs de wijzigingen binnen de bestanden (indien mogelijk) bekijken.
 
+![Commit](./images/githubdesktop_commit.PNG)
 
+* Push de wijzigingen naar github. De wijzigingen zijn nu zichtbaar voor de hele wereld.
+
+![Push](./images/githubdesktop_push.PNG)
 
 ![English flag](../images/gb.gif)
 
@@ -27,5 +30,10 @@ The next steps are neccessary te create documentation like this site:
 Repeat the following steps eacht time tyhe documentation needs an update:
 
 * Create/change/delete files and/or directories
-* [Commit](./images/githubdesktop_commit.PNG) the cahnges by clicking down left. It's possible to add a comment to your commit. On the left you see all files. By clicking a file you can see (if possible) the changes made to that particular file.
-* [Push](./images/githubdesktop_push.PNG) the changes to github. These changes are now available to the whole world.
+* Commit the cahnges by clicking down left. It's possible to add a comment to your commit. On the left you see all files. By clicking a file you can see (if possible) the changes made to that particular file.
+
+![Commit](./images/githubdesktop_commit.PNG)
+
+* Push the changes to github. These changes are now available to the whole world.
+
+![Push](./images/githubdesktop_push.PNG)
