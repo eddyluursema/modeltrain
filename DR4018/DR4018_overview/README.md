@@ -12,8 +12,8 @@ Hoe is deze tabel verkregen?
 ![afbeelding](./images/CV_programming_reading.png)
 
 * Maak een tekstbestand met daarin alle op te vragen CV-adressen (behalve 47) b.v. 1-46, 48-255
-* Zet de DR4018 in programmeermode door de knop in te drukken
-* Gebruik de interface van de DR5000-besturingssoftware om alle CV-adressen uit het bestand op te vragen en deze uit de DR4018 te lezen
+* Zet de DR4018 in programmeermode door op knop in te drukken
+* Gebruik de interface van de DR5000-besturingssoftware om alle CV-adressen uit het bestand op te vragen en deze uit de DR4018 te lezen door op de knop ![afbeelding](./images/ReadListCVValues.PNG) te drukken
 * Wacht ong. 6 minuten
 * Bewaar het Excel-bestand met CV-adressen en -waarden
 
@@ -36,7 +36,7 @@ In which way have these CV-settings been collected?
 
 * Create a text file with all CV-adresses to select (except 47) e.g. 1-46, 48-255
 * Put the DR4108 in programming mode by pushing the button
-* Use the interface of the DR5000-control software to get the CV-adresses from the file to read them from the DR4018
+* Use the interface of the DR5000-control software to get the CV-adresses from the file to read them from the DR4018 by pressing button ![afbeelding](./images/ReadListCVValues.PNG)
 * Wait approx. 6 minutes
 * Save the Excel file with CV-adresses and values
 
