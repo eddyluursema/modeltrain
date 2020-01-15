@@ -10,11 +10,11 @@ De DR4018 kan een adres geprogrammeerd krijgen en CV-waarden kunnen worden gesch
 * Klik in de interface op 'Control GO STOP'
 * Klik in het daaropvolgende scherm op 'Schakel'
 
-![afbeelding](./images/DriveSwitchSelect.JPG)
+![afbeelding](./images/DriveSwitchSelect.PNG)
 
 * Klik in het daaropvolgende scherm op de combobox totdat adres 497 verschijnt en dat we dus wissel 501 zouden kunnen bedienen:
 
-![afbeelding](./images/SwitchAdress.JPG)
+![afbeelding](./images/SwitchAdress.PNG)
 
 * Druk op de programmerknop op de DR4018
 * Bedien één keer wissel 501
@@ -28,7 +28,7 @@ Om een CV-waarde op te slaan in de DR4018:
 * Kies het gewensteCV-adres en waarde
 * Druk op de knop met de lichtflits
 
-![afbeelding](./images/CV_programming_reading.JPG)
+![afbeelding](./images/CV_programming_reading.PNG)
 
 De interface zegt dat de waarde is weggeschreven, maar als deze niet op het programmeerspoor zit weet je dat nooit zeker!!
 
@@ -54,11 +54,11 @@ The DR4018 can be given an adress and CV values can be written:
 * Click on 'Control GO STOP'
 * Click in next screen on 'Switch' (in Dutch):
 
-![screendump in Dutch](./images/DriveSwitchSelect.JPG)
+![screendump in Dutch](./images/DriveSwitchSelect.PNG)
 
 * Click in the next screen on the combobox until adress 497 appears so we could operate switch 501 (in Dutch):
 
-![screendump in Dutch](./images/SwitchAdress.JPG)
+![screendump in Dutch](./images/SwitchAdress.PNG)
 
 * Push the programming button on the DR4018
 * Operate switch 501 once
@@ -72,7 +72,7 @@ To store a CV value in the DR4018:
 * Set the CV adress and value
 * Push the flash button
 
-![afbeelding](./images/CV_programming_reading.JPG)
+![afbeelding](./images/CV_programming_reading.PNG)
 
 The interface will inform you that the value was written but if you are not on the programming track you can't be sure!!
 
