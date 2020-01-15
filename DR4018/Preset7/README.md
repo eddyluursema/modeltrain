@@ -14,7 +14,7 @@ Om een DR4018 met preset 7 samen te laten werken met RocRail zijn de volgende st
 
 ![zie](./images/TabGeneralSG7Preset7.png)
 
-* Vul in het tabblad Interface de adressen 501 en 502 voor een rood- en een groen en zet Control op **Patterns**
+* Vul in het tabblad Interface de adressen 501 en 502 voor een rood- en een groen adres en zet Control op **Patterns**
 
 ![zie](./images/TabInterfaceSG7Preset7.png)
 
