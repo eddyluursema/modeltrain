@@ -1,6 +1,6 @@
 # ![Nederlandse vlag](../../images/nl.gif)Nederlands
 
-Er zijn diverse manieren om schakeldecoders te adresseren en de diverse fabrikanten verschillen onderling, maar zelfs binnen Digikeijs en RocRail verschillen qua adressering binnen één produkt.
+Er zijn diverse manieren om schakeldecoders te adresseren en de diverse fabrikanten verschillen onderling, maar zelfs binnen Digikeijs en RocRail verschillen qua adressering binnen één produkt. In de documentatie van RocRail wordt gesproken over Port Accessory Decoder Address (PADA) en Module Accessory Decoder Address (MADA) [zie](https://wiki.rocrail.net/doku.php?id=addressing-nl).
 
 ## DR5000
 In de DR5000 kunnen we met het schakelbord een wissel of sein bedienen. Bij het bedienen van wissel/sein 501 wordt in de logging het aangeroepen adres echter altijd één lager genoemd!!
@@ -45,7 +45,7 @@ Daarnaast zijn er twee begrippen om een wissel/sein te bedienen nl. on/off, groe
 # ![English flag](../../images/gb.gif)English
 
 
-There are several ways of adressing accessory decoders like the DR4018 and manufacturers use different ways and even Digikeijs and RocRail use more than one adressing method in the same product.
+There are several ways of adressing accessory decoders like the DR4018 and manufacturers use different ways and even Digikeijs and RocRail use more than one adressing method in the same product. In the RocRail documentation there are Port Accessory Decoder Address (PADA) and Module Accessory Decoder Address (MADA) [look at](https://wiki.rocrail.net/doku.php?id=addressing-nl).
 
 ## DR5000
 In the DR5000 we can use the switch board to control switches and signals. Switching adress 501 will show in the logging the adress minus 1!!
