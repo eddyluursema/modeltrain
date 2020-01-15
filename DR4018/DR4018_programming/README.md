@@ -30,7 +30,7 @@ Om een CV-waarde op te slaan in de DR4018:
 
 ![afbeelding](./images/CV_programming_reading.png)
 
-<span style="color:red">De interface zegt dat de waarde is weggeschreven, maar als deze niet op het programmeerspoor zit weet je dat nooit zeker!!</span>.
+<span style="color:red">De interface zegt dat de waarde is weggeschreven, maar als deze niet op het programmeerspoor zit weet je dat nooit zeker.</span>.
 
 Van de DR4018 kunnen ook CV-waarden worden uitgelezen:
 
