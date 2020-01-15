@@ -23,9 +23,9 @@ De DR4018 kan een adres geprogrammeerd krijgen en CV-waarden kunnen worden gesch
 Om een CV-waarde op te slaan in de DR4018:
 
 * Druk op de programmerknop op de DR4018
-* Kies in het scherm CV-programmering
+* Kies het scherm CV-programmering
 * Zet adres op 9999
-* Kies het gewensteCV-adres en waarde
+* Kies het gewenste CV-adres en waarde
 * Druk op de knop met de lichtflits
 
 ![afbeelding](./images/CV_programming_reading.png)
