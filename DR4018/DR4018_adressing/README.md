@@ -14,7 +14,7 @@ In de Arduino-sniffer worden zowel PADA als MADA getoond; dus zowel 501 als 126:
 ## RocRail
 In de gebruikersinterface van RocRail kan voor het adresseren van de DR4018 zowel PADA:
 
-![PADA](./images/DR4018_RocRail_PADA_adressing.JPG)
+![PADA](./images/DR4018_RocRail_PADA_adressing.png)
 
 Of MADA:
 
@@ -59,7 +59,7 @@ In de Arduino-sniffer worden zowel PADA als MADA getoond; dus zowel 501 als 126:
 ## RocRail
 For RocRail you can use PADA for adressing the DR4018:
 
-![PADA](./images/DR4018_RocRail_PADA_adressing.JPG)
+![PADA](./images/DR4018_RocRail_PADA_adressing.png)
 
 or MADA:
 
