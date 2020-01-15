@@ -17,7 +17,7 @@ De DR4018 kan een adres geprogrammeerd krijgen en CV-waarden kunnen worden gesch
 ![afbeelding](./images/SwitchAdress.png)
 
 * Druk op de programmerknop op de DR4018
-* Bedien één keer wissel 501
+* Bedien één keer wissel 501 met een druk op de rode of groene knop
 * De DR4018 heeft nu adres 501
 
 Om een CV-waarde op te slaan in de DR4018:
@@ -61,7 +61,7 @@ The DR4018 can be given an adress and CV values can be written:
 ![screendump in Dutch](./images/SwitchAdress.png)
 
 * Push the programming button on the DR4018
-* Operate switch 501 once
+* Operate switch 501 once by pushing either red or green
 * The DR4018 now has adress 501
 
 To store a CV value in the DR4018:
