@@ -8,14 +8,15 @@ These are the digital tools used to construct my model railroad:
 
 |Tool|Explanation|
 |-----------------------|-------------------|
-Atom|Text editor for Markdown files used on Github
-Github + Github desktop|Versioning software and commit to Github
+Atom|Text editor for Markdown documentation files used on Github
+Github|Versioning software;  command line commit to Github
+Github desktop|Commit the work on your local laptop to Github
 Snipping tool Windows|Making screenshots
 Paint 3D Windows|Editing screenshots
-3D Modelbahn Studio|Design track plan
+3D Modelbahn Studio|Design model railroad track plan
 SketchUp|Design physical table
-DR5000 Configuration|Basic software for DCC control station configuration and control
-RocRail|Model railroad software with intelligence
+DR5000 Configuration|Basic software for DCC control station configuration and control for Digikeijs hardware
+RocRail|Model railroad software to control locomotives, signals and switches avoiding collisions etc. etc.
 Fritzing|Electronic schema design tool
 Arduino IDE|Building Arduino programs and upload into Arduino like controllers
 Picoscope|Mixed Signal Oscilloscope
