@@ -9,7 +9,7 @@ Eddy Luursema Januari 2020
 4. [Banenplannen](/Track/README.md)
 5. [Tafelconstructie](/Table/README.md)
 6. Elektrisch schema under construction
-7. DCC sniffers under construction
+7. [DCC-sniffers](./DCCsniffers/README.md)
 8. DCC++ under construction
 9. [Gereedschappen](./Hardwaretooling/README.md)
 10. [Softwaretooling](./Softwaretooling.md)
@@ -26,7 +26,7 @@ Eddy Luursema January 2020
 4. [Track plans](/Track/README.md)
 5. [Table design](/Table/README.md)
 6. Elektrical schema under construction
-7. DCC sniffers under construction
+7. [DCC sniffers](./DCCsniffers/README.md)
 8. DCC++ under construction
 9. [Hardware tools](./Hardwaretooling/README.md)
 10. [Software tooling](./Softwaretooling.md)
