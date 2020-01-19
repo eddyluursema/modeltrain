@@ -2,7 +2,7 @@
 
 Er zijn een aantal DCC-sniffers beschikbaar voor meerdere Arduino-achtigen:
 
-* Sniffer van Rudy B [link](https://rudysmodelrailway.wordpress.com/2015/10/23/dcc-sniffer-packet-analyser-with-arduino/)
+* Sniffer van Rudy B [link](https://rudysmodelrailway.wordpress.com/2015/10/23/dcc-sniffer-packet-analyser-with-arduino/). De code staat [hier](./RB_DCC_sniffer/RB_DCC_sniffer.ino)
 
 
 # ![English flag](../images/gb.gif)English
