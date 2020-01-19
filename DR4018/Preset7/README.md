@@ -10,7 +10,7 @@ Dit plaatje is afkomstig uit de handleiding van de DR4018 van Digikeijs.
 
 * Geef de DR4018 een adres b.v. 501 en preset 7 (in CV 47)
 * Controleer de werking door het schakelbord van de DR5000 (of MultiMaus) te gebruiken om adres 501 en 502 steeds om beurten of beide GROEN en ROOD te geven. Kijk of dit overeenkomt met de handleiding van de DR4018, Nederlands seinbeeld.
-* **Zet de uitgang achter adres 503 op ROOD; RocRail zal dit derde adres NIET besturen. Doe je dit niet krijg je nooit het juiste seinbeeld, maar toont de DR4018 de andere 4 seinbeelden zoals GEEL KNIPPER**
+* :warning: **Zet de uitgang achter adres 503 op ROOD; RocRail zal dit derde adres NIET besturen. Doe je dit niet krijg je nooit het juiste seinbeeld, maar toont de DR4018 de andere 4 seinbeelden zoals GEEL KNIPPER**
 * Ga naar RocRail
 * Maak (eventueel) een testsein b.v. sg7
 * Vul in het tabblad General de naam in b.v. sg7
@@ -42,7 +42,7 @@ This picture was copied from the manual of the DR4018 by Digikeijs.
 
 * Give the DR4018 an adress e.g. 501 and preset 7 (in CV 47)
 * Check the functionality with the switch interface of the DR5000 to set adresses 501 and 502 in turn or simultanious GREEN OR RED. Check if this is according the DR4018 manual for a Dutch signal.
-* **Set output behind adress 503 to RED; RocRail wil not control this third adress. Not setting this to RED will lead to the wrong signal aspects. You will get signal aspects like YELLOW FLASH.**
+* :warning:**Set output behind adress 503 to RED; RocRail wil not control this third adress. Not setting this to RED will lead to the wrong signal aspects. You will get signal aspects like YELLOW FLASH.**
 * Go to RocRail
 * Make (if neccessary) a test signal
 * In the tab General fill the name e.g. sg7
