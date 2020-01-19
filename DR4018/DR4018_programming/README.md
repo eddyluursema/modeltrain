@@ -16,7 +16,7 @@ De DR4018 kan een adres geprogrammeerd krijgen en CV-waarden kunnen worden gesch
 
 ![afbeelding](./images/SwitchAdress.png)
 
-* Druk op de programmerknop op de DR4018
+* Druk op de programmerknop op de DR4018![afbeelding](./images/DR4018ProgrammingButton.PNG)
 * Bedien één keer wissel 501 met een druk op de rode of groene knop
 * De DR4018 heeft nu adres 501
 
