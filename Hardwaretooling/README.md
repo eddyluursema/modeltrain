@@ -8,6 +8,7 @@ Een paar handige stukken gereedschap en hulpmiddelen bij het bouwen van een mode
 * Striptang
 * Loeplamp
 * Soldeerstation temperatuurgeregeld
+* Dremel
 
 ![afbeelding](./images/SelfAdjustableCrimpingPlier_AWG24-10.png)
 ![afbeelding](./images/CrimpConnectors.jpg)
@@ -16,6 +17,7 @@ Een paar handige stukken gereedschap en hulpmiddelen bij het bouwen van een mode
 ![afbeelding](./images/Striptool.png)
 ![afbeelding](./images/Magnifyinglamp.png)
 ![afbeelding](./images/SolderingStation.png)
+![afbeelding](./images/Dremel.png)
 
 # ![English flag](../images/gb.gif) English
 
@@ -29,6 +31,7 @@ Some handy tools for building your modeltrain:
 * Strip tool
 * Magnifying lamp
 * Solder station temperature regulated
+* Dremel
 
 ![afbeelding](./images/SelfAdjustableCrimpingPlier_AWG24-10.png)
 ![afbeelding](./images/CrimpConnectors.jpg)
@@ -37,6 +40,4 @@ Some handy tools for building your modeltrain:
 ![afbeelding](./images/Striptool.png)
 ![afbeelding](./images/Magnifyinglamp.png)
 ![afbeelding](./images/SolderingStation.png)
-
-
-![photo](./images/TiltedTableToolcar.png).
+![afbeelding](./images/Dremel.png)
