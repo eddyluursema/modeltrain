@@ -42,6 +42,6 @@ Repeat the following steps eacht time tyhe documentation needs an update:
 
 ![Push](./images/githubdesktop_push.PNG)
 
-:+1: You can see the resulat of your work immediately by switching on the preview of Markdown with Ctrl+Shift+M (funny [Markdown emoji](https://www.webfx.com/tools/emoji-cheat-sheet/) are **not** shown preview)
+:+1: You can see the result of your work immediately by switching on the preview of Markdown with Ctrl+Shift+M (funny [Markdown emoji](https://www.webfx.com/tools/emoji-cheat-sheet/) are **not** shown preview)
 
 ![Preview](./images/AtomPreview.png)

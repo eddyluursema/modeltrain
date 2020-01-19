@@ -22,7 +22,7 @@ CV|Waarde
 147|4
 150|8
 
-**CV 47 moet altijd als eerste worden geschreven, omdat de andere CV's wijzigingen zijn op preset 7**
+**:warning:CV 47 moet altijd als eerste worden geschreven, omdat de andere CV's wijzigingen zijn op preset 7**
 
 # ![English flag](../../images/gb.gif)English
 
@@ -48,4 +48,4 @@ CV|Value
 147|4
 150|8
 
-**CV 47 must always be the first CV to set. The other CV values are changes on preset 7**
+**:warning:CV 47 must always be the first CV to set. The other CV values are changes on preset 7**
