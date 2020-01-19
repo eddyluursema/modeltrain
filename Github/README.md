@@ -18,6 +18,8 @@ Herhaal onderstaande stappen steeds weer als de documentatie moet worden bijgewe
 
 ![Push](./images/githubdesktop_push.PNG)
 
+:+1:
+
 ![English flag](../images/gb.gif)
 
 The next steps are neccessary te create documentation like this site:

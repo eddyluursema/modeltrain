@@ -11,7 +11,7 @@ Eddy Luursema Januari 2020
 6. Elektrisch schema under construction
 7. DCC sniffers under construction
 8. DCC++ under construction
-9. [Tooling](./Tooling.md)
+9. [Softwaretooling](./Softwaretooling.md)
 10. Gebruik van [github en github-desktop](/Github/README.md) voor documentatie
 
 # ![English flag](./images/gb.gif)English
@@ -27,5 +27,5 @@ Eddy Luursema January 2020
 6. Elektrical schema under construction
 7. DCC sniffers under construction
 8. DCC++ under construction
-9. [Tooling](./Tooling.md)
+9. [Softwaretooling](./Softwaretooling.md)
 10. Using [github and github-desktop](/Github/README.md) for documentation
