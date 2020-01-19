@@ -18,7 +18,9 @@ Herhaal onderstaande stappen steeds weer als de documentatie moet worden bijgewe
 
 ![Push](./images/githubdesktop_push.PNG)
 
-:+1:
+:+1: Je kunt meteen kijken hoe het er uit ziet door de preview Markdown aan te zetten met b.v. Ctrl+Shift+M (grappig Markdown emoji zie je **niet** in preview)
+
+![Preview](./images/AtomPreview.png)
 
 ![English flag](../images/gb.gif)
 
@@ -39,3 +41,7 @@ Repeat the following steps eacht time tyhe documentation needs an update:
 * Push the changes to github. These changes are now available to the whole world.
 
 ![Push](./images/githubdesktop_push.PNG)
+
+:+1: You can see the resulat of your work immediately by switching on the preview of Markdown with Ctrl+Shift+M (funny Markdown emoji are **not** shown preview)
+
+![Preview](./images/AtomPreview.png)
