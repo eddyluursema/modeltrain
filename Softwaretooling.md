@@ -8,8 +8,8 @@ These are the digital tools used to construct my model railroad:
 
 |Tool|Explanation|
 |-----------------------|-------------------|
-Github + Github desktop|Versioning software
-Atom|Text editor
+Atom|Text editor for Markdown files used on Github
+Github + Github desktop|Versioning software and commit to Github
 Snipping tool Windows|Making screenshots
 Paint 3D Windows|Editing screenshots
 3D Modelbahn Studio|Design track plan

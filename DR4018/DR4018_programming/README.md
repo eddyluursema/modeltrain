@@ -7,7 +7,7 @@ De DR4018 kan een adres geprogrammeerd krijgen en CV-waarden kunnen worden gesch
 
 ![afbeelding](./images/DR5000commandstationinterface.JPG)
 
-* Klik in de interface op 'Control GO STOP'
+* Klik in de interface op 'Control GO STOP' ![afbeelding](./images/DR5000GoStop.PNG)
 * Klik in het daaropvolgende scherm op 'Schakel'
 
 ![afbeelding](./images/DriveSwitchSelect.png)
@@ -30,7 +30,7 @@ Om een CV-waarde op te slaan in de DR4018:
 
 ![afbeelding](./images/CV_programming_reading.png)
 
-De interface zegt dat de waarde is weggeschreven, maar als deze niet op het programmeerspoor zit weet je dat nooit zeker!!
+:warning:De interface zegt dat de waarde is weggeschreven, maar als deze niet op het programmeerspoor zit weet je dat nooit zeker!!
 
 Van de DR4018 kunnen ook CV-waarden worden uitgelezen:
 
@@ -51,7 +51,7 @@ The DR4018 can be given an adress and CV values can be written:
 
 ![screendump in Dutch](./images/DR5000commandstationinterface.JPG)
 
-* Click on 'Control GO STOP'
+* Click on 'Control GO STOP'![afbeelding](./images/DR5000GoStop.PNG)
 * Click in next screen on 'Switch' (in Dutch):
 
 ![screendump in Dutch](./images/DriveSwitchSelect.png)
@@ -74,7 +74,7 @@ To store a CV value in the DR4018:
 
 ![afbeelding](./images/CV_programming_reading.png)
 
-The interface will inform you that the value was written but if you are not on the programming track you can't be sure!!
+:warning:The interface will inform you that the value was written but if you are not on the programming track you can't be sure!!
 
 CV-values of the DR4018 can be read:
 
