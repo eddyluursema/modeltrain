@@ -60,4 +60,4 @@ This picture was copied from the manual of the DR4018 by Digikeijs.
 * Click on the signal sg7 in the RocRail interface several times
 * Look at the test DR4018 and the logging
 
-**If only Dutch signals with three colours are available using preset 7 has the disdavantage of wasting an output per signal thus leaving a DR4018 with fout unused outputs. Using preset 1 can be an advantage.**
+**:white_check_mark:If only Dutch signals with three colours are available using preset 7 has the disdavantage of wasting an output per signal thus leaving a DR4018 with four unused outputs. Using preset 1 can be an advantage.**
