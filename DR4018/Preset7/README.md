@@ -28,7 +28,7 @@ Dit plaatje is afkomstig uit de handleiding van de DR4018 van Digikeijs.
 * Klik steeds op het sein sg7 in de RocRail interface
 * Bekijk de test DR4018 en de logging
 
-**Een nadeel van het gebruik van preset 7 is dat als we alleen beschikking hebben over driekleurige seinen er steeds een output per sein van de DR4018 ongebruikt is en we dus in totaal 4 outputs over hebben. Het gebruik van preset 1 is dan een overweging.**
+**:rotating_light:Een nadeel van het gebruik van preset 7 is dat als we alleen beschikking hebben over driekleurige seinen er steeds een output per sein van de DR4018 ongebruikt is en we dus in totaal 4 outputs over hebben. Het gebruik van preset 1 is dan een overweging.**
 
 # ![English flag](../../images/gb.gif)English
 
