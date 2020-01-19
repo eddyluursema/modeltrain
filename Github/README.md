@@ -2,14 +2,16 @@
 
 De volgende stappen zijn nodig om documentatie zoals deze site te realiseren:
 
-* Maak een account aan op github en bewaar gebruikersnaam en wachtwoord
+* Maak een account aan op github en bewaar gebruikersnaam en wachtwoord. Maak een eerste repository.
+* Download git en installeer
 * Download github-desktop en installeer
-* Stel github-account in op github-desktop
-* Clone de directory
+* Download Atom en installeer. Atom is niet nodig. Iedere testverwerker kun je gebruiken.
+* Stel github-account en repository in op github-desktop
+* Clone de directory naar je laptop
 
 Herhaal onderstaande stappen steeds weer als de documentatie moet worden bijgewerkt:
 
-* Maak/wijzig of verwijder een bestand en/of directory
+* Maak/wijzig of verwijder een bestand en/of mappen in de repository op je laptop
 * Commit de wijzigingen door linksonder op de knop te drukken. Geef eventueel commentaar mee in het vakje daarboven. Links zie je alle wijzigingen aan bestanden. Door op een bestand te klikken zie je zelfs de wijzigingen binnen de bestanden (indien mogelijk) bekijken.
 
 ![Commit](./images/githubdesktop_commit.PNG)
@@ -26,15 +28,17 @@ Herhaal onderstaande stappen steeds weer als de documentatie moet worden bijgewe
 
 The next steps are neccessary te create documentation like this site:
 
-* Create an account on github and save username and wachtwoord
+* Create an account on github and save username and password. Create first repository.
+* Download git and install
 * Download github-desktop and install
-* Set your github-account in github-desktop
-* Clone the directory
+* Download Atom and install. Any text editor can be used instead.
+* Set your github-account and repository in github-desktop
+* Clone the directory to your laptop
 
 Repeat the following steps eacht time tyhe documentation needs an update:
 
-* Create/change/delete files and/or directories
-* Commit the cahnges by clicking down left. It's possible to add a comment to your commit. On the left you see all files. By clicking a file you can see (if possible) the changes made to that particular file.
+* Create/change/delete files and/or directories in the local repository
+* Commit the changes by clicking down left. It's possible to add a comment to your commit. On the left you see all files. By clicking a file you can see (if possible) the changes made to that particular file on the right.
 
 ![Commit](./images/githubdesktop_commit.PNG)
 
@@ -42,6 +46,6 @@ Repeat the following steps eacht time tyhe documentation needs an update:
 
 ![Push](./images/githubdesktop_push.PNG)
 
-:+1: You can see the result of your work immediately by switching on the preview of Markdown with Ctrl+Shift+M (funny [Markdown emoji](https://www.webfx.com/tools/emoji-cheat-sheet/) are **not** shown preview)
+:+1: You can see the result of your work immediately by switching on the preview of Markdown with Ctrl+Shift+M (funny [Markdown emoji](https://www.webfx.com/tools/emoji-cheat-sheet/) are **not** shown in the preview)
 
 ![Preview](./images/AtomPreview.png)
