@@ -2,7 +2,7 @@
 
 Er zijn een aantal DCC-sniffers beschikbaar voor meerdere Arduino-achtigen:
 
-* Sniffer van Rudy B [link](https://rudysmodelrailway.wordpress.com/2015/10/23/dcc-sniffer-packet-analyser-with-arduino/). De code staat [hier](./RB_DCC_sniffer/). De uitvoer van de sniffer verschijnt in de Arduino IDE.
+* Sniffer van Rudy B [link](https://rudysmodelrailway.wordpress.com/2015/10/23/dcc-sniffer-packet-analyser-with-arduino/). De code staat [hier](./RB_DCC_sniffer/RB_DCC_sniffer.ino). De uitvoer van de sniffer verschijnt in de Arduino IDE.
 * Gekleurde versie van de sniffer van Rudy B. De code staat [hier](./RB_DCC_sniffer_VT100/). De uitvoer van de sniffer verschijnt in een terminal emulator zoals PutTTY. Om kleuren te zien type een 'c'.
 
 
