@@ -12,7 +12,7 @@ Eddy Luursema Januari 2020
 7. [DCC-sniffers](./DCCsniffers/README.md)
 8. DCC++ under construction
 9. [Gereedschappen](./Hardwaretooling/README.md)
-10. [Softwaretooling](./Softwaretooling.md)
+10. [Softwaretooling](./Softwaretooling.md) met tips voor instellingen
 11. Gebruik van [github en github-desktop](/Github/README.md) voor documentatie
 
 # ![English flag](./images/gb.gif)English
@@ -29,5 +29,5 @@ Eddy Luursema January 2020
 7. [DCC sniffers](./DCCsniffers/README.md)
 8. DCC++ under construction
 9. [Hardware tools](./Hardwaretooling/README.md)
-10. [Software tooling](./Softwaretooling.md)
+10. [Software tooling](./Softwaretooling.md) with hints for configuration settings
 11. Using [github and github-desktop](/Github/README.md) for documentation
