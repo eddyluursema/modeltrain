@@ -22,22 +22,23 @@ De DR4018 kan een adres geprogrammeerd krijgen en CV-waarden kunnen worden gesch
 
 Om een CV-waarde op te slaan in de DR4018:
 
+* Kies het scherm CV-programmering ![afbeelding](./images/WriteCV.PNG)
+
 * Druk op de programmerknop op de DR4018
-* Kies het scherm CV-programmering
 * Zet adres op 9999
 * Kies het gewenste CV-adres en waarde
-* Druk op de knop met de lichtflits
+* Druk op de knop met de lichtflits ![afbeelding](./images/CV_programming_reading.png)
 
-![afbeelding](./images/CV_programming_reading.png)
 
-:warning:De interface zegt dat de waarde is weggeschreven, maar als deze niet op het programmeerspoor zit weet je dat nooit zeker!!
+
+⚠️De interface zegt dat de waarde is weggeschreven, maar als deze niet op het programmeerspoor zit weet je dat nooit zeker!!
 
 Van de DR4018 kunnen ook CV-waarden worden uitgelezen:
 
 * Sluit een DR4018 aan op een DR5000 command station op het **programmeer** spoor
 * Vergeet niet een weerstand van 150 tot 270 ohm tussen C en output 1 aan te sluiten (handleiding DR4018)
 * Zet de DR4018 in programmeerstand
-* Kies het gewenste CV-adres en klik op de knop (wit blad met groene pijl)
+* Kies het gewenste CV-adres en klik op de knop (wit blad met groene pijl) ![afbeelding](./images/ReadCV.PNG)
 * Het programma leest de CV-waarde of geeft een foutmelding
 
 
@@ -66,18 +67,21 @@ The DR4018 can be given an adress and CV values can be written:
 
 To store a CV value in the DR4018:
 
-* Push the programming button on the DR4018
 * Choose the CV-programmering Interface
-* Set the adress to 9999
-* Set the CV adress and value
-* Push the flash button
 
 ![afbeelding](./images/CV_programming_reading.png)
 
-:warning:The interface will inform you that the value was written but if you are not on the programming track you can't be sure!!
+* Push the programming button on the DR4018
+* Set the adress to 9999
+* Set the CV adress and value
+* Push the flash button ![afbeelding](./images/WriteCV.PNG)
+
+
+
+⚠️:The interface will inform you that the value was written but if you are not on the programming track you can't be sure!!
 
 CV-values of the DR4018 can be read:
 
 * Connect a DR4018 on a DR5000 command station on the **programming** track
-* Choose the wanted CV-adress and click the button (white sheet with green arrow)
+* Choose the wanted CV-adress and click the button (white sheet with green arrow) ![afbeelding](./images/ReadCV.PNG)
 * The program then reads the CV-value or produces an error message
