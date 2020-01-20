@@ -28,4 +28,4 @@ PuTTY|Terminal emulator
 * Go to Install
 * Look for package 'autocomplete-emojis'
 * Install if necessary
-* From now emojis are visible in edit and preview model
+* From now emojis are supported with auto-complete (start typing : and one letter) and are visible in edit and preview model
