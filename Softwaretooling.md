@@ -21,3 +21,11 @@ Fritzing|Electronic schema design tool
 Arduino IDE|Building Arduino programs and upload into Arduino like controllers
 Picoscope|Mixed Signal Oscilloscope
 PuTTY|Terminal emulator
+
+👍Fine tuning Atom:
+
+* Go to Settings
+* Go to Install
+* Look for package 'autocomplete-emojis'
+* Install if necessary
+* From now emojis are visible in edit and preview model
