@@ -29,7 +29,7 @@ Voer de volgende stappen uit om een tekening/foto om te zetten in SVG-vectoren:
 * Snijd uit een geschikte tekening of foto dat deel dat je nodig hebt met de Snipping Tool. In dit voorbeeld is een plaatje uit de handleiding van Digikeijs gepakt.
 * Bewaar als PNG
 
-![TraceBitmap](./images/DR4018tilted.PNG)
+![TraceBitmap](./images/DR4018.PNG)
 
 De volgende stappen zijn overgenomen [uit een video](https://www.youtube.com/watch?v=KRkx8kjmXZw)
 * Open Inkscape
@@ -81,7 +81,7 @@ Here are the steps to follow:
 * Cut from a suitable drawing or photo the part needed with the Snipping Tool In this example a picture from the Digikeijs manual was taken.
 * Save as PNG
 
-![TraceBitmap](./images/DR4018tilted.PNG)
+![TraceBitmap](./images/DR4018.PNG)
 
 The next steps are taken [from a video](https://www.youtube.com/watch?v=KRkx8kjmXZw)
 * Open Inkscape
