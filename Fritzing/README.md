@@ -40,7 +40,7 @@ De volgende stappen zijn overgenomen [uit een video](https://www.youtube.com/wat
 * Open Fritzing
 * Verwijder het standaard getekende breadboard
 * Pak een onderdeel uit de gereedschapskist
-
+* TO BE CONTINUED
 
 
 # ![English flag](../images/gb.gif) English
@@ -71,3 +71,4 @@ The next steps are taken [from a video](https://www.youtube.com/watch?v=KRkx8kjm
 * Remove the original (still bitmap)
 * Save remaining object as SVG
 * Open Fritzing
+* TO BE CONTINUED
