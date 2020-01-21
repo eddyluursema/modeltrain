@@ -17,7 +17,7 @@ Voer daarom de volgende stappen uit:
 
 * Installeer Fritzing
 * Installeer Inkscape
-* Snijd uit een geschikte tekening of foto dat deel dat je nodig hebt met de Snipping Tool
+* Snijd uit een geschikte tekening of foto dat deel dat je nodig hebt met de Snipping Tool. In dit voorbeeld is een plaatje uit de handleiding van Digikeijs gepakt.
 * Bewaar als PNG
 
 ![TraceBitmap](./images/DR4018tilted.PNG)
@@ -45,12 +45,20 @@ De volgende stappen zijn overgenomen [uit een video](https://www.youtube.com/wat
 
 # ![English flag](../images/gb.gif) English
 
+Unfortunately imported pictures and photosare saved as bitmap by Inkscape
 
-Here are the steps to follow
+![TraceBitmap](./images/PictureAsSVGbitmap.PNG)
+
+and not as SVG vector code:
+
+![TraceBitmap](./images/PictureAsSVGvectors.PNG)
+
+
+Here are the steps to follow:
 
 * Install Fritzing
 * Install Inkscape
-* Cut from a suitable drawing or photo the part neededwith the Snipping Tool
+* Cut from a suitable drawing or photo the part needed with the Snipping Tool In this example a picture from the Digikeijs manual was taken.
 * Save as PNG
 
 ![TraceBitmap](./images/DR4018tilted.PNG)
