@@ -10,8 +10,20 @@ Doe de volgende stappen:
 * Installeer Inkscape
 * Snijd uit een geschikte tekening dat deel dat je nodig hebt met de Snipping Tool
 * Bewaar als PNG
-* Open Inkscape, importeer PNG en bewerk eventueel
-* Bewaar bestand naar SVG
+* Open Inkscape
+* Importeer PNG
+* Selecteer het object (dat nu nog bitmap is)
+* Ga naar Paden
+* Ga naar Bitmap overtrekken
+
+![TraceBitmap](./images/TraceBitmap.PNG)
+
+* Kies opties kleur aan, vervagen uit, achtergrond verwijderen staan
+* Druk op Ok om conversie te starten
+* Er staan nu twee plaatjes in Inkscape, de originele en de geconverteerde
+* Verschuif de geconverteerde
+* Verwijder de originele (nog steeds bitmap)
+* Bewaar bestand als SVG
 * Open Fritzing
 * Verwijder het standaard getekende breadboard
 * Pak een onderdeel uit de gereedschapskist
