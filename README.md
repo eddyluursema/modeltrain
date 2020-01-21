@@ -10,7 +10,7 @@ Eddy Luursema Januari 2020
 5. [Tafelconstructie](/Table/README.md)
 6. Elektrisch schema under construction
 7. [DCC-sniffers](./DCCsniffers/README.md)
-8. DCC++ under construction
+8. [DCCplusplus](./DCCplusplus/README.md)
 9. [Gereedschappen](./Hardwaretooling/README.md)
 10. [Softwaretooling](./Softwaretooling.md) met tips voor instellingen
 11. [Fritzing](./Fritzing/README.md) maken van eigen componenten zoals de DR4018 en seinen
@@ -28,7 +28,7 @@ Eddy Luursema January 2020
 5. [Table design](/Table/README.md)
 6. Elektrical schema under construction
 7. [DCC sniffers](./DCCsniffers/README.md)
-8. DCC++ under construction
+8. [DCCplusplus](./DCCplusplus/README.md)
 9. [Hardware tools](./Hardwaretooling/README.md)
 10. [Software tooling](./Softwaretooling.md) with hints for configuration settings
 11. [Fritzing](./Fritzing/README.md) creating your own components like the DR4018 and signals
