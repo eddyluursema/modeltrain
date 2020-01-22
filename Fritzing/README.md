@@ -32,12 +32,12 @@ Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en
 
 ![Inkscape_step2](./images/Inkscape_step2.PNG)
 
-* Zet X en Y bovenaan in de taakbalk op 0 en B op 497 en H op 454 en de eenheid op px. Doe je dit niet zullen de hierna te tekenen connectoren uiteindelijk op een andere plek getekend worden. 
+* Zet X en Y bovenaan in de taakbalk op 0 en B op 497 en H op 454 en de eenheid op px. Doe je dit niet zullen de hierna te tekenen connectoren uiteindelijk op een andere plek getekend worden.
 
 ![Inkscape_step3](./images/Inkscape_step3.PNG)
 
-* Teken een circel voor elektrische aansluitingen op juiste plek
-* Kopieer deze circel meerdere keren voor overige aansluitingen en positioneer
+* Teken een cirkel voor elektrische aansluiting op de juiste plek
+* Kopieer deze cirkel meerdere keren voor overige aansluitingen en positioneer
 
 ![Inkscape_step4](./images/Inkscape_step4.PNG)
 
@@ -81,12 +81,19 @@ Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en
 
 ![Fritzing_step4](./images/Fritzing_step4.PNG)
 
-* Ga terug naar tabblad Breadboard kies rechts de juiste connector - kies knop afbeelding - selecteer met de muis links de juiste circel
+* Ga terug naar tabblad Breadboard. Kies rechts de juiste connector - kies rechts de knop Selecteer afbeelding achter de zojuist gekozen connector - selecteer met de muis links de juiste circel in het schema. Er verschijnt rechts een vinkje ten teken dat de connector met het Breadboard gekoppeld is.
 
 ![Fritzing_step6](./images/Fritzing_step6.PNG)
 
 * Ga naar tabblad Schema en importeer het schema-bestand:
+Kies rechts de juiste connector - kies rechts de knop Selecteer afbeelding achter de zojuist gekozen connector - selecteer met de muis links de juiste circel in het schema. Er verschijnt rechts een vinkje ten teken dat de connector met het Schema gekoppeld is.
 
+
+* Bewaar het nieuwe component
+
+
+
+* Exporteren en importeren van dit nieuwe component, [kijk op](https://fritzing.org/learning/tutorials/creating-custom-parts/using-sharing/)
 
 
 # ![English flag](../images/gb.gif) English
