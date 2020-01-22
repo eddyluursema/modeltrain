@@ -10,7 +10,6 @@ Dit is een [samenvatting](https://learn.sparkfun.com/tutorials/make-your-own-fri
 Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en wordt niet uitgelegd hoe je een plaatje van de DR4018 voor het maken van een component kunt gebruiken.
 
 
-
 ## Breadboard als SVG
 * Maak met Snipping Tool een plaatje b.v. van de DR4018. Snijd nauwkeurig langs de randen.
 
@@ -24,7 +23,7 @@ Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en
 ![DR4018PNGsize](./images/DR4018PNGsize.PNG)
 
 * Open Inkscape
-* Stel documenteenheid op pixels; zet breedte en hoogte conform 497 x 454
+* Stel bij menu - Documenteigenschappen de Eenheden op pixels; zet Breedte en Hoogte op 497 x 454
 
 ![Inkscape_step1](./images/Inkscape_step1.PNG)
 
@@ -41,7 +40,7 @@ Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en
 
 ![Inkscape_step4](./images/Inkscape_step4.PNG)
 
-* Bewaar als SVG met indicatie van een breadboard bestand b.v. DR4018_breadboard.SVG
+* Bewaar als SVG met indicatie van een breadboard bestand b.v. DR4018breadboard.SVG
 
 ![Inkscape_step5](./images/Inkscape_step5.PNG)
 
@@ -52,7 +51,7 @@ Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en
 
 ![Inkscape_step6](./images/Inkscape_step6.PNG)
 
-* Bewaar als SVG met indicatie van een schema bestand b.v. DR4018_schematic.SVG
+* Bewaar als SVG met indicatie van een schema bestand b.v. DR4018schematic.SVG
 
 ![Inkscape_step7](./images/Inkscape_step7.PNG)
 
@@ -64,6 +63,10 @@ Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en
 * Klik rechtermuis, Wijzig (nieuwe onderdelen bewerker)
 
 ![Fritzing_step1](./images/Fritzing_step1.PNG)
+
+* Bewaar meteen voor de zekerheid onder een nieuwe naam:
+
+![Fritzing_step1](./images/Fritzing_SaveComponent.PNG)
 
 * In het tabblad Breadboard kies in het menu Laad tekening en kies de zojuist gemaakte breadboard-samenvatting
 
@@ -88,9 +91,11 @@ Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en
 * Ga naar tabblad Schema en importeer het schema-bestand:
 Kies rechts de juiste connector - kies rechts de knop Selecteer afbeelding achter de zojuist gekozen connector - selecteer met de muis links de juiste circel in het schema. Er verschijnt rechts een vinkje ten teken dat de connector met het Schema gekoppeld is.
 
+* Laat het tabblad PCB ongemoeid; we gaan toch geen DR4018 op een printplaat monteren.
 
 * Bewaar het nieuwe component
 
+* Probeer de nieuwe component te verbinden met b.v. LED's.
 
 
 * Exporteren en importeren van dit nieuwe component, [kijk op](https://fritzing.org/learning/tutorials/creating-custom-parts/using-sharing/)
