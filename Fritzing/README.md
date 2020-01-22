@@ -55,11 +55,11 @@ Dit is een [samenvatting](https://learn.sparkfun.com/tutorials/make-your-own-fri
 
 * Open Fritzing
 * Verwijder het standaard getekende breadboard
-* Pak een onderdeel uit de gereedschapskist b.v. de Arduino Pro Mini
+* Pak een onderdeel uit de gereedschapskist b.v. de Arduino Pro Mini en zet deze in de breadboard-tekening
+* Klik rechtermuis, Wijzig (nieuwe onderdelen bewerker)
 
 ![Fritzing_step1](./images/Fritzing_step1.PNG)
 
-* Klik rechtermuis, Wijzig (nieuwe onderdelen bewerker)
 * In het tabblad Breadboard kies in het menu Laad tekening en kies de zojuist gemaakte breadboard-samenvatting
 
 ![Fritzing_step2](./images/Fritzing_step2.PNG)
@@ -80,7 +80,7 @@ Dit is een [samenvatting](https://learn.sparkfun.com/tutorials/make-your-own-fri
 
 ![Fritzing_step6](./images/Fritzing_step6.PNG)
 
-* Ga naar tabblad Schematic en importeer het schema-bestand:
+* Ga naar tabblad Schema en importeer het schema-bestand:
 
 
 
