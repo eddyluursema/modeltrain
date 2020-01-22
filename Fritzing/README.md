@@ -42,8 +42,14 @@ Dit is een [samenvatting](https://learn.sparkfun.com/tutorials/make-your-own-fri
 
 ## Elektrisch schema als SVG
 * Open een SVG van een component met evenveel pootjes
+* Pas de pootjes en hun benaming aan. Pas de naam van het component midden in de tekening aan.
 * Edit in Inkscape
-* Bewaar als SVG
+
+![Inkscape_step6](./images/Inkscape_step6.PNG)
+
+* Bewaar als SVG met indicatie van een schema bestand b.v. DR4018_schematic.SVG
+
+![Inkscape_step7](./images/Inkscape_step7.PNG)
 
 ## Fritzing component maken
 
@@ -70,9 +76,11 @@ Dit is een [samenvatting](https://learn.sparkfun.com/tutorials/make-your-own-fri
 
 ![Fritzing_step4](./images/Fritzing_step4.PNG)
 
-* Ga terug naar tabblad Breadboard kies rechts de connector - kies afbeelding - selecteer met de muis links de juiste circel
+* Ga terug naar tabblad Breadboard kies rechts de juiste connector - kies knop afbeelding - selecteer met de muis links de juiste circel
 
 ![Fritzing_step6](./images/Fritzing_step6.PNG)
+
+* Ga naar tabblad Schematic en importeer het schema-bestand:
 
 
 
