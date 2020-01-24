@@ -3,7 +3,11 @@
 ## Elektrische en aansluitschema's
 Voor de beschrijving van de modelbaan worden zowel elektrische als aansluitschema's gebruikt. Aansluitschema's vind je ook in alle documenten van Digikeijs. Daarom is er gezocht naar een tool om aansluitschema's met een foto van b.v. de DR4018 te maken. Tools zoals KiCad zijn uitsluitend voor elektrische schema's. Fritzing kan beide.
 
-Voor het maken van aansluit- en elektrische schema's wordt dus Fritzing gebruikt. Hoewel Fritzing zelf (en het internet) duidenden componenten bevat staan de DR5000, DR4088, DR4018 en de seinen, wissels en sporen hier natuurlijk niet bij. In dit document wordt beschreven hoe je zelf Fritzing-componenten maakt uit tekeningen. 👍Met dank aan Arnoud van Bers van de HAN voor hulp bij het gebruik van Inkscape en SVG.
+Voor het maken van aansluit- en elektrische schema's wordt dus Fritzing gebruikt.
+
+ ⚠️**De toekomst van Fritzing is onzeker. De laatste update is van juni 2016** ⚠️.
+
+Hoewel Fritzing zelf (en het internet) duizenden componenten bevat staan de DR5000, DR4088, DR4018 en de seinen, wissels en sporen hier natuurlijk niet bij. In dit document wordt beschreven hoe je zelf Fritzing-componenten maakt uit tekeningen. 👍Met dank aan Arnoud van Bers van de HAN voor hulp bij het gebruik van Inkscape en SVG.
 
 Dit is een [samenvatting](https://learn.sparkfun.com/tutorials/make-your-own-fritzing-parts/all) van een artikel van Sparkfun. Er is ook een handige [video](https://www.youtube.com/watch?v=5X7C2qb7rtM).
 
@@ -35,12 +39,26 @@ Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en
 
 ![Inkscape_step3](./images/Inkscape_step3.PNG)
 
+* Bewaar als **gewone** SVG (niet de standaard Inktscape SVG) met indicatie van een breadboard bestand b.v. DR4018breadboard.SVG
+* Ga naar een tekstverwerker als Notepad of Notepad++ en open dit Bestand
+* Goed te zien is dat alle breedtes en hoogtes (en de viewBox) op 497 resp. 454 staan
+* Verwijder de de regel met transform=translate...
+
+![Notepad_step1](./images/Notepad_step1.PNG)
+
+* Zet onder het bestand de y op 0
+* Bewaar het Bestand
+* ⚠️Deze stappen zijn nodig om het Fritzing mogelijk te maken het bestand in te lezen. ALs de transform in het bestand staat, kan Fritzing het plaatje **niet renderen**
+
+![Notepad_step2](./images/Notepad_step2.PNG)
+
+* Open het zojuist gewijzigde bestand weer met Inkscape
 * Teken een cirkel voor elektrische aansluiting op de juiste plek
 * Kopieer deze cirkel meerdere keren voor overige aansluitingen en positioneer
 
 ![Inkscape_step4](./images/Inkscape_step4.PNG)
 
-* Bewaar als SVG met indicatie van een breadboard bestand b.v. DR4018breadboard.SVG
+* Bewaar als **gewone** SVG (niet de standaard Inktscape SVG) met indicatie van een breadboard bestand b.v. DR4018breadboard.SVG
 
 ![Inkscape_step5](./images/Inkscape_step5.PNG)
 
