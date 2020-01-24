@@ -15,6 +15,9 @@ Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en
 
 
 ## Breadboard als SVG
+
+#### PNG plaatje knippen
+
 * Maak met Snipping Tool een plaatje b.v. van de DR4018. Snijd nauwkeurig langs de randen.
 
 ![DR4018loweresolution](./images/DR4018loweresolution.PNG)
@@ -25,6 +28,8 @@ Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en
 * Kijk in Windows verkenner, selecteer het bestand en beweeg de muis over het item. Kijk naar breedte en hoogte in pixels b.v. 497 x 454
 
 ![DR4018PNGsize](./images/DR4018PNGsize.PNG)
+
+#### PNG omzetten naar SVG in pixels
 
 * Open Inkscape
 * Stel bij menu - Documenteigenschappen de Eenheden op pixels; zet Breedte en Hoogte op 497 x 454
@@ -39,7 +44,9 @@ Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en
 
 ![Inkscape_step3](./images/Inkscape_step3.PNG)
 
-* Bewaar als **gewone** SVG (niet de standaard Inktscape SVG) met indicatie van een breadboard bestand b.v. DR4018breadboard.SVG
+#### Importeerprobleem Fritzing oplossen met Notepad++
+
+* Bewaar vanuit Inkscape als **gewone** SVG (niet de standaard Inktscape SVG) met indicatie van een breadboard bestand b.v. DR4018breadboard.SVG
 * Ga naar een tekstverwerker als Notepad of Notepad++ en open dit Bestand
 * Goed te zien is dat alle breedtes en hoogtes (en de viewBox) op 497 resp. 454 staan
 * Verwijder de de regel met transform=translate...
@@ -51,6 +58,8 @@ Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en
 * ⚠️Deze stappen zijn nodig om het Fritzing mogelijk te maken het bestand in te lezen. ALs de transform in het bestand staat, kan Fritzing het plaatje **niet renderen**
 
 ![Notepad_step2](./images/Notepad_step2.PNG)
+
+#### Connectoren toevoegen
 
 * Open het zojuist gewijzigde bestand weer met Inkscape
 * Teken een cirkel voor elektrische aansluiting op de juiste plek
