@@ -11,10 +11,19 @@ Hoewel Fritzing zelf (en het internet) duizenden componenten bevat staan de DR50
 
 Dit is een [samenvatting](https://learn.sparkfun.com/tutorials/make-your-own-fritzing-parts/all) van een artikel van Sparkfun. Er is ook een handige [video](https://www.youtube.com/watch?v=5X7C2qb7rtM).
 
-Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en wordt niet uitgelegd hoe je een plaatje van de DR4018 voor het maken van een component kunt gebruiken.
+Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en wordt niet uitgelegd hoe je een plaatje van de DR4018 voor het maken van een component kunt gebruiken. Er zijn drie manieren om een SVG-plaatje met Inktscape te maken:
 
+1. Met de menustap Paden - Bitmap overtrekken. Hiermee maak je 'echte' SVG-commando's van een plaatje. Het resultaat is een groot bestand dat bij Fritzing tot zeer trage afhaneling leidt. Zo duurt het koppelen van een Fritzing-connector aan een SVG-element snel 5-10 sec.
 
-## Breadboard als SVG
+2. PNG omzetten naar SVG als embedded image
+
+3. Met de hand een component tekenen. Dit levert altijd een puur SVG-bestand.
+
+## Breadboard als SVG oplossing 1
+
+Vanwege de traagheid in Fritzing is deze oplossing uitgeprobeerd, maar niet verder gedocumenteerd.
+
+## Breadboard als SVG oplossing 2
 
 #### PNG plaatje knippen
 
@@ -53,7 +62,7 @@ Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en
 
 ![Notepad_step1](./images/Notepad_step1.PNG)
 
-* Zet onder het bestand de y op 0
+* Zet onderaan het bestand waar de image-informatie eindigt de y op 0
 * Bewaar het Bestand
 * ⚠️Deze stappen zijn nodig om het Fritzing mogelijk te maken het bestand in te lezen. ALs de transform in het bestand staat, kan Fritzing het plaatje **niet renderen**
 
@@ -70,6 +79,37 @@ Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en
 * Bewaar als **gewone** SVG (niet de standaard Inktscape SVG) met indicatie van een breadboard bestand b.v. DR4018breadboard.SVG
 
 ![Inkscape_step5](./images/Inkscape_step5.PNG)
+
+## Breadboard als SVG oplossing 3
+
+* We gaan weer uit van de DR4018
+* Open Inktscape
+* Stel bij menu - Documenteigenschappen de Eenheden op pixels; zet Breedte en Hoogte op 497 x 454
+* Kies in het menu Bestand - Importeren en selecteer het plaatje van de DR4018 als PNG. Verander niets aan de standaard-import-instellingen. Laat het plaatje rechts van de documentranden staan.
+* Zet B op 497 en H op 454 en de eenheid op px
+* Teken de DR4018 na met Inktscape door vierkanten en cirkels over te trekken en teksten toe te voegen
+* Voorbeeld: trek eerst de buitenkant over
+* Schuif dit vierkant naar links richting de documentranden
+* Pak de kleur uit het plaatje van de DR4108 met de color-picker ![InkscapeColorPicker](./images/InkscapeColorPicker.PNG)
+
+![InkscapeByHand_step1](./images/InkscapeByHand_step1.PNG)
+
+* Trek een vierkant over de zwarte binnenkant van de DR4018, verplaats en kies met de color picker zwart
+
+![InkscapeByHand_step2](./images/InkscapeByHand_step2.PNG)
+
+* Maak een groene connector
+* Maak één schroefje
+* Kopieer dit schroefje twee keer
+* Kopieer de connector met drie schroefjes 8 keer en zet op de juiste plek
+* Kopieer de connector met drie schroefjes en zet deze over de grotere connector voor SIGNAL of POWER. Vergroot de connector en kopieer nog een kopieer
+* Etc. etc.
+
+* ⚠️ Bij tekstvlakken moet je na het tekenen de tekst selecteren en met de menustap Tekst 'Omzetten naar tekst' behandelen; anders worden ze niet zichtbaar in de uiteindelijke SVG als je deze bekijkt met een browser of met Fritzing. Dit is een beetje vreemd gedrag van Inktscape.
+* Verwijder als laatste het voorbeeldplaatje
+* Bewaar als **gewone** SVG (niet de standaard Inktscape SVG) met indicatie van een breadboard bestand b.v. DR4018breadboard.SVG
+
+![DR4018ByHand](./images/DR4018ByHand.PNG)
 
 ## Elektrisch schema als SVG
 * Open een SVG van een component met evenveel pootjes
