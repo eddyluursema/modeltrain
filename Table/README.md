@@ -17,11 +17,21 @@ De tafel is kantelbaar waardoor het mogelijk is met een gereedschapswagen en ver
 
 ![foto](./images/TiltedTableToolcar.png).
 
+Voor de nabouwers zijn hier de afmetingen:
+
+![TableDesign3](./images/TableDesign3.png)
+
+![TableDesign4](./images/TableDesign4.png)
+
+![TableDesign5](./images/TableDesign5.png)
+
+
 # ![English flag](../images/gb.gif) English
 
 My table was designed using SketchUp:
 
 ![Uppder side](./images/TableDesign1.png)
+
 ![Down side](./images/TableDesign2.png)
 
 Underneath the table cable trays are mounted.  Also modules are present using bolts and nuts with claws to enable quick mounting:
@@ -35,3 +45,11 @@ The removable sides of the table are connected to eachother with so called bed m
 The table can be tilted to enable a small car with tools and a movable chair to facilitate easy mounting while sitting:
 
 ![photo](./images/TiltedTableToolcar.png).
+
+To rebuild this table the dimensions are:
+
+![TableDesign3](./images/TableDesign3.png)
+
+![TableDesign4](./images/TableDesign4.png)
+
+![TableDesign5](./images/TableDesign5.png)
