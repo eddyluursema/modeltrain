@@ -9,10 +9,12 @@ These are the digital tools used to construct my model railroad:
 |Tool|Explanation|
 |-----------------------|-------------------|
 Atom|Text editor for Markdown documentation files used on Github
+Notepad++|Text editor plain ASCII files
 Github|Versioning software; command line commit to Github
 Github desktop|Commit the work on your local laptop to Github through nice Windows forms
 Snipping tool Windows|Making screenshots
-Paint 3D Windows|Editing screenshots
+Paint 3D Windows|Editing screenshots as PNG files
+Inkscape|SVG editor
 3D Modelbahn Studio|Design model railroad track plan
 SketchUp|Design physical table
 DR5000 Configuration|Basic software for Digikeijs DR5000 DCC command station configuration & control
