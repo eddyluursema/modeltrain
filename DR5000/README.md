@@ -1,5 +1,7 @@
 # ![Nederlandse vlag](../images/nl.gif) Nederlands
 
+[English version](#English)
+
 ## DR5000
 
 * Start de DR5000 control software
@@ -36,7 +38,7 @@ Indien in het schakelcherm logging is ingeschakeld verschijnt b.v.
 
 ❗Zodra de Multimaus de loc in beweging zet zie je dat terug in de interface en in de logging.
 
-# ![English flag](../images/gb.gif) English
+# ![English flag](../images/gb.gif)English
 
 ## DR5000
 
