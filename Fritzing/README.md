@@ -5,7 +5,9 @@ Voor de beschrijving van de modelbaan worden zowel elektrische als aansluitschem
 
 Voor het maken van aansluit- en elektrische schema's wordt dus Fritzing gebruikt.
 
- ⚠️**De toekomst van Fritzing is onzeker. De laatste update is van juni 2016** ⚠️. Mogelijke alternatieven zijn TinyCAD en TinkerCAD, omdat het werken met een aansluitschema voor veel gebruikers makkelijker te lezen is dan een elektronisch schema, dat je b.v. makkelijk met KiCad kan maken.
+ ⚠️**De toekomst van Fritzing is onzeker. De laatste update is van juni 2016** ⚠️.
+
+ Mogelijke alternatieven zijn TinyCAD en TinkerCAD, omdat het werken met een aansluitschema voor veel gebruikers makkelijker te lezen is dan een elektronisch schema, dat je b.v. makkelijk met KiCad kan maken. Nader onderzoek van deze pakketten is nodig om te beoordelen of ze geschikt zijn voor het tekenen van aansluitschema's van modelspoorbanen en besturingslogica.
 
 Hoewel Fritzing zelf (en het internet) duizenden componenten bevat staan de DR5000, DR4088, DR4018 en de seinen, wissels en sporen hier natuurlijk niet bij. In dit document wordt beschreven hoe je zelf Fritzing-componenten maakt uit tekeningen. 👍Met dank aan Arnoud van Bers van de HAN voor hulp bij het gebruik van Inkscape en SVG.
 
@@ -79,6 +81,8 @@ Vanwege de traagheid in Fritzing is deze oplossing uitgeprobeerd, maar niet verd
 * Bewaar als **gewone** SVG (niet de standaard Inktscape SVG) met indicatie van een breadboard bestand b.v. DR4018breadboard.SVG
 
 ![Inkscape_step5](./images/Inkscape_step5.PNG)
+
+* ⚠️De uiteindelijke Fritzing-component met deze SVG blijkt erg traag bij het maken van een echt schema. als bij dee DR4018-tester met 17 aansluitingen de DR4018 wordt geselecteerd en verschoven van uiterst links nar uiterst rechts op het scherm, duurt het hertekenen van de component met alle aansluitingen (op een laptop i7 met 16 GB RAM) bijna 2 sec.
 
 ## Breadboard als SVG oplossing 3
 
