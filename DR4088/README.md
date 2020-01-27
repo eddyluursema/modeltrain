@@ -1,4 +1,5 @@
 # ![Nederlandse vlag](../images/nl.gif) Nederlands
+
 ## DR4088 adres geven
 Twee leuke video's om de DR4088 beginadres 17 te geven vind je [hier](https://www.youtube.com/watch?v=5ghAUfvjuvw) en [hier](https://www.youtube.com/watch?v=1XlbdtUaOn8).
 
@@ -6,15 +7,15 @@ Twee leuke video's om de DR4088 beginadres 17 te geven vind je [hier](https://ww
 
 ![DR5000interface](../DR5000/images/DR5000interface.PNG)
 
-* Druk op de Control Go Stop op de interface van de DR5000-software
-
-![DR5000GoStop](../DR5000/images/DR5000GoStop.png)
-
 * Schakel de baanspanning in door de groene knop op de interface van de DR5000-software
 
 ![DR5000GoStop](../DR5000/images/DR5000PowerOnOff.png)
 
 * Kies de Schakel optie op de interface van de DR5000-software
+
+![DR5000GoStop](../DR5000/images/DR5000GoStop.png)
+
+* Druk op de Control Go Stop op de interface van de DR5000-software
 
 ![DR5000_DriveSwitch](../DR5000/images/DR5000_DriveSwitch.png)
 
@@ -59,4 +60,60 @@ Indien in het schakelcherm logging is ingeschakeld verschijnt b.v.
 
 # ![English flag](../images/gb.gif) English
 
-TODO
+## Give DR4088 an adress
+Helpful videos to give the DR4088 begin adress 17 are [here](https://www.youtube.com/watch?v=5ghAUfvjuvw) en [here](https://www.youtube.com/watch?v=1XlbdtUaOn8).
+
+* Start the DR5000 control software
+
+![DR5000interface](../DR5000/images/DR5000interface.PNG)
+
+* Switch power on main track on by pushing the green button in the interface of the DR5000 software
+
+![DR5000GoStop](../DR5000/images/DR5000PowerOnOff.png)
+
+* Choose the switch option in the interface of the DR5000 software
+
+![DR5000GoStop](../DR5000/images/DR5000GoStop.png)
+
+* Push the Control Go Stop symbol in theinterface of the DR5000 software
+
+![DR5000_DriveSwitch](../DR5000/images/DR5000_DriveSwitch.png)
+
+* A switch board will appear
+
+![DR4088SetAdress](./images/DR4088switchinterface.png)
+
+* Click the combobox once to show adress 17. ⚠️You can not enter the value 17 in the combobox directly.
+
+![DR4088SetAdress](./images/DR4088SetAdress.png)
+
+* Push the programming button on the DR4088: the LED on the DR4088 will flicker
+* Push once on GREEN or RED of adress 17
+
+![DR4088SetAdress2](./images/DR4088SetAdress2.png)
+
+* The LED on the DR4088 will flicker even faster
+* Click the combobox once to show adress 11
+* Push once on GREEN or RED of adress 16 to tell the DR4088 that there are 16 inputs
+
+
+## Test DR4088
+
+* Activate the Loconet detection board by clicking the Loconet button in the DR5000 interface
+
+![DR5000PushLoconet](./images/DR5000PushLoconet.png)
+
+* Choose the Feedback monitor
+
+![DR5000_FB1](./images/DR5000_FB1.png)
+
+* Drive a loc. While crossing a feedback sensor selected check box is shown and the box becomes blue. After passing it changes to unchecked but the last visited feedback sensor remains blue.
+
+
+## DR4088 logging
+
+If the logging is enabled
+
+![DR5000LoconetLogging](./images/DR5000LoconetLogging.png)
+
+**It is noticed that the adress of the feedback sensor in the logging is 1 lower than the adress given during configuration**
