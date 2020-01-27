@@ -1,6 +1,6 @@
 # ![Nederlandse vlag](../images/nl.gif) Nederlands
 
-[English version](#English)
+[Navigate to English version](#English)
 
 ## DR5000
 

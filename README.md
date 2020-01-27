@@ -1,5 +1,7 @@
 # ![Nederlandse vlag](./images/nl.gif)Nederlands
 
+[Navigate to English version](#English)
+
 In deze repository worden diverse onderwerpen rondom mijn modelspoorbaan beschreven. Plaatjes zijn zelf gemaakt; indien ze van derden zijn staat de bron vermeld.
 Eddy Luursema Januari 2020
 
