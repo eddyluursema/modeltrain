@@ -23,7 +23,7 @@ Eddy Luursema Januari 2020
 In this repository several subjects concerning my model railroad can be found. Most pictures are made by me; otherwise the source is mentioned.
 Eddy Luursema January 2020
 
-1. DR5000 Command station Digikeijs
+1. [DR5000](/DR5000/README.md) usage, programming and RocRail configuration of the Digikeijs Command Station
 2. [DR4018](/DR4018/README.md) usage, programming and RocRail configuration of the Digikeijs accessory decoder   
 3. [DR4088](/DR4088/README.md) usage, programming and RocRail configuration of the Digikeijs feedback module
 4. [Track plans](/Track/README.md)
