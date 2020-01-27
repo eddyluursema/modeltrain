@@ -64,6 +64,21 @@ Indien in het schakelcherm logging is ingeschakeld verschijnt b.v.
 
 **Opvallend is dat het adres van de melder in de logging altijd 1 lager is dan dat wij als adres hebben opgegeven tijdens de configuratie**
 
+## RocRail
+
+* Zorg dat de complete baan ingevoerd is in RocRail inclusief de bezetmelders met hun adres
+
+![TrackDesignRocRail](../Track/images/TrackDesignRocRail.png)
+
+* Instellen van het adres per melder. Klik rechtermuis op melder
+
+![Feedbackproperties1](./images/Feedbackproperties1.PNG)
+
+* Bij het tabblad Interface zet het juiste adres. Voor melder f1a is dat op deze baan 17
+
+![Feedbackproperties2](./images/Feedbackproperties2.PNG)
+
+
 # ![English flag](../images/gb.gif) English
 
 ## Give DR4088 an adress
@@ -99,7 +114,7 @@ Helpful videos to give the DR4088 begin adress 17 are [here](https://www.youtube
 ![DR4088SetAdress2](./images/DR4088SetAdress2.png)
 
 * The LED on the DR4088 will flicker even faster
-* Click the combobox once to show adress 1
+* Click the combo box once to show adress 1
 * Push once on GREEN or RED of adress 16 to tell the DR4088 that there are 16 inputs
 
 ![DR4088SetNrInputs](./images/DR4088SetNrInputs.png)
@@ -130,3 +145,17 @@ If the logging is enabled
 ![DR5000LoconetLogging](./images/DR5000LoconetLogging.png)
 
 **It is noticed that the adress of the feedback sensor in the logging is 1 lower than the adress given during configuration**
+
+## RocRail
+
+* Make sure that the complete track is put into RocRail including the feedback sensorswith their adresses
+
+![TrackDesignRocRail](../Track/images/TrackDesignRocRail.png)
+
+* Setting the adress per sensor. Click right mouse on sensor
+
+![Feedbackproperties1](./images/Feedbackproperties1.PNG)
+
+* In the tab Interface set the correct adreas. The adress of feedback sensor fb1a on this track is 17.
+
+![Feedbackproperties2](./images/Feedbackproperties2.PNG)
