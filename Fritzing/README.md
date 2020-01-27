@@ -21,7 +21,7 @@ Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en
 
 2. PNG omzetten naar SVG als embedded image
 
-3. Met de hand een component tekenen. Dit levert altijd een puur SVG-bestand.
+3. Met de hand een component tekenen. Dit levert altijd een puur SVG-bestand. Onderaan zal aangetoond worden dat dit de snelst getekende Fritzing-component oplevert.
 
 ## Breadboard als SVG oplossing 1
 
@@ -128,7 +128,7 @@ Vanwege de traagheid in Fritzing is deze oplossing uitgeprobeerd, maar niet verd
 
 ![Inkscape_step7](./images/Inkscape_step7.PNG)
 
-## Fritzing component maken
+## Fritzing component maken met oplossing 2
 
 * Open Fritzing
 * Verwijder het standaard getekende breadboard
@@ -141,7 +141,7 @@ Vanwege de traagheid in Fritzing is deze oplossing uitgeprobeerd, maar niet verd
 
 ![Fritzing_step1](./images/Fritzing_SaveComponent.PNG)
 
-* In het tabblad Breadboard kies in het menu Laad tekening en kies de zojuist gemaakte breadboard-samenvatting
+* In het tabblad Breadboard kies in het menu Laad tekening en kies de zojuist gemaakte breadboard tekening van oplossing 2:
 
 ![Fritzing_step2](./images/Fritzing_step2.PNG)
 
@@ -170,8 +170,16 @@ Kies rechts de juiste connector - kies rechts de knop Selecteer afbeelding achte
 
 * Probeer de nieuwe component te verbinden met b.v. LED's.
 
-
 * Exporteren en importeren van dit nieuwe component, [kijk op](https://fritzing.org/learning/tutorials/creating-custom-parts/using-sharing/)
+
+## Fritzing component maken met oplossing 3
+
+Herhaal bovenstaande stappen met oplossing 3.
+
+👍ALs we een schakeling maken op basis van de zelf getekende SVG-tekening blijkt een schakeling als de DR4018-tester vele malen sneller te werken als we de DR4018 selecteren in Fritzing en van links naar rechts slepen waarbij de verbindingen met de LED's als rubber touwtjes blijven bestaan.
+
+![DR4018testerbyhand](../DR4018/DR4018_tester/images/DR4018testerbyhand.PNG)
+
 
 
 # ![English flag](../images/gb.gif) English
