@@ -11,8 +11,8 @@ These are the digital tools used to construct my model railroad:
 Atom|Text editor for Markdown documentation files used on Github
 Notepad++|Text editor plain ASCII files
 Github|Versioning software; command line commit to Github. Install only. No knowledge needed.
-Github desktop|Commit the work on your local laptop to Github through nice Windows forms
-Snipping tool Windows|Making screenshots
+Github desktop|Commit the work on your local laptop to Github through nice Windows form instead of Git commands
+Snipping tool Windows|Making screenshots and svae as PNG, GIF or JPG
 Paint 3D Windows|Editing screenshots as PNG files
 Inkscape|SVG editor
 3D Modelbahn Studio|Design model railroad track plan
