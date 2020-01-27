@@ -36,6 +36,8 @@ Twee leuke video's om de DR4088 beginadres 17 te geven vind je [hier](https://ww
 * Klik één keer op de combobox om adres 1 te laten verschijnen
 * Klik één keer op groen of rood van adres 16 om de DR4088 te vertellendat er 16 ingangen zijn
 
+![DR4088SetNrInputs](./images/DR4088SetNrInputs.png)
+
 
 ## DR4088 werking testen
 
@@ -45,9 +47,13 @@ Twee leuke video's om de DR4088 beginadres 17 te geven vind je [hier](https://ww
 
 * Kies het tabblad Terugmeldmonitor
 
+* Laat een loc rijden. Bij het rijden over een bezetmelder verschijnt een vink en wordt het vakje blauw.
+
 ![DR5000_FB1](./images/DR5000_FB1.png)
 
-* Laat een loc rijden. Bij het rijden over een bezetmelder verschijnt een vink en wordt het vakje blauw. Na verlaten van de rail met bezetmelder verdwijnt de vink, maar blijft het laatst geactiveerde vakje blauw.
+* Na verlaten van de rail met bezetmelder verdwijnt de vink, maar blijft het laatst geactiveerde vakje blauw.
+
+![DR5000_FB2](./images/DR5000_FB2.png)
 
 
 ## DR4088 logging
@@ -75,7 +81,7 @@ Helpful videos to give the DR4088 begin adress 17 are [here](https://www.youtube
 
 ![DR5000GoStop](../DR5000/images/DR5000GoStop.png)
 
-* Push the Control Go Stop symbol in theinterface of the DR5000 software
+* Push the Control Go Stop symbol in the interface of the DR5000 software
 
 ![DR5000_DriveSwitch](../DR5000/images/DR5000_DriveSwitch.png)
 
@@ -93,8 +99,10 @@ Helpful videos to give the DR4088 begin adress 17 are [here](https://www.youtube
 ![DR4088SetAdress2](./images/DR4088SetAdress2.png)
 
 * The LED on the DR4088 will flicker even faster
-* Click the combobox once to show adress 11
+* Click the combobox once to show adress 1
 * Push once on GREEN or RED of adress 16 to tell the DR4088 that there are 16 inputs
+
+![DR4088SetNrInputs](./images/DR4088SetNrInputs.png)
 
 
 ## Test DR4088
@@ -105,9 +113,14 @@ Helpful videos to give the DR4088 begin adress 17 are [here](https://www.youtube
 
 * Choose the Feedback monitor
 
+
+* Drive a loc. While crossing a feedback sensor the corresponding check box is selected/checked and the box becomes blue.
+
 ![DR5000_FB1](./images/DR5000_FB1.png)
 
-* Drive a loc. While crossing a feedback sensor selected check box is shown and the box becomes blue. After passing it changes to unchecked but the last visited feedback sensor remains blue.
+* After passing it changes to unchecked but the last visited feedback sensor remains blue.
+
+![DR5000_FB2](./images/DR5000_FB2.png)
 
 
 ## DR4088 logging
