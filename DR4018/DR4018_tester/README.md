@@ -4,9 +4,9 @@
 
 Om de werking van een DR4018 met een bepaalde preset en of handmatige CV-aanpassing te testen is het handig dit niet in de modelspoorbaan te doen, maar een aparte DR4018 met test-LED's te hebben.
 
-Een kleine experimentele printplaat is gebouwd met 16 LED's telkens in de kleuren rood, geel, groen, wit (met in het achterhoofd een Nederlands seinbeeld met rood, geel en groen en witte snelheidsmatrix). De elektrische schakeling is under construction; het eindresultaat getekend met Fritzing:
+Een kleine experimentele printplaat is gebouwd met 16 LED's telkens in de kleuren rood, geel, groen, wit (met in het achterhoofd een Nederlands seinbeeld met rood, geel en groen en witte snelheidsmatrix) met serieweerstand van 1k5. De elektrische schakeling is getekend met Fritzing:
 
-![DR4018tester](./images/DR4018tester.PNG).
+![DR4018testerembedded](./images/DR4018testerembedded.PNG).
 
 En gebouwd:
 
@@ -20,9 +20,9 @@ In de situatie van een modelspoorbaan is het zeer handig te weten (na het loshal
 
 To test the DR4018 with a certain preset and maybe some etxra CV-settings it can be usefull not do this in a working modeltrain situation, but rather using a small test circuit with LED's.
 
-A small printed experimental circuit board with 16 LED's in the colours red, yellow, green and white (baring in mind a Dutch signal with red, yellow, green and a white speed indicating matrix). The electric schematic is under construction. The final result in Fritzing:
+A small printed experimental circuit board with 16 LED's in the colours red, yellow, green and white (baring in mind a Dutch signal with red, yellow, green and a white speed indicating matrix) with serial resistors of 1k5. The electric schematic is drawn with Fritzing:
 
-![DR4018tester](./images/DR4018tester.PNG).
+![DR4018tester](./images/DR4018testerembedded.PNG).
 
 And build:
 
