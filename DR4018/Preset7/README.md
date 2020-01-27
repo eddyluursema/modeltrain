@@ -1,5 +1,7 @@
 # ![Nederlandse vlag](../../images/nl.gif)Nederlands
 
+[Navigate to English version](#English)
+
 Om een DR4018 met preset 7 samen te laten werken met RocRail zijn de volgende stappen ondernomen:
 
 * Sluit een testcircuit aan op de DR4018 of 4 NS-seinen:

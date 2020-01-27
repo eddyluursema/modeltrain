@@ -1,5 +1,7 @@
 # ![Nederlandse vlag](../../images/nl.gif)Nederlands
 
+[Navigate to English version](#English)
+
 Om de werking van een DR4018 met een bepaalde preset en of handmatige CV-aanpassing te testen is het handig dit niet in de modelspoorbaan te doen, maar een aparte DR4018 met test-LED's te hebben.
 
 Een kleine experimentele printplaat is gebouwd met 16 LED's telkens in de kleuren rood, geel, groen, wit (met in het achterhoofd een Nederlands seinbeeld met rood, geel en groen en witte snelheidsmatrix). De elektrische schakeling is under construction; het eindresultaat getekend met Fritzing:

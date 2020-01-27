@@ -1,5 +1,7 @@
 # ![Nederlandse vlag](../images/nl.gif)Nederlands
 
+[Navigate to English version](#English)
+
 In deze repository worden een aantal onderzoeken beschreven uitgevoerd op de Digikeijs schakeldecoder DR4018 beschreven. Ook worden een aantal configuraties getoond in combinatie met het besturingsprogramma RocRail.
 
 1. [DR4018 adressering](/DR4018/DR4018_adressing/README.md)

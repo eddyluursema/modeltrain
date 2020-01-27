@@ -1,5 +1,7 @@
 # ![Nederlandse vlag](../../images/nl.gif)Nederlands
 
+[Navigate to English version](#English)
+
 De DR4018 kan een adres geprogrammeerd krijgen en CV-waarden kunnen worden geschreven:
 
 * Sluit een DR4018 aan op een DR5000 command station op het programmeer- of het hoofdspoor
