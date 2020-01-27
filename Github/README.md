@@ -1,5 +1,7 @@
 ![Nederlandse vlag](../images/nl.gif)
 
+[Navigate to English version](#English)
+
 De volgende stappen zijn nodig om documentatie zoals deze site te realiseren:
 
 * Maak een account aan op github en bewaar gebruikersnaam en wachtwoord. Maak een eerste repository.

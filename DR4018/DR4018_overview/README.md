@@ -1,5 +1,7 @@
 # ![Nederlandse vlag](../../images/nl.gif)Nederlands
 
+[Navigate to English version](#English)
+
 In deze repository zijn alle 14 standaard aanwezige CV-settings van de Digikeijs schakeldecoder DR4018 beschreven in [tabelvorm](DR4018_overview.md). Helaas is deze tabel niet beschikbaar bij de documentatie van Digikeijs.
 
 Kijk voor het instellen van een adres en preset in de DR4018 [hier](../DR4018_programming/README.md).

@@ -1,5 +1,7 @@
 # ![Nederlandse vlag](../images/nl.gif) Nederlands
 
+[Navigate to English version](#English)
+
 Mijn tafel is getekend m.b.v. SketchUp:
 
 ![Bovenzijde](./images/TableDesign1.png)

@@ -1,5 +1,7 @@
 # ![Nederlandse vlag](../../images/nl.gif)Nederlands
 
+[Navigate to English version](#English)
+
 Er zijn diverse manieren om schakeldecoders te adresseren en de diverse fabrikanten verschillen onderling, maar zelfs binnen Digikeijs en RocRail verschillen qua adressering binnen één produkt. In de documentatie van RocRail wordt gesproken over Port Accessory Decoder Address (PADA) en Module Accessory Decoder Address (MADA) [zie](https://wiki.rocrail.net/doku.php?id=addressing-nl).
 
 ## NMRA

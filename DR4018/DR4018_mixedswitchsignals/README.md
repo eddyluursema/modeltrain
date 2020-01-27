@@ -1,5 +1,7 @@
 # ![Nederlandse vlag](../../images/nl.gif)Nederlands
 
+[Navigate to English version](#English)
+
 In mijn baan gebruik ik 4 schakeldecoders DR4018 op de vier hoeken van de tafel. Om bedrading te besparen worden zowel max. 2 wissels als 3 NS-seinen op één decoder aangesloten. Hiertoe is documentatie geraadpleegd afkomstig van Digikeijs "DR4018 toepassing handleiding_beneluxforum.pdf":
 
 ![2 wissels als 3 NS-seinen op één decoder](./images/DR4018_mixedswitchesandsignals.png)
