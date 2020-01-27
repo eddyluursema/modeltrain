@@ -38,6 +38,21 @@ Indien in het schakelcherm logging is ingeschakeld verschijnt b.v.
 
 ❗Zodra de Multimaus de loc in beweging zet zie je dat terug in de interface en in de logging.
 
+## RocRail
+
+* Sluit DR5000 aan op laptop via USB
+* Goede [video](https://www.youtube.com/watch?v=WPyYzsw9E1Q)
+* Eerst DR5000 software opstarten en kijken naar COM-poorten
+* Noteer de Loconet-COM-poort.
+* Dan in RocRail virtuele controller verwijderen en nieuwe toevoegen.
+
+![RocRailproperties1](./images/RocRailproperties1.png)
+
+* En op Loconet en 115200 bps zetten
+
+![RocRailproperties2](./images/RocRailproperties2.png)  ![RocRailproperties3](./images/RocRailproperties3.png)
+
+
 # ![English flag](../images/gb.gif)English
 
 ## DR5000
@@ -75,3 +90,17 @@ If enabled speed changes are visible in the logging
 ![MultiMaus](./images/MultiMaus.jpeg)
 
 ❗Operations on the MultiMaus are reflected in the use rinterface and in the logging
+
+## RocRail
+
+* Connect DR5000 to laptop via USB
+* Gooed [video](https://www.youtube.com/watch?v=WPyYzsw9E1Q)
+* First statup DR5000 software en look at COM ports
+* Take note of Loconet COM port
+* Remove in RocRail virtual controller and aad new
+
+![RocRailproperties1](./images/RocRailproperties1.png)
+
+* Set to Loconet and 115200 bps
+
+![RocRailproperties2](./images/RocRailproperties2.png)  ![RocRailproperties3](./images/RocRailproperties3.png)

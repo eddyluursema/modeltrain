@@ -1,4 +1,4 @@
-# ![Nederlandse vlag](./images/nl.gif)Nederlands
+# ![Nederlandse vlag](./images/nl.gif) Nederlands
 
 [Navigate to English version](#English)
 
@@ -15,10 +15,10 @@ Eddy Luursema Januari 2020
 8. [DCCplusplus](./DCCplusplus/README.md)
 9. [Gereedschappen](./Hardwaretooling/README.md)
 10. [Softwaretooling](./Softwaretooling.md) met tips voor instellingen
-11. [Fritzing](./Fritzing/README.md) maken van eigen componenten zoals de DR4018 en seinen
+11. [Fritzing](./Fritzing/README.md) teken elektrische schema's en het maken van eigen onderdelen zoals de DR4018 en seinen
 12. Gebruik van [github en github-desktop](/Github/README.md) voor documentatie
 
-# ![English flag](./images/gb.gif)English
+# ![English flag](./images/gb.gif) English
 
 In this repository several subjects concerning my model railroad can be found. Most pictures are made by me; otherwise the source is mentioned.
 Eddy Luursema January 2020
@@ -33,5 +33,5 @@ Eddy Luursema January 2020
 8. [DCCplusplus](./DCCplusplus/README.md)
 9. [Hardware tools](./Hardwaretooling/README.md)
 10. [Software tooling](./Softwaretooling.md) with hints for configuration settings
-11. [Fritzing](./Fritzing/README.md) creating your own components like the DR4018 and signals
+11. [Fritzing](./Fritzing/README.md) drawing elektrical schemas and creating your own parts like the DR4018 and signals
 12. Using [github and github-desktop](/Github/README.md) for documentation
