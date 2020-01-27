@@ -5,7 +5,7 @@ Voor de beschrijving van de modelbaan worden zowel elektrische als aansluitschem
 
 Voor het maken van aansluit- en elektrische schema's wordt dus Fritzing gebruikt.
 
- ⚠️**De toekomst van Fritzing is onzeker. De laatste update is van juni 2016** ⚠️.
+ ⚠️**De toekomst van Fritzing is onzeker. De laatste update is van juni 2016** ⚠️. Mogelijke alternatieven zijn TinyCAD en TinkerCAD, omdat het werken met een aansluitschema voor veel gebruikers makkelijker te lezen is dan een elektronisch schema, dat je b.v. makkelijk met KiCad kan maken.
 
 Hoewel Fritzing zelf (en het internet) duizenden componenten bevat staan de DR5000, DR4088, DR4018 en de seinen, wissels en sporen hier natuurlijk niet bij. In dit document wordt beschreven hoe je zelf Fritzing-componenten maakt uit tekeningen. 👍Met dank aan Arnoud van Bers van de HAN voor hulp bij het gebruik van Inkscape en SVG.
 
