@@ -2,7 +2,7 @@
 
 [Navigate to English version](#English)
 
-De volgende stappen zijn nodig om documentatie zoals deze site te realiseren:
+De volgende stappen zijn nodig om documentatie zoals deze site te realiseren in Github:
 
 * Maak een account aan op github en bewaar gebruikersnaam en wachtwoord. Maak een eerste repository.
 * Download git en installeer
