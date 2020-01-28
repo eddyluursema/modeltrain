@@ -40,7 +40,7 @@ Als er wijzigingen worden uitgevoerd op de Github-server b.v. via een browser en
 
 ## Conflicten
 
-Stel je wijzigt in dit document github-desktop in github-desktop, maar bijna tegelijkertijd direct op github via een browser in github-desktop. Daarna wordt als eerste de github-server via de browser ge-commit.
+Stel je wijzigt in dit document github-desktop in github-desktAp, maar bijna tegelijkertijd direct op github via een browser in github-desktop. Daarna wordt als eerste de github-server via de browser ge-commit.
 Als je daarna probeert gihub-desktop te comitten krijg je:
 
 ![Preview](./images/githubdesktopconflict1.PNG)
