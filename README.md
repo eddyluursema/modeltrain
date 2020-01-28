@@ -16,7 +16,9 @@ Eddy Luursema Januari 2020
 9. [Gereedschappen](./Hardwaretooling/README.md)
 10. [Softwaretooling](./Softwaretooling.md) met tips voor instellingen
 11. [Fritzing](./Fritzing/README.md) teken elektrische schema's en het maken van eigen onderdelen zoals de DR4018 en seinen
-12. Gebruik van [github en github-desktop](/Github/README.md) voor documentatie
+12. [Projecten](./Projects.md) in de toekomst
+13. Gebruik van [github en github-desktop](/Github/README.md) voor documentatie
+
 
 # ![English flag](./images/gb.gif) English
 
