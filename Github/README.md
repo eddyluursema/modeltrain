@@ -1,6 +1,8 @@
-![Nederlandse vlag](../images/nl.gif)
+![Nederlandse vlag](../images/nl.gif) Nederlands
 
 [Navigate to English version](#English)
+
+## Installeren
 
 De volgende stappen zijn nodig om documentatie zoals deze site te realiseren in Github:
 
@@ -11,10 +13,12 @@ De volgende stappen zijn nodig om documentatie zoals deze site te realiseren in 
 * Stel github-account en repository in op github-desktop
 * Clone de directory naar je laptop
 
+## Commit & push
+
 Herhaal onderstaande stappen steeds weer als de documentatie moet worden bijgewerkt:
 
 * Maak/wijzig of verwijder een bestand en/of mappen in de repository op je laptop
-* Commit de wijzigingen door linksonder op de knop te drukken. Geef eventueel commentaar mee in het vakje daarboven. Links zie je alle wijzigingen aan bestanden. Door op een bestand te klikken zie je zelfs de wijzigingen binnen de bestanden (indien mogelijk) bekijken.
+* Commit de wijzigingen in github-desktop door linksonder op de knop te drukken. Geef eventueel commentaar mee in het vakje daarboven. Links zie je alle wijzigingen aan bestanden. Door op een bestand te klikken zie je zelfs de wijzigingen binnen de bestanden (indien mogelijk).
 
 ![Commit](./images/githubdesktop_commit.PNG)
 
@@ -26,13 +30,17 @@ Herhaal onderstaande stappen steeds weer als de documentatie moet worden bijgewe
 
 ![Preview](./images/AtomPreview.png)
 
-Als er wijzigingen worden uitgevoerd op de Github-server en deze wijzigingen worden ge-commit, zie je in de github-desktop
+## Pull
+
+Als er wijzigingen worden uitgevoerd op de Github-server b.v. via een browser en deze wijzigingen worden ge-commit, zie je in de github-desktop het volgende:
 
 ![Preview](./images/githubdesktopremotechange.PNG)
 
 * Druk op Pull Origin om de wijzigingen ook op je lokale git-repository door te voeren
 
-![English flag](../images/gb.gif)
+## Conflicten
+
+![English flag](../images/gb.gif) English
 
 The next steps are neccessary te create documentation like this site:
 
