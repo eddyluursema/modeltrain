@@ -40,12 +40,32 @@ Als er wijzigingen worden uitgevoerd op de Github-server b.v. via een browser en
 
 ## Conflicten
 
-Stel je wijzigt in dit document github-desktop in github-desktAp, maar bijna tegelijkertijd direct op github via een browser in github-desktop. Daarna wordt als eerste de github-server via de browser ge-commit.
-Als je daarna probeert gihub-desktop te comitten krijg je:
+* Stel je wijzigt in dit document github-desktop in github-desktAp:
 
-![Preview](./images/githubdesktopconflict1.PNG)
+![githubdesktopconflict1](./images/githubdesktopconflict1.PNG)
 
-* Druk op Fetch
+* Maar bijna tegelijkertijd direct op github via een browser in github-desktEp.
+
+![githubdesktopconflict2](./images/githubdesktopconflict2.PNG)
+
+Daarna wordt als eerste de github-server via de browser ge-commit. Als je daarna probeert github-desktop te comitten krijg je. Druk dan op Fetch:
+
+![githubdesktopconflict3](./images/githubdesktopconflict3.PNG)
+
+* Daarna volgt dit scherm. Druk op Pull Origin
+
+![githubdesktopconflict4](./images/githubdesktopconflict4.PNG)
+
+* Dan volgt de mededeling datc er een conflict is.
+
+![githubdesktopconflict5](./images/githubdesktopconflict5.PNG)
+
+* In je tekstverwerker zoals Atom verschijnt een extra stuk
+
+![githubdesktopconflict6](./images/githubdesktopconflict6.PNG)
+
+Bij <<<<<<HEAD staat jouw lokale tekst; bij ======= staat de tekst, die is ge-commit op de server. Neem de juiste beslissing wat correct is en wat niet; pas dit lokaal aan en commit opnieuw.
+
 
 ![English flag](../images/gb.gif) English
 
