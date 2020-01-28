@@ -40,7 +40,7 @@ Als er wijzigingen worden uitgevoerd op de Github-server b.v. via een browser en
 
 ## Conflicten
 
-Stel je wijzigt in dit document github-desktop in github-desktop, maar bijna tegelijkertijd direct op gitrhub via een browser in github-desktop.
+Stel je wijzigt in dit document github-desktop in github-desktop, maar bijna tegelijkertijd direct op gitrhub via een browser in github-desktEp.
 
 
 ![English flag](../images/gb.gif) English
