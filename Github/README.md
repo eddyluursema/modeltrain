@@ -47,7 +47,6 @@ Als je daarna probeert gihub-desktop te comitten krijg je:
 
 * Druk op Fetch
 
-
 ![English flag](../images/gb.gif) English
 
 The next steps are neccessary te create documentation like this site:
