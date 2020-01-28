@@ -26,6 +26,12 @@ Herhaal onderstaande stappen steeds weer als de documentatie moet worden bijgewe
 
 ![Preview](./images/AtomPreview.png)
 
+Als er wijzigingen worden uitgevoerd op de Github-server en deze wijzigingen worden ge-commit, zie je in de github-desktop
+
+![Preview](./images/githubdesktopremotechange.PNG)
+
+* Druk op Pull Origin om de wijzigingen ook op je lokale git-repository door te voeren
+
 ![English flag](../images/gb.gif)
 
 The next steps are neccessary te create documentation like this site:
@@ -51,3 +57,9 @@ Repeat the following steps eacht time tyhe documentation needs an update:
 👍 You can see the result of your work immediately by switching on the preview of Markdown with Ctrl+Shift+M (funny [Markdown emoji](https://www.webfx.com/tools/emoji-cheat-sheet/) are **not** shown in the preview after standard installation. Add an extra Atom package  [see](../Softwaretooling.md))
 
 ![Preview](./images/AtomPreview.png)
+
+Direct changes to the Github server which are committed are visible in the github desktop
+
+![Preview](./images/githubdesktopremotechange.PNG)
+
+* Push Pull Origin to update youre local git repository
