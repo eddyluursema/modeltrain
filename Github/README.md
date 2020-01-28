@@ -28,17 +28,19 @@ Herhaal onderstaande stappen steeds weer als de documentatie moet worden bijgewe
 
 👍 Je kunt meteen kijken hoe het er uit ziet door de preview Markdown aan te zetten met b.v. Ctrl+Shift+M (grappig [Markdown emoji](https://www.webfx.com/tools/emoji-cheat-sheet/) zie je **niet** in preview na standaard installatie. Daarvoor moet je extra Atom package installeren [zie](../Softwaretooling.md))
 
-![Preview](./images/AtomPreview.png)
+![AtomPreview](./images/AtomPreview.png)
 
 ## Pull
 
 Als er wijzigingen worden uitgevoerd op de Github-server b.v. via een browser en deze wijzigingen worden ge-commit, zie je in de github-desktop het volgende:
 
-![Preview](./images/githubdesktopremotechange.PNG)
+![githubdesktopremotechange](./images/githubdesktopremotechange.PNG)
 
 * Druk op Pull Origin om de wijzigingen ook op je lokale git-repository door te voeren
 
 ## Conflicten
+
+Conflicten zijn zeldzaam als je de enige gebruiker bent, die altijd vanuit de laptop commit & pushed naar de github-server. Als er meerdere gebruikers zijn of je om wat voor reden dan ook toch op de server aan de slag gaat, kun je conflicten krijgen.
 
 * Stel je wijzigt in dit document github-desktop in github-desktAp:
 
@@ -48,7 +50,7 @@ Als er wijzigingen worden uitgevoerd op de Github-server b.v. via een browser en
 
 ![githubdesktopconflict2](./images/githubdesktopconflict2.PNG)
 
-Daarna wordt als eerste de github-server via de browser ge-commit. Als je daarna probeert github-desktop te comitten krijg je. Druk dan op Fetch:
+Daarna wordt als eerste de github-server via de browser ge-commit. Als je daarna probeert github-desktop te comitten krijg je onderstaand scherm. Druk dan op Fetch:
 
 ![githubdesktopconflict3](./images/githubdesktopconflict3.PNG)
 
@@ -56,7 +58,7 @@ Daarna wordt als eerste de github-server via de browser ge-commit. Als je daarna
 
 ![githubdesktopconflict4](./images/githubdesktopconflict4.PNG)
 
-* Dan volgt de mededeling datc er een conflict is.
+* Dan volgt de mededeling dat er een conflict is.
 
 ![githubdesktopconflict5](./images/githubdesktopconflict5.PNG)
 
@@ -69,6 +71,8 @@ Bij <<<<<<HEAD staat jouw lokale tekst; bij ======= staat de tekst, die is ge-co
 
 ![English flag](../images/gb.gif) English
 
+## Install
+
 The next steps are neccessary te create documentation like this site:
 
 * Create an account on github and save username and password. Create first repository.
@@ -77,6 +81,8 @@ The next steps are neccessary te create documentation like this site:
 * Download Atom and install. Any text editor can be used instead.
 * Set your github-account and repository in github-desktop
 * Clone the directory to your laptop
+
+## Commit & push
 
 Repeat the following steps eacht time tyhe documentation needs an update:
 
@@ -93,8 +99,40 @@ Repeat the following steps eacht time tyhe documentation needs an update:
 
 ![Preview](./images/AtomPreview.png)
 
-Direct changes to the Github server which are committed are visible in the github desktop
+## Pull
 
-![Preview](./images/githubdesktopremotechange.PNG)
+If you make only changes directly to the github server through a browser and commit them, you can see in github desktop that there were changes:
 
-* Push Pull Origin to update youre local git repository
+![githubdesktopremotechange](./images/githubdesktopremotechange.PNG)
+
+* Push Pull Origin to put the remote changes into ypour local git-repository
+
+## Conflicts
+
+Conflicts are rare when you are the only user working on his laptop and committing & pushing to the github server. If there are more coworkers or you work both local and remote conflict can appear.
+
+* Suppose in this document you change github-desktop in github-desktAp:
+
+![githubdesktopconflict1](./images/githubdesktopconflict1.PNG)
+
+* But at the same time in github server through a browser into github-desktEp.
+
+![githubdesktopconflict2](./images/githubdesktopconflict2.PNG)
+
+* Suppose you commit to github server first. Trying to commit in github desktop will lead to a conflict. Push Fetch:
+
+![githubdesktopconflict3](./images/githubdesktopconflict3.PNG)
+
+* The form below will appear. Push Pull Origin
+
+![githubdesktopconflict4](./images/githubdesktopconflict4.PNG)
+
+* Then there is a message about a conflict.
+
+![githubdesktopconflict5](./images/githubdesktopconflict5.PNG)
+
+* In your favorit editor like Atom an extra piece of text appears:
+
+![githubdesktopconflict6](./images/githubdesktopconflict6.PNG)
+
+At <<<<<<HEAD is your local text; at ======= is the text, committed on the server. Decide which text is correct and change. Then commit again.
