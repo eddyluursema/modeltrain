@@ -40,6 +40,9 @@ Als er wijzigingen worden uitgevoerd op de Github-server b.v. via een browser en
 
 ## Conflicten
 
+Stel je wijzigt in dit document github-desktop in github-desktop, maar bijna tegelijkertijd direct op gitrhub via een browser in github-desktop.
+
+
 ![English flag](../images/gb.gif) English
 
 The next steps are neccessary te create documentation like this site:
