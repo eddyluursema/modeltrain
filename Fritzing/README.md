@@ -17,7 +17,7 @@ Dit is een [samenvatting](https://learn.sparkfun.com/tutorials/make-your-own-fri
 
 Alleen wordt in dat artikel de nieuwe component helemaal met de hand getekend en wordt niet uitgelegd hoe je een plaatje van de DR4018 voor het maken van een component kunt gebruiken. Er zijn drie manieren om een SVG-plaatje met Inktscape te maken:
 
-1. Met de menustap Paden - Bitmap overtrekken. Hiermee maak je 'echte' SVG-commando's van een plaatje. Het resultaat is een groot bestand dat bij Fritzing tot zeer trage afhaneling leidt. Zo duurt het koppelen van een Fritzing-connector aan een SVG-element snel 5-10 sec.
+1. Met de menustap Paden - Bitmap overtrekken. Hiermee maak je 'echte' SVG-commando's van een plaatje. Het resultaat is een groot bestand dat bij Fritzing tot zeer trage afhandeling leidt. Zo duurt het koppelen van een Fritzing-connector aan een SVG-element snel 5-10 sec.
 
 2. PNG omzetten naar SVG als embedded image
 
@@ -106,7 +106,7 @@ Vanwege de traagheid in Fritzing is deze oplossing uitgeprobeerd, maar niet verd
 
 * Maak een groene connector
 * Maak één schroefje
-* Kopieer dit schroefje twee keer
+* Kopieer dit schroefje twee keer (meerdere objecten selecteren in Inkscape gebruik SHIFT)
 * Kopieer de connector met drie schroefjes 8 keer en zet op de juiste plek
 * Kopieer de connector met drie schroefjes en zet deze over de grotere connector voor SIGNAL of POWER. Vergroot de connector en kopieer nog een kopieer
 * Etc. etc.
@@ -153,7 +153,7 @@ Vanwege de traagheid in Fritzing is deze oplossing uitgeprobeerd, maar niet verd
 
 ![Fritzing_step5](./images/Fritzing_step5.PNG)
 
-* Ga naar tabblad Iccon en kies Gebruik de breadboard afbeelding
+* Ga naar tabblad Icoon en kies Gebruik de breadboard afbeelding
 
 ![Fritzing_step4](./images/Fritzing_step4.PNG)
 
@@ -176,10 +176,186 @@ Kies rechts de juiste connector - kies rechts de knop Selecteer afbeelding achte
 
 Herhaal bovenstaande stappen met oplossing 3.
 
-👍ALs we een schakeling maken op basis van de zelf getekende SVG-tekening blijkt een schakeling als de DR4018-tester vele malen sneller te werken als we de DR4018 selecteren in Fritzing en van links naar rechts slepen waarbij de verbindingen met de LED's als rubber touwtjes blijven bestaan.
+👍Als we een schakeling maken op basis van de zelf getekende SVG-tekening blijkt een schakeling als de DR4018-tester vele malen sneller te werken als we de DR4018 selecteren in Fritzing en van links naar rechts slepen waarbij de verbindingen met de LED's als rubber touwtjes blijven bestaan.
 
 ![DR4018testerbyhand](../DR4018/DR4018_tester/images/DR4018testerbyhand.PNG)
 
 
 
 # ![English flag](../images/gb.gif) English
+
+## Electrical and connection schemas
+To describe the model railroad track electrical and connection schemas are used. Connection schemas can be found in the manuals of Digikeijs. To make more schemas a drawing tool was selected which could produce both. It would be handy to start with a picture/photo of e.g. a DR4018 and create a schema from that. Tools like KiCad can not use an existing photo.
+
+
+ ⚠️**The future of Fritzing is uncertain. The last update is of June 2016** ⚠️.
+
+ Possible alternatives are TinyCAD and TinkerCAD. We emphasize on connection schemas because electrical schemas are harder to read for non experts. Further research has to be done to explorethe possibilities of drawing connection schemas of  model railroads and controlling logic.
+
+Although Fritzing itself (and the internet) contain thousands of parts the DR5000, DR4088, DR4018 and signals, swithes and tracks can not be found. In this document we will create Fritzing parts from drawing. THanks to Arnoud van Bers of the HAN for the help with Inkscape and SVG.
+
+This document was created with the  [help of](https://learn.sparkfun.com/tutorials/make-your-own-fritzing-parts/all) by Sparkfun. There is also a [video](https://www.youtube.com/watch?v=5X7C2qb7rtM).
+
+In the article by Sparkfun they draw a component by hand. They do not explain how to use an existing picture of a part.
+
+There are three ways of creating a SVG picture with Inktscape:
+
+1. Use the menu Path - Trace Bitmap. With this option a real set of SVG commands is created from a photo or picture. The result is such a big file that Fritzing has big troubles handling it. Connecting a graphical object to a connector took (laptop i7 16 GB RAM) 5-10 sec.
+
+2. Transform a PNG to SVG as embedded image
+
+3. Draw a component by hand. This results in a pure SVG file. Below will be demonstrated that this solution leads to the fastest drawn parts in Fritzing.
+
+## Breadboard as SVG solution 1
+
+Due to performance issues this solution is not documented..
+
+## Breadboard as SVG solution 2
+
+#### Pick a PNG from picture
+
+* Use Snipping Tool to make a PNG of a picture of the DR4018. Always cut the borders nicely.
+
+![DR4018loweresolution](./images/DR4018loweresolution.PNG)
+
+* Save as PNG
+* You can use Paint 3D to make small refinements. 👉With Paint 3D you can select small coloured parts and move them over other parts.
+* Save as PNG
+* Look at Windows explorer, select the file and move the mouse over the item to look at the size in pixels e.g. 497 x 454
+
+![DR4018PNGsize](./images/DR4018PNGsize.PNG)
+
+#### Transform PNGto SVG in pixels
+
+* Open Inkscape
+* Set in menu - Document properties the units to pixels; set Width and Height to 497 x 454
+
+![Inkscape_step1](./images/Inkscape_step1.PNG)
+
+* Open in menu File - Importer and choose the PNG picture of the DR4018. Don't change the defualt import settings.
+
+![Inkscape_step2](./images/Inkscape_step2.PNG)
+
+* Put X and Y on top of the menubar to 0 and B to 497 and H to 454 and untis to px. Making an error will result in a component where the connection points differ from the picture.
+
+![Inkscape_step3](./images/Inkscape_step3.PNG)
+
+#### Solve Fritzing import problem with Notepad++
+
+* Save the file with Inkscape as **normal** SVG (not the Inktscape SVG) with some note that this is the breadboard view e.g. DR4018breadboard.SVG
+* Use Notepad or Notepad++ open this file
+* All width and heights are correct and in pixels are 497 resp. 454 (even viewBox))
+* Remove the line with transform=translate...
+
+![Notepad_step1](./images/Notepad_step1.PNG)
+
+* Set at the bottom of the file just beneath the embedded image y to 0
+* Save the file
+* ⚠️These steps are neccessary to be able for Fritzing to import and **render** this picture. With transform this is not possible.
+
+![Notepad_step2](./images/Notepad_step2.PNG)
+
+#### Add connectors
+
+* Open the previous file with Inkscape
+* Draw a small circle for the electrical connection
+* Copy this circle and position over eacht connector
+
+![Inkscape_step4](./images/Inkscape_step4.PNG)
+
+* Save the file with Inkscape as **normal** SVG (not the Inktscape SVG) with some note that this is the breadboard view e.g. DR4018breadboard.SVG
+
+![Inkscape_step5](./images/Inkscape_step5.PNG)
+
+* ⚠️The final Fritzing part using this SVG appears to draw very slow when creating electrical schemas. The schema of the DR4018 tester with 17 dragging the DR4018 while the connections stay as rubber bands takes (on a laptop i7 with 16 GB RAM) almost 2 sec.
+
+## Breadboard as SVG solution 3
+
+* Open Inktscape
+* Set in menu - Document propertiesunits to pixels; set Width and Heigth  to 497 x 454
+* Menu File - Import and select the picture of the DR4018 as PNG. Do not change anything to default import settings. Put the picture to the right of the document edges.
+* Set W to 497 and H to 454 and unit to px in toolbar
+* Redraw the DR4018 with the help of Inktscape using squares and circles and text boxes
+* Example: start with outer edge of the picture of the DR4018. Redraw a square over the DR4018.
+* Move this square to the document edges
+* Take the colour picker to fill the square with the colour of the DR4018 gray surface ![InkscapeColorPicker](./images/InkscapeColorPicker.PNG)
+
+![InkscapeByHand_step1](./images/InkscapeByHand_step1.PNG)
+
+* Drwa a smaller square over the black inside of the DR4018. Move it over the new picture and use colour picker to paint it black
+
+![InkscapeByHand_step2](./images/InkscapeByHand_step2.PNG)
+
+* Draw small green square over a connector
+* Draw one screw with a circle and a line
+* Copy this screw two times (selecting more items in Inkscape use SHIFT)
+* Copy connector with three screws 8 times and put on the right spot
+* Copy connector with three screws over the bigger connector of SIGNAL or POWER. Enlarge and copy again
+* Etc. etc.
+
+* ⚠️ Using text boxes requires an extra step. After drawing select the text and got to menu Text 'Convert to text'. THis step is requeired otherwise text boxes are not shown in Fritzing. This is a strange 'feature' of Inktscape.
+* The last step is to remove the PNG picture which only served as a picture to redraw
+* Save the file with Inkscape as **normal** SVG (not the Inktscape SVG) with some note that this is the breadboard view e.g. DR4018breadboard.SVG
+
+![DR4018ByHand](./images/DR4018ByHand.PNG)
+
+## Electrical schema as SVG
+* Open a SVG from a part with the same number of connectors
+* Adjust position and names of these connectors. Adjust the name of the new part in the middle.
+
+![Inkscape_step6](./images/Inkscape_step6.PNG)
+
+* Save the file with Inkscape as **normal** SVG (not the Inktscape SVG) with some note that this is the electrical view e.g. DR4018schematic.SVG
+
+![Inkscape_step7](./images/Inkscape_step7.PNG)
+
+## Create Fritzing part with solution 2
+
+* Open Fritzing
+* Remove standard breadboard
+* Take a part out of the suitcase e.g. Arduino Pro Mini and put it in the  breadboard drawing
+* Click right mouse. Change (new component)
+
+![Fritzing_step1](./images/Fritzing_step1.PNG)
+
+* Just to be sure save as new component
+
+![Fritzing_step1](./images/Fritzing_SaveComponent.PNG)
+
+* In the Breadboard tab choose menu Load drawing and choose breadboard SVG made in previous step
+
+![Fritzing_step2](./images/Fritzing_step2.PNG)
+
+* Set the coreect number and names of the connectors in the tab Connectors
+
+![Fritzing_step3](./images/Fritzing_step3.PNG)
+
+* Change in the tab Metadata the name of the new part and the writer
+
+![Fritzing_step5](./images/Fritzing_step5.PNG)
+
+* Go to tab Icon and choose Use breadboard picture
+
+![Fritzing_step4](./images/Fritzing_step4.PNG)
+
+* Go to tab Breadboard. Choose on the right side a connector - push the button select picture behind the selector - and click on the corresponding connector object in the big picture. A mark indicates that this connector is connected to some visual object.
+
+![Fritzing_step6](./images/Fritzing_step6.PNG)
+
+* Go to tab Schema and importer the electrical schema SVG. Choose on the right side a connector - push the button select picture behind the selector - and click on the corresponding connector object in the big picture. A mark indicates that this connector is connected to some visual object.
+
+* Leave the tab PCB; we are not putting a DR4018 on a PCB.
+
+* Save the new part
+
+* Try out the new part by connecting some LEDs.
+
+* Exporter and importer this new part  [look at](https://fritzing.org/learning/tutorials/creating-custom-parts/using-sharing/)
+
+## Create Fritzing part using solution 3
+
+Repeat the steps above using SVG solution 3.
+
+👍The final Fritzing part using this handmade SVG appears to draw very fast when creating electrical schemas. The schema of the DR4018 tester with 17 dragging the DR4018 while the connections stay as rubber bands redraws (on a laptop i7 with 16 GB RAM) almost instantaneously.
+
+![DR4018testerbyhand](../DR4018/DR4018_tester/images/DR4018testerbyhand.PNG)
