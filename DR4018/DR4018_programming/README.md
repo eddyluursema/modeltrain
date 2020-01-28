@@ -41,6 +41,9 @@ Van de DR4018 kunnen ook CV-waarden worden uitgelezen:
 
 * Sluit een DR4018 aan op een DR5000 command station op het **programmeer** spoor
 * Vergeet niet een weerstand van 150 tot 270 ohm tussen C en output 1 aan te sluiten (handleiding DR4018)
+
+![afbeelding](./images/DR5000DR4018CVReadingSchematic.PNG)
+
 * Zet de DR4018 in programmeerstand
 * Kies het gewenste CV-adres en klik op de knop (wit blad met groene pijl) ![afbeelding](./images/ReadCV.PNG)
 * Het programma leest de CV-waarde of geeft een foutmelding

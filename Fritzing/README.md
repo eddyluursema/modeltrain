@@ -133,6 +133,7 @@ Vanwege de traagheid in Fritzing is deze oplossing uitgeprobeerd, maar niet verd
 * Open Fritzing
 * Verwijder het standaard getekende breadboard
 * Pak een onderdeel uit de gereedschapskist b.v. de Arduino Pro Mini en zet deze in de breadboard-tekening
+* ⚠️Pak altijd een bestaande component met **minder** aansluitingen dan de nieuwe component. Fritzing verwijdert helaas niet alle informatie van overbodige pootjes
 * Klik rechtermuis, Wijzig (nieuwe onderdelen bewerker)
 
 ![Fritzing_step1](./images/Fritzing_step1.PNG)
@@ -314,6 +315,7 @@ Due to performance issues this solution is not documented..
 * Open Fritzing
 * Remove standard breadboard
 * Take a part out of the suitcase e.g. Arduino Pro Mini and put it in the  breadboard drawing
+* ⚠️Always take a part with **less** connectors than the new part. Fritzing does not remove all information on unused connectors.
 * Click right mouse. Change (new component)
 
 ![Fritzing_step1](./images/Fritzing_step1.PNG)
