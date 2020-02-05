@@ -101,6 +101,9 @@ Suppose the LED is connected to the Arduino with the anode connected to power. T
 
 If our DCC switch and signal decoder becomes more universal and remotely programmable the fact that the LED is switched on either by putting the output LOW or HIGH depending on some setting, all that intelligence is 'hidden' in the file SignalControl.ino. The developer of the main program only switches a LED on or off. When the electronics of the Arduino is extended with some hardware to enlarge the number of outputs(for example by using an I2C extender like the MCP23070) again the software for controlling that extender is 'hidden' in SignalControl.ino.
 
+[TOP](#English)
+
+
 ## 03_BlinkingLEDCodeQualityObjectOriented
 
 In [this article](https://www.arduino.cc/en/Hacking/libraryTutorial) is explained how our example 02 can be rewritten into an object oriented solution with a header file, an implementation file and a main program. Also a good tutorial can be found [here](https://roboticsbackend.com/arduino-object-oriented-programming-oop/).
@@ -172,6 +175,9 @@ void loop() {
 
 **In the examples below we will use conventional Arduino programming without classes. All files will have extension .ino**
 
+[TOP](#English)
+
+
 ## 04_FourBlinkingLEDS
 
 The example is extended to blink 4 LEDs in turn.
@@ -224,6 +230,9 @@ void loop() {
 }
 ```
 SignalControl.ino now has an array with pin numbers. The numbers of pins is a constant and is defined **before** the array gets its size. The initialization sets all output ports. The ON and OFF functions get a parameter to indicate which logical LED number 0..3 must be switched on or off. The programmer of the main program has no knowledge of the physical pin numbers. The only problem is that he also has no knowledge of the number of signals (later in the course will talk about the number of signal aspects to that's why we switch to 'number of signals').A function is created which returns the number of signals so in the main program we refer to that function. Changing the number of LEDs is done in **one** place. The file containing code to control a certain set of hardware is often called a 'library'.
+
+[TOP](#English)
+
 
 ## 05_FourBlinkingLEDSDifferentFrequencyFour
 
@@ -286,6 +295,9 @@ void loop() {
 }
 ```
 The blinking software is now completely transferred into the library. The state of each signal is remembered in array ledState and the last time we flipped that signal is stored in array previousMillis. In the initalization the state is set to LOW and the signal/LED is turned off. In the previous code examples we assumed that setting an output of the Arduino implicitly sets the output LOW. Not assuming but setting it yourself is better. The same is for the array previousMillis: set it to 0 in the initialization function.
+
+[TOP](#English)
+
 
 ## 06_FourAspectSignalspectSignal
 
@@ -362,6 +374,9 @@ void loop() {
   }
 }
 ```
+
+[TOP](#English)
+
 
 ## 07_FourAspectSignalBlink
 
@@ -482,6 +497,10 @@ void loop() {
   SignalControl_Blink();
 }
 ```
+
+[TOP](#English)
+
+
 ## 08_BrightnessStart
 
 Fading is a lot more complex. In these cases it is wise to start with a smaller example instead of trying to extend the previous example.
@@ -520,6 +539,9 @@ void loop() {
   SignalControl_Blink();
 }
 ```
+
+[TOP](#English)
+
 
 ## 09_BrightnessWithoutDelay
 
@@ -577,6 +599,9 @@ void loop() {
   SignalControl_Blink();
 }
 ```
+
+[TOP](#English)
+
 
 ## 10_FadingWithoutDelay
 
