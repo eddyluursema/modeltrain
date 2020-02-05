@@ -1,6 +1,6 @@
 # ![Nederlandse vlag](./images/nl.gif) Nederlands
 
-[Navigate to English version](# English)
+[Navigate to English version](#English)
 
 In deze repository worden diverse onderwerpen rondom mijn modelspoorbaan beschreven. Plaatjes zijn zelf gemaakt; indien ze van derden zijn staat de bron vermeld.
 Eddy Luursema Januari 2020
@@ -22,7 +22,7 @@ Eddy Luursema Januari 2020
 15. [Arduino cursus](/ArduinoCourse/README.md)
 
 
-# ![English flag](./images/gb.gif) English
+# ![English flag](./images/gb.gif)English
 
 In this repository several subjects concerning my model railroad can be found. Most pictures are made by me; otherwise the source is mentioned.
 Eddy Luursema January 2020
