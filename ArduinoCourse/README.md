@@ -2,13 +2,26 @@
 
 In deze cursus wordt stapsgewijs gewerkt aan het realiseren van een universele DCC schakeldecoder voor seinen en wissels. De cursus is verder geheel in het Engels.
 
-# ![English flag](../images/gb.gif) English
+# ![English flag](../images/gb.gif)English
 
-In this course a universal DCC decoder for signals and switches is build step by step. We are using an Arduino Uno with 8 LEDs. This course is to encourage everyone to start loving the Arduino platform to be used in model railroad automation.
+In this course a universal DCC decoder for signals and switches is build step by step. This course is to encourage everyone to start loving the Arduino platform to be used in model railroad automation. These are the examples:
+
+* [Blinking LED](#01_BlinkingLED)
+* [Blinking LED code quality](#02_BlinkingLEDcodequality)
+* [Blinking LED with code quality and object oriented](03_BlinkingLEDCodeQualityObjectOriented)
+* [Four blinking LEDs](04_FourBlinkingLEDS)
+* [Four blinking LEDs with different frequencies](05_FourBlinkingLEDSDifferentFrequencyFour)
+* [Four aspect signal](06_FourAspectSignalspectSignal)
+* [Four aspect signal with blinking](07_FourAspectSignalBlink)
+* [Brightness simple starting example](08_BrightnessStart)
+* [Brightness without delay function](09_BrightnessWithoutDelay)
+* [Fading without delay](10_FadingWithoutDelay)
+
+## 01_BlinkingLED
+
+We are using an Arduino Uno with 8 LEDs for most of the examples.
 
 ![schematic](./images/Arduino8LED.PNG)
-
-## 01 Blinking LED
 
 This is the famous example build in every Arduino by default. The LED on pin 13 blinks with a frequency of 1/2 Hz.
 Keywords in this example: **void, setup, pinMode, loop, digitalWrite, delay, HIGH, LOW**
@@ -28,7 +41,7 @@ void loop() {
 ```
 
 
-## 02 Blinking LED code quality
+## 02_BlinkingLEDcodequality
 
 Keywords in this example: **const**
 
@@ -87,7 +100,7 @@ Suppose the LED is connected to the Arduino with the anode connected to power. T
 
 If our DCC switch and signal decoder becomes more universal and remotely programmable the fact that the LED is switched on either by putting the output LOW or HIGH depending on some setting, all that intelligence is 'hidden' in the file SignalControl.ino. The developer of the main program only switches a LED on or off. When the electronics of the Arduino is extended with some hardware to enlarge the number of outputs(for example by using an I2C extender like the MCP23070) again the software for controlling that extender is 'hidden' in SignalControl.ino.
 
-## 03 Blinking LED object oriented: work with classes and header files
+## 03_BlinkingLEDCodeQualityObjectOriented
 
 In [this article](https://www.arduino.cc/en/Hacking/libraryTutorial) is explained how our example 02 can be rewritten into an object oriented solution with a header file, an implementation file and a main program. Also a good tutorial can be found [here](https://roboticsbackend.com/arduino-object-oriented-programming-oop/).
 
@@ -158,7 +171,7 @@ void loop() {
 
 **In the examples below we will use conventional Arduino programming without classes. All files will have extension .ino**
 
-## 04 Four Blinking LEDS
+## 04_FourBlinkingLEDS
 
 The example is extended to blink 4 LEDs in turn.
 Keywords in this example: **[** and **]** for arrays
@@ -211,7 +224,8 @@ void loop() {
 ```
 SignalControl.ino now has an array with pin numbers. The numbers of pins is a constant and is defined **before** the array gets its size. The initialization sets all output ports. The ON and OFF functions get a parameter to indicate which logical LED number 0..3 must be switched on or off. The programmer of the main program has no knowledge of the physical pin numbers. The only problem is that he also has no knowledge of the number of signals (later in the course will talk about the number of signal aspects to that's why we switch to 'number of signals').A function is created which returns the number of signals so in the main program we refer to that function. Changing the number of LEDs is done in **one** place. The file containing code to control a certain set of hardware is often called a 'library'.
 
-## 05 Four blinking LEDS with different frequencies
+## 05_FourBlinkingLEDSDifferentFrequencyFour
+
 In the previous example we created a sort of 'Knight Rider' (old television series with an intelligent car having a set of LEDs at the front). Now the task is to let each LED blink at different frequencies. To solve this we must get rid of the delay().
 
 Keywords in this example: **unsigned long, millis()**
@@ -272,7 +286,7 @@ void loop() {
 ```
 The blinking software is now completely transferred into the library. The state of each signal is remembered in array ledState and the last time we flipped that signal is stored in array previousMillis. In the initalization the state is set to LOW and the signal/LED is turned off. In the previous code examples we assumed that setting an output of the Arduino implicitly sets the output LOW. Not assuming but setting it yourself is better. The same is for the array previousMillis: set it to 0 in the initialization function.
 
-## 06 Four aspect signal
+## 06_FourAspectSignalspectSignal
 
 In the real world of model trains were are not switching individual LEDs on and off but rather switch a combination of one or more LEDs on, off or blinking. A signal is set to a specific aspect. In SignalControl.ino a 2D- array is specified containing the transformation of aspect to one ore more burning LEDs. In this example a keyboard key is send to the Arduino through the Arduine IDE monitor and the Arduino will light up the aspect HALT, WARN, PASS or SLOW (just imaginary aspects with imaginary light settings).
 
@@ -348,7 +362,7 @@ void loop() {
 }
 ```
 
-## 07 Four aspect signal with blink
+## 07_FourAspectSignalBlink
 
 The previous example can easily be extended to a version with a third state of a LED: blinking. Again a software timer is used (not a delay). An extra feature of this example is the possibility to have different lights for each aspect depending on the user selected country.
 
@@ -467,7 +481,7 @@ void loop() {
   SignalControl_Blink();
 }
 ```
-## Brightness start simple
+## 08_BrightnessStart
 
 Fading is a lot more complex. In these cases it is wise to start with a smaller example instead of trying to extend the previous example.
 
@@ -506,7 +520,7 @@ void loop() {
 }
 ```
 
-## Brightness without the delay function
+## 09_BrightnessWithoutDelay
 
 Now we rewrite the example above to get rid of the delay function. The smallest time division is one step in the PWM cycle. The LED is switched on at the beginning of the cycle and switched off at the moment the cycle reaches the presetted brightness (ledBrightness) of the LED. If ledBrightness = 0 the LED is always off (we need this in a later example).
 
@@ -563,7 +577,7 @@ void loop() {
 }
 ```
 
-## Fading
+## 10_FadingWithoutDelay
 
 Now the example above is extended to get a fading effect.The brightness is slowely increased until maximum and then decreased at the same speed until minimum.
 
