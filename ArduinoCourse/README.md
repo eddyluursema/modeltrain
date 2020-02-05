@@ -159,7 +159,7 @@ Knowing the meaning of all the definitions in the header file, this code of the 
 
 const int DELAYTIME = 1000;
 
-SignalControl signalcontrol;  //instatiate class
+SignalControl signalcontrol;  //instantiate class; implicit call of initialization function
 
 void setup() {
 }
@@ -172,6 +172,8 @@ void loop() {
   delay(DELAYTIME);     // wait for a second
 }
 ```
+
+In definition we use <class name>::<function name>; when called <class name>.<function name>
 
 **In the examples below we will use conventional Arduino programming without classes. All files will have extension .ino**
 
@@ -301,7 +303,7 @@ The blinking software is now completely transferred into the library. The state 
 
 ## 06_FourAspectSignalspectSignal
 
-In the real world of model trains were are not switching individual LEDs on and off but rather switch a combination of one or more LEDs on, off or blinking. A signal is set to a specific aspect. In SignalControl.ino a 2D- array is specified containing the transformation of aspect to one ore more burning LEDs. In this example a keyboard key is send to the Arduino through the Arduine IDE monitor and the Arduino will light up the aspect HALT, WARN, PASS or SLOW (just imaginary aspects with imaginary light settings).
+In the real world of model trains were are not switching individual LEDs on and off but rather switch a combination of one or more LEDs on, off or blinking. A signal is set to a specific aspect. In SignalControl.ino a 2D- array is specified containing the transformation of aspect to one ore more burning LEDs. In this example a keyboard key is send to the Arduino through the Arduine IDE monitor and the Arduino will light up the aspect HALT, WARN, PASS or SLOW (just imaginary aspects with imaginary light settings). The Arduino IDE is not capable of sending separate characters; you have to push Enter to send the entered key(s) in the monitor to the Arduino.
 
 Keywords in this example: **enum, Serial.begin, Serial.print, Serial.available, Serial.read**
 
@@ -509,6 +511,8 @@ Dimming a LED is done through pulse width modulation. At a speed invisible for t
 
 This example has one LED. Experiment with the values of HIGHTIME and LOWTIME. The sum of HIGHTIME and LOWTIME is the PWM cycle period. In the example this is 20 msec so the LED will flicker at 50 Hz. Lower frequencies are irritating to the eye. Setting the brightness to 1 msec on and 19 msec off is still visible. Flickering at 50 Hz can be made visible in two ways: turn your head fast while lokking at the LED and using the camera of a mobile phone.
 
+**08_BrightnessStart.ino**
+
 ```c++
 const int SIGNALPIN = 13;
 const int HIGHTIME = 1;
@@ -525,18 +529,6 @@ void loop() {
   delay(HIGHTIME);                 // wait for HIGHTIME msec
   digitalWrite(SIGNALPIN, LOW);    // turn the LED off by making the voltage LOW
   delay(LOWTIME);                  // wait for LOWTIME msec
-}
-```
-
-```c++
-void setup() {
-  // initialize signal output
-  SignalControl_Init();
-}
-
-// the loop function runs over and over again forever
-void loop() {
-  SignalControl_Blink();
 }
 ```
 
@@ -687,6 +679,9 @@ void loop() {
   SignalControl_Blink();
 }
 ```
+
+[TOP](#English)
+
 
 ## Fading and blinking without delay
 

@@ -2,7 +2,7 @@
 
 const int DELAYTIME = 1000;
 
-SignalControl signalcontrol;  //instatiate class
+SignalControl signalcontrol;  //instantiate class; implicit call of initialization function
 
 void setup() {
 }
