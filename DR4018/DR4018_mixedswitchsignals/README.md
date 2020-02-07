@@ -2,7 +2,7 @@
 
 [Navigate to English version](#English)
 
-In mijn baan gebruik ik 4 schakeldecoders DR4018 op de vier hoeken van de tafel. Om bedrading te besparen worden zowel max. 2 wissels als 3 NS-seinen op één decoder aangesloten. Hiertoe is documentatie geraadpleegd afkomstig van Digikeijs "DR4018 toepassing handleiding_beneluxforum.pdf":
+In mijn baan gebruik ik 4 schakeldecoders DR4018 op de vier hoeken van de tafel. Om bedrading te besparen worden zowel max. 2 wissels als 3 4-aspect NS-seinen op één decoder aangesloten. Hiertoe is documentatie geraadpleegd afkomstig van Digikeijs "DR4018 toepassing handleiding_beneluxforum.pdf":
 
 ![2 wissels als 3 NS-seinen op één decoder](./images/DR4018_mixedswitchesandsignals.png)
 
@@ -25,6 +25,8 @@ CV|Waarde
 150|8
 
 **:warning:CV 47 moet altijd als eerste worden geschreven, omdat de andere CV's wijzigingen zijn op preset 7**
+
+Om een DR4018 zoals hierboven geconfigureerd samen te laten werken met RocRail moet je de [handleiding](../Preset7/README.md) lezen van preset 7 voor de seinen.
 
 # ![English flag](../../images/gb.gif)English
 
@@ -51,3 +53,4 @@ CV|Value
 150|8
 
 **:warning:CV 47 must always be the first CV to set. The other CV values are changes on preset 7**
+To configure a DR4018 with signals as described above in RocRail read the [manual](../Preset7/README.md) of preset 7. 
