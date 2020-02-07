@@ -11,11 +11,11 @@ Twee leuke video's om de DR4088 beginadres 17 te geven vind je [hier](https://ww
 
 ![DR5000GoStop](../DR5000/images/DR5000PowerOnOff.png)
 
-* Kies de Schakel optie op de interface van de DR5000-software
+* Druk op de Control Go Stop op de interface van de DR5000-software
 
 ![DR5000GoStop](../DR5000/images/DR5000GoStop.png)
 
-* Druk op de Control Go Stop op de interface van de DR5000-software
+* Kies de Schakel optie op de interface van de DR5000-software
 
 ![DR5000_DriveSwitch](../DR5000/images/DR5000_DriveSwitch.png)
 
@@ -92,11 +92,11 @@ Helpful videos to give the DR4088 begin adress 17 are [here](https://www.youtube
 
 ![DR5000GoStop](../DR5000/images/DR5000PowerOnOff.png)
 
-* Choose the switch option in the interface of the DR5000 software
+* Push the Control Go Stop symbol in the interface of the DR5000 software
 
 ![DR5000GoStop](../DR5000/images/DR5000GoStop.png)
 
-* Push the Control Go Stop symbol in the interface of the DR5000 software
+* Choose the switch option in the interface of the DR5000 software
 
 ![DR5000_DriveSwitch](../DR5000/images/DR5000_DriveSwitch.png)
 

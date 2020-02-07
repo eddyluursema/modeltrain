@@ -710,3 +710,8 @@ On receiving a command the lights of the current aspect must be dimmed during a 
 * DCC sniffer
 
 * Complete DCC switching decoder
+
+* ICSP programming
+
+https://www.arduino.cc/en/tutorial/arduinoISP
+https://learn.sparkfun.com/tutorials/installing-an-arduino-bootloader/all

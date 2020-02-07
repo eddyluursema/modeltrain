@@ -21,7 +21,7 @@ Om een DR4018 met preset 1 samen te laten werken met RocRail zijn de volgende st
 * Klik steeds op het sein sg7 in de RocRail interface
 * Bekijk de test DR4018 en de logging
 
-**Het gebruik van preset 1 is handig bij gebruik van driekleurige seinen. Er wordt geen onnodige uitgang aan wit besteed. Helaas houdt je bij 5 3-kleurige seinen één output over. Overweging: zet 4 3-kleurige seinen en 2 wissels op 1 DR4018.**
+**Het gebruik van preset 1 is handig bij gebruik van driekleurige seinen. Er wordt geen onnodige uitgang aan wit besteed. Helaas houd je bij 5 3-kleurige seinen één output over. Overweging: zet 4 3-kleurige seinen en 2 wissels op 1 DR4018.**
 
 # ![English flag](../../images/gb.gif)English
 
