@@ -12,11 +12,11 @@ Om een DR4018 met preset 0 samen te laten werken met RocRail zijn de volgende st
 * Ga naar RocRail
 * Vul bij Algemeen de identificatie van het wissel in
 
-![look at](./images/RocRailSwitchGeneral.png)
+![look at](./images/RocRailSwitchGeneral.PNG)
 
 * Vul in het tabblad Interface het adres van het wissel in b.v. 201. Hierdoor zullen ROOD- en GROEN- opdrachten het wissel op poort 1 en 2 van de DR4018 laten bewegen zodra in de interface van het baanplan wordt geklikt.
 
-![look at](./images/RocRailSwitchInterface.png)
+![look at](./images/RocRailSwitchInterface.PNG)
 
 
 # ![English flag](../../images/gb.gif)English
@@ -29,8 +29,8 @@ To have a DR4018 work under RocRail the follwing steps have been taken:
 * Go to RocRail
 * In the tab General fill the name
 
-![look at](./images/RocRailSwitchGeneral.png)
+![look at](./images/RocRailSwitchGeneral.PNG)
 
-* In the tab Interface fill adress 201. RED and GREEN commands are sent by RocRail as the user clicks on the railroad plan. 
+* In the tab Interface fill adress 201. RED and GREEN commands are sent by RocRail as the user clicks on the railroad plan.
 
-![look at](./images/RocRailSwitchInterface.png)
+![look at](./images/RocRailSwitchInterface.PNG)
