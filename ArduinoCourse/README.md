@@ -604,10 +604,15 @@ Now the example above is extended to get a fading effect.The brightness is slowe
 ```c++
 const int SIGNALPIN = 13;
 
+const int UP = 1;              // increase brightness
+const int DOWN = -1;           // decrease brightness
 const int PWMTIME = 20;        // time in msec for one PWM cycle. 20 msec means 50 Hz cycle.
 const int PWMINCREASE = 1;     // each PWM cycle is divided into steps of PWMINCREASE msec
-int pwmCycle;                  // each PWM cycle this starts with 1 and increases each PWMINCREASE msec up to PWMTIME
+int pwmCycle;                  // each PWM cycle starts with 1 and increases each PWMINCREASE msec up to PWMTIME
 int brightCycle;               // count PWM cycles
+int ledBrightness;             // will store brightness as the PWM width value between 0 and PWMTIME
+int ledDimOrBright;            // should led get brighter so UP (+1) of must it dimm DOWN (-1)
+
 const int BRIGHTINCREASECYCLES = 2; // after BRIGHTINCREASECYCLES times a complete PWM cycle brightness is increased or decreased
 
 unsigned long previousMillis;  // will store last time PWM cycle was updated
@@ -615,6 +620,8 @@ unsigned long previousMillis;  // will store last time PWM cycle was updated
 void SignalControl_Init() {
   // initialize digital pin 13 as an output.
   pinMode(SIGNALPIN, OUTPUT);
+  ledBrightness = 1;
+  ledDimOrBright = UP;
   pwmCycle = 1;
   brightCycle = 0;
 }
@@ -626,52 +633,32 @@ void SignalControl_Blink() {
     pwmCycle = pwmCycle + PWMINCREASE;                   // next PWMINCREASE msec within one PWM cycle
     if (pwmCycle > PWMTIME) {                            // if one PWM cycle is completed, repeat by starting at 1
       pwmCycle = 1;
-      brightCycle ++;                            // increase cycle number
-      if (brightCycle > BRIGHTINCREASECYCLES) {  // it is time to increase or decrease brightness
+      brightCycle ++;                                   // increase cycle number
+      if (brightCycle > BRIGHTINCREASECYCLES) {         // it is time to increase or decrease brightness
         brightCycle = 0;
-        if ((ledBrightness < PWMTIME) && (ledDimOrBright == UP)) { // as long not at maximum
-          ledBrightness = ledBrightness + 1;         // increase brightness
-          if (ledBrightness == PWMTIME) {                         // if at maximum, for now invert to dimming
-            ledDimOrBright = DOWN;
-          }
+        ledBrightness = ledBrightness + ledDimOrBright; // increase or decreas brightness depening on direction
+        if (ledBrightness == PWMTIME) {                 // if at maximum, for now invert to dimming
+          ledDimOrBright = DOWN;
         };
-        if ((ledBrightness > 1) && (ledDimOrBright == DOWN)) { // as long not at minimum
-          ledBrightness = ledBrightness - 1;    // increase brightness
-          if (ledBrightness == 1) {                          // if at maximum, for now invert to dimming
-            ledDimOrBright = UP;
-          }
+        if (ledBrightness == 1) {                       // if at minimum, for now invert to more bright. ledBrightness = 0 is used for the state off
+          ledDimOrBright = UP;
         };
       };
     };
-    int ledState;
-    if (ledBrightness >= pwmCycle) {   // switch LED on or off during one cycle at the moment the setting of the brightness is reached
-      ledState = HIGH;                 // HIGH means set LED on
-    } else {
-      ledState = LOW;                  // LOW means set LED off
-    }
-    digitalWrite(SIGNALPIN, ledState); //set output according to ledState
+    digitalWrite(SIGNALPIN, (ledBrightness >= pwmCycle) ? (HIGH) : (LOW)); //set output according to the position in the cycle
   }
 }
 ```
 
-The big change between this code and the previous example starts after **pwmCycle = 1;**
-Use this program to experiment with fade timing.
+The big change between this code and the previous example starts after **pwmCycle = 1;** Also not the improvement at the bottom with a so called 'conditional assignment'.
+ Use this program to experiment with fade timing.
 
 **10_FadingWithoutDelay.ino**
 
 ```c++
-const int UP = 1;
-const int DOWN = -1;
-
-int ledState;       // is LED dimming of getting brighter
-int ledBrightness;  // will store brightness as the PWM width value between 0 and PWMTIME
-int ledDimOrBright; // should led get brighter +1 of must it dimm -1
-
 void setup() {
   // initialize signal output
   SignalControl_Init();
-  ledBrightness = 1;
-  ledDimOrBright = UP;
 }
 
 // the loop function runs over and over again forever
