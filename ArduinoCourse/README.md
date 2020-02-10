@@ -4,7 +4,7 @@ In deze cursus wordt stapsgewijs gewerkt aan het realiseren van een universele D
 
 # ![English flag](../images/gb.gif)English
 
-In this course a universal DCC decoder for signals and switches is build step by step. This course is to encourage everyone to start loving the Arduino platform to be used in model railroad automation. These are the examples:
+In this course a universal DCC decoder for signals and switches is build step by step. This course is to encourage everyone to start loving the Arduino platform to be used in model railroad automation. These are the examples (work in progress):
 
 * [Blinking LED](#01_BlinkingLED)
 * [Blinking LED code quality](#02_BlinkingLEDcodequality)
@@ -13,9 +13,21 @@ In this course a universal DCC decoder for signals and switches is build step by
 * [Four blinking LEDs with different frequencies](#05_FourBlinkingLEDSDifferentFrequencyFour)
 * [Four aspect signal](#06_FourAspectSignalspectSignal)
 * [Four aspect signal with blinking](#07_FourAspectSignalBlink)
-* [Brightness simple starting example](#08_BrightnessStart)
-* [Brightness without delay function](#09_BrightnessWithoutDelay)
-* [Fading without delay](#10_FadingWithoutDelay)
+* Four aspect signal with blinking and Dutch transition: UNDER CONSTRUCTION
+* [Brightness simple starting example](#09_BrightnessStart)
+* [Brightness without delay function](#10_BrightnessWithoutDelay)
+* [Brightness without delay 4 LEDs](#11_BrightnessWithoutDelay4LEDs)
+* [Fading without delay](#12_FadingWithoutDelay)
+* [Fading without delay 4 LEDs and different fading starts](#13_FadingWithoutDelay4LEDs)
+* Fading without delay 4 LEDs and different blinking frequencies: UNDER CONSTRUCTION
+* Four aspect signal with fading: UNDER CONSTRUCTION
+* External LED driver with fading: UNDER CONSTRUCTION
+* Pulse switch control: UNDER CONSTRUCTION
+* NMRA DCC receiver: UNDER CONSTRUCTION
+* Mynabay DCC receiver: UNDER CONSTRUCTION
+
+
+
 
 ## 01_BlinkingLED
 
@@ -503,7 +515,7 @@ void loop() {
 [TOP](#English)
 
 
-## 08_BrightnessStart
+## 09_BrightnessStart
 
 Fading is a lot more complex. In these cases it is wise to start with a smaller example instead of trying to extend the previous example.
 
@@ -511,7 +523,7 @@ Dimming a LED is done through pulse width modulation. At a speed invisible for t
 
 This example has one LED. Experiment with the values of HIGHTIME and LOWTIME. The sum of HIGHTIME and LOWTIME is the PWM cycle period. In the example this is 20 msec so the LED will flicker at 50 Hz. Lower frequencies are irritating to the eye. Setting the brightness to 1 msec on and 19 msec off is still visible. Flickering at 50 Hz can be made visible in two ways: turn your head fast while lokking at the LED and using the camera of a mobile phone.
 
-**08_BrightnessStart.ino**
+**09_BrightnessStart.ino**
 
 ```c++
 const int SIGNALPIN = 13;
@@ -535,7 +547,7 @@ void loop() {
 [TOP](#English)
 
 
-## 09_BrightnessWithoutDelay
+## 10_BrightnessWithoutDelay
 
 Now we rewrite the example above to get rid of the delay function. The smallest time division is one step in the PWM cycle. The LED is switched on at the beginning of the cycle and switched off at the moment the cycle reaches the presetted brightness (ledBrightness) of the LED. If ledBrightness = 0 the LED is always off (we need this in a later example).
 
@@ -578,7 +590,87 @@ void SignalControl_Blink() {
 
 ```
 
-**09_BrightnessWithoutDelay.ino**
+**10_BrightnessWithoutDelay.ino**
+
+```c++
+void setup() {
+  // initialize signal output
+  SignalControl_Init();
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  SignalControl_Blink();
+}
+```
+
+[TOP](#English)
+
+##  11_BrightnessWithoutDelay4LEDs
+
+The example above is extended to four ledState
+
+**SignalControl.ino**
+```c++
+const int NUMBEROFPINS = 4;
+const int SIGNALPINS[NUMBEROFPINS] = {13, 12, 10, 9};
+
+const int UP = 1;              // increase brightness
+const int DOWN = -1;           // decrease brightness
+const int PWMTIME = 20;        // time in msec for one PWM cycle. 20 msec means 50 Hz cycle.
+const int PWMINCREASE = 1;     // each PWM cycle is divided into steps of PWMINCREASE msec
+int pwmCycle;                  // each PWM cycle starts with 1 and increases each PWMINCREASE msec up to PWMTIME
+int brightCycle;               // count PWM cycles
+int ledBrightness[NUMBEROFPINS] ; // will store brightness as the PWM width value between 0 and PWMTIME
+int ledDimOrBright[NUMBEROFPINS]; // should led get brighter so UP (+1) of must it dimm DOWN (-1)
+
+const int BRIGHTINCREASECYCLES = 2; // after BRIGHTINCREASECYCLES times a complete PWM cycle brightness is increased or decreased
+
+unsigned long previousMillis;  // will store last time PWM cycle was updated
+
+void SignalControl_Init() {
+  // initialize digital pin 13 as an output.
+  for (int i = 0; i < NUMBEROFPINS; i++) {
+    pinMode(SIGNALPINS[i], OUTPUT);
+    ledDimOrBright[i] = UP;
+  }
+  ledBrightness[0] = 1;  // some brightness for this experiment
+  ledBrightness[1] = 6;  // some brightness for this experiment
+  ledBrightness[2] = 11;  // some brightness for this experiment
+  ledBrightness[3] = 17;  // some brightness for this experiment
+  pwmCycle = 1;
+  brightCycle = 0;
+}
+
+void SignalControl_Blink() {
+  unsigned long currentMillis = millis();                // current time
+  if (currentMillis - previousMillis >= PWMINCREASE) {   // PWMINCREASE msec have passed since last time
+    previousMillis = currentMillis;                      // wait for next moment
+    pwmCycle = pwmCycle + PWMINCREASE;                   // next PWMINCREASE msec within one PWM cycle
+    if (pwmCycle > PWMTIME) {                            // if one PWM cycle is completed, repeat by starting at 1
+      pwmCycle = 1;
+      brightCycle ++;                                   // increase cycle number
+      if (brightCycle > BRIGHTINCREASECYCLES) {         // it is time to increase or decrease brightness
+        brightCycle = 0;
+        for (int i = 0; i < NUMBEROFPINS; i++) {
+          ledBrightness[i] = ledBrightness[i] + ledDimOrBright[i]; // increase or decreas brightness depening on direction
+          if (ledBrightness[i] == PWMTIME) {                 // if at maximum, for now invert to dimming
+            ledDimOrBright[i] = DOWN;
+          };
+          if (ledBrightness[i] == 1) {                       // if at minimum, for now invert to more bright. ledBrightness = 0 is used for the state off
+            ledDimOrBright[i] = UP;
+          };
+        };
+      };
+    };
+    for (int i = 0; i < NUMBEROFPINS; i++) {
+      digitalWrite(SIGNALPINS[i], (ledBrightness[i] >= pwmCycle) ? (HIGH) : (LOW)); //set output according to the position in the cycle
+    };
+  };
+}
+```
+
+**11_BrightnessWithoutDelay4LEDs.ino**
 
 ```c++
 void setup() {
@@ -595,7 +687,7 @@ void loop() {
 [TOP](#English)
 
 
-## 10_FadingWithoutDelay
+## 12_FadingWithoutDelay
 
 Now the example above is extended to get a fading effect.The brightness is slowely increased until maximum and then decreased at the same speed until minimum.
 
@@ -653,7 +745,88 @@ void SignalControl_Blink() {
 The big change between this code and the previous example starts after **pwmCycle = 1;** Also not the improvement at the bottom with a so called 'conditional assignment'.
  Use this program to experiment with fade timing.
 
-**10_FadingWithoutDelay.ino**
+**12_FadingWithoutDelay.ino**
+
+```c++
+void setup() {
+  // initialize signal output
+  SignalControl_Init();
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  SignalControl_Blink();
+}
+```
+
+[TOP](#English)
+
+## 13_FadingWithoutDelay4LEDs
+
+Now we extend as previously done the exampel over 4 LEDs.
+
+**SignalControl.ino**
+
+```c++
+const int NUMBEROFPINS = 4;
+const int SIGNALPINS[NUMBEROFPINS] = {13, 12, 10, 9};
+
+const int UP = 1;              // increase brightness
+const int DOWN = -1;           // decrease brightness
+const int PWMTIME = 20;        // time in msec for one PWM cycle. 20 msec means 50 Hz cycle.
+const int PWMINCREASE = 1;     // each PWM cycle is divided into steps of PWMINCREASE msec
+int pwmCycle;                  // each PWM cycle starts with 1 and increases each PWMINCREASE msec up to PWMTIME
+int brightCycle;               // count PWM cycles
+int ledBrightness[NUMBEROFPINS] ; // will store brightness as the PWM width value between 0 and PWMTIME
+int ledDimOrBright[NUMBEROFPINS]; // should led get brighter so UP (+1) of must it dimm DOWN (-1)
+
+const int BRIGHTINCREASECYCLES = 2; // after BRIGHTINCREASECYCLES times a complete PWM cycle brightness is increased or decreased
+
+unsigned long previousMillis;  // will store last time PWM cycle was updated
+
+void SignalControl_Init() {
+  // initialize digital pin 13 as an output.
+  for (int i = 0; i < NUMBEROFPINS; i++) {
+    pinMode(SIGNALPINS[i], OUTPUT);
+    ledDimOrBright[i] = UP;
+  }
+  ledBrightness[0] = 1;  // some brightness for this experiment
+  ledBrightness[1] = 6;  // some brightness for this experiment
+  ledBrightness[2] = 11;  // some brightness for this experiment
+  ledBrightness[3] = 17;  // some brightness for this experiment
+  pwmCycle = 1;
+  brightCycle = 0;
+}
+
+void SignalControl_Blink() {
+  unsigned long currentMillis = millis();                // current time
+  if (currentMillis - previousMillis >= PWMINCREASE) {   // PWMINCREASE msec have passed since last time
+    previousMillis = currentMillis;                      // wait for next moment
+    pwmCycle = pwmCycle + PWMINCREASE;                   // next PWMINCREASE msec within one PWM cycle
+    if (pwmCycle > PWMTIME) {                            // if one PWM cycle is completed, repeat by starting at 1
+      pwmCycle = 1;
+      brightCycle ++;                                   // increase cycle number
+      if (brightCycle > BRIGHTINCREASECYCLES) {         // it is time to increase or decrease brightness
+        brightCycle = 0;
+        for (int i = 0; i < NUMBEROFPINS; i++) {
+          ledBrightness[i] = ledBrightness[i] + ledDimOrBright[i]; // increase or decreas brightness depening on direction
+          if (ledBrightness[i] == PWMTIME) {                 // if at maximum, for now invert to dimming
+            ledDimOrBright[i] = DOWN;
+          };
+          if (ledBrightness[i] == 1) {                       // if at minimum, for now invert to more bright. ledBrightness = 0 is used for the state off
+            ledDimOrBright[i] = UP;
+          };
+        };
+      };
+    };
+    for (int i = 0; i < NUMBEROFPINS; i++) {
+      digitalWrite(SIGNALPINS[i], (ledBrightness[i] >= pwmCycle) ? (HIGH) : (LOW)); //set output according to the position in the cycle
+    };
+  };
+}
+```
+
+**13_FadingWithoutDelay4LEDs.ino**
 
 ```c++
 void setup() {
@@ -670,11 +843,6 @@ void loop() {
 [TOP](#English)
 
 
-## Fading and blinking without delay
-
-The next step in complexity is to have a LED blink combined with fading.
-
-
 ## Fading on transition from one aspect to another
 
 On receiving a command the lights of the current aspect must be dimmed during a dimming period and the lights of the new aspect must get brighter during a dimming period.
@@ -683,8 +851,6 @@ On receiving a command the lights of the current aspect must be dimmed during a 
 ## Further plans for this course
 
 * Queue during fading new command can be received
-
-* Transition from green to red through short yellow
 
 * Interrupts
 

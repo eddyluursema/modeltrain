@@ -20,7 +20,7 @@ In deze pagina's wordt beschreven hoe je zelf een signaal- en/of wisseldecoder k
 * Tams
 
 
-### DIY Signaaldecoders
+### DIY Signaal/wissel decoders
 
 * [NMRA](https://github.com/mrrwa/NmraDcc)
 
@@ -55,12 +55,19 @@ In deze pagina's wordt beschreven hoe je zelf een signaal- en/of wisseldecoder k
 * Buffer b.v. UNL2003
   * hogere spanning en stroom b.v. voor wissels
   * maar 7 i.p.v. 8 buffers in één chip
-* MCP 23017 multiplexer met serieweerstand
-  * 16 uitgangen/chip
-* TLC5940 LED driver
-  * geen serieweerstand
-  * PWM ingebouwd per uitgang
-  * 16 uitgangen/chip
+
+
+
+| IC     | Channels | Bus | PWM |Bits|Resistor|On Ali      | Library  | Remarks   |
+|--------|----------|-----|-----|----|--------|------------|----------|-----------|
+|TLC5940 | 16       |5 pin| LED |    |1       |&euro;3 DIP | 2 timers |           |
+|TLC5947 | 24       | SPI | LED | 12 |1       | &euro;3 PCB|No timers |           |
+|TLC59116| 16       | I2C | LED |    |        | not        |          |           |
+|TLC59711| 12       | SPI | LED |    |1       |            |          |           |
+|MCP23017| 16       | I2C | No  | -  | 16     |            |          | Also input|
+|PCA9685 | 16       | I2C |Servo| 12 |        | &euro;2 PCB|          |           |
+
+
 
 
 # ![English flag](../images/gb.gif)English
