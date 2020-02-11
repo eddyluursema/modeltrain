@@ -40,7 +40,7 @@ In deze pagina's wordt beschreven hoe je zelf een signaal- en/of wisseldecoder k
 
 ### Oplossingsrichtingen processor
 
-* Atmel familie
+* DIY PCM met een processor uit de Atmel familie
 * Arduino Mega Pro PCB
 * Arduino Nano PCB
 * Arduino Uno PCB
@@ -58,14 +58,14 @@ In deze pagina's wordt beschreven hoe je zelf een signaal- en/of wisseldecoder k
 
 
 
-| IC     | Channels | Bus | PWM |Bits|Resistor|On Ali      | Library  | Remarks   |
-|--------|----------|-----|-----|----|--------|------------|----------|-----------|
-|TLC5940 | 16       |5 pin| LED |    |1       |&euro;3 DIP | 2 timers |           |
-|TLC5947 | 24       | SPI | LED | 12 |1       | &euro;3 PCB|No timers |           |
-|TLC59116| 16       | I2C | LED |    |        | not        |          |           |
-|TLC59711| 12       | SPI | LED |    |1       |            |          |           |
-|MCP23017| 16       | I2C | No  | -  | 16     |            |          | Also input|
-|PCA9685 | 16       | I2C |Servo| 12 |        | &euro;2 PCB|          |           |
+| IC     | Channels | Bus | PWM |Bits|Resistor|Aliexpress | Library  | Remarks   |Current             |
+|--------|----------|-----|-----|----|--------|-----------|----------|-----------|--------------------|
+|TLC5940 | 16       |5pin | LED |    |1       |&euro;3 DIP| 2 timers |           | 120 mA/pin         |
+|TLC5947 | 24       | SPI | LED | 12 |1       |&euro;3 PCB|No timers |           | 38 mA/pin          |
+|TLC59116| 16       | I2C | LED |    |        | not       |          |           |                    |
+|TLC59711| 12       | SPI | LED |    |1       |           |          |           |                    |
+|MCP23017| 16       | I2C | No  | -  |16      |           |          |Also input |25mA/pin, 150mA chip|
+|PCA9685 | 16       | I2C |Servo| 12 |        |&euro;2 PCB|          |           |25mA/pin, 400mA chip|
 
 
 
