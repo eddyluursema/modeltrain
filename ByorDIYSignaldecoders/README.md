@@ -55,6 +55,7 @@ In deze pagina's wordt beschreven hoe je zelf een signaal- en/of wisseldecoder k
 * Buffer b.v. UNL2003
   * hogere spanning en stroom b.v. voor wissels
   * maar 7 i.p.v. 8 buffers in één chip
+* MCP23017 [link](https://tronixstuff.com/2011/08/26/arduino-mcp23017-tutorial/)
 
 
 
