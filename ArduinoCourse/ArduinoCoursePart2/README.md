@@ -1,3 +1,5 @@
+# ![English flag](../../images/gb.gif)English
+
 
 In this course a universal DCC decoder for signals and switches is build step by step. This course is to encourage everyone to start loving the Arduino platform to be used in model railroad automation. This is part 2 of the course containing examples of LED fading. These are the examples (work in progress):
 
@@ -18,7 +20,7 @@ Fading is a lot more complex. In these cases it is wise to start with a smaller 
 
 Dimming a LED is done through pulse width modulation. At a speed invisible for the human eye the LED is switched on during a certain period and off. The ratio on-off will give the impression that the LED is dimmed.
 
-This example has one LED. Experiment with the values of HIGHTIME and LOWTIME. The sum of HIGHTIME and LOWTIME is the PWM cycle period. In the example this is 20 msec so the LED will flicker at 50 Hz. Lower frequencies are irritating to the eye. Setting the brightness to 1 msec on and 19 msec off is still visible. Flickering at 50 Hz can be made visible in two ways: turn your head fast while lokking at the LED and using the camera of a mobile phone.
+This example has one LED. Experiment with the values of HIGHTIME and LOWTIME. The sum of HIGHTIME and LOWTIME is the PWM cycle period. In the example this is 20 msec so the LED will flicker at 50 Hz. Lower frequencies are irritating to the eye. Setting the brightness to 1 msec on and 19 msec off is still visible. Flickering at 50 Hz can be made visible in two ways: turn your head fast while looking at the LED and using the camera of a mobile phone.
 
 **09_BrightnessStart.ino**
 
@@ -260,7 +262,7 @@ void loop() {
 
 ## 13_FadingWithoutDelay4LEDs
 
-Now we extend as previously done the exampel over 4 LEDs.
+Now we extend as previously done the example over 4 LEDs.
 
 **SignalControl.ino**
 
