@@ -30,7 +30,7 @@ Om een DR4018 zoals hierboven geconfigureerd samen te laten werken met RocRail m
 
 # ![English flag](../../images/gb.gif)English
 
-In my modeltrain track I use 4 accessory decoders DR4018 in four the corners of the table. To save wiring both 2 switches and 3 Dutch signals are connected to the same decoder. The documentation comes from the site of Digikeijs and is a Dutch document "DR4018 toepassing handleiding_beneluxforum.pdf":
+In my modeltrain track I use 4 accessory decoders DR4018 in the four corners of the table. To save wiring both 2 switches and 3 Dutch signals are connected to the same decoder. The documentation comes from the site of Digikeijs and is a Dutch document "DR4018 toepassing handleiding_beneluxforum.pdf":
 
 ![2 switches and 3 Dutch signals](./images/DR4018_mixedswitchesandsignals.png)
 

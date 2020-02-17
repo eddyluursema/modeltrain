@@ -2,9 +2,11 @@
 
 [Navigate to English version](#English)
 
+## Schema DCCNext
+
 De DCCNext heeft 16 uitgangen, die op verschillende pinnen van de Arduino zijn aangesloten.
 
-De Arduino bevat een Atmel ATMega386 met pinnen van de chip, die verbonden zijn met pinnen op het Arduino board.
+Een normaal Arduino-board bevat een Atmel ATMega386 met pinnen van de chip, die verbonden zijn met pinnen op het board.
 
 ![Pinnen](./images/ATmega328-Pinout.png) Bron: https://github.com/MCUdude/MiniCore
 
@@ -12,7 +14,7 @@ De tekening van Arcomora is niet compleet:
 
 ![Schema](./images/DCCNextSchematic.jpg) Bron: https://www.arcomora.com/arsigdec/
 
-Hierbij de aansluitingen van de DCCNext en pinnummers zoals je die op de Arduino en op de Atmelchip ziet:
+Hierbij de aansluitingen van de DCCNext en pinnummers zoals je die op de DCCNext, de Arduino en op de Atmelchip ziet:
 
 |DCCNext|Arduino pin|Atmel    |
 |-------|-----------|---------|
@@ -40,8 +42,31 @@ Hierbij de aansluitingen van de DCCNext en pinnummers zoals je die op de Arduino
 |       | 21        |PB7/XTAL |
 |       | 22        |PC6/RESET|
 
+## Tester
+
 Om de DCCNext te kunnen testen zijn op alle uitgangen 4 rode, 4 gele, 4 groene en 4 witte LED's middels een testprint met bij de LED-kleur behorende draad- en adereindhuls-kleur aangesloten. Oranje = 5V.
 
 ![Tester](./images/DCCNextTester.jpg)
+
+
+## Configureren
+
+M.b.v. de handleiding van de [ArSigDec](https://www.globalvisuals.nl/downloads/arsigdecmanualdb.pdf) van Arcomora worden voor Nederland een zogenaamd P-sein met en een P-sein zonder cijferbak geconfigureerd.
+
+Adres 517 P-sein met cijferbak. Adressen 517 en 518 met ieder ROOD- of GROEN-commando's.
+Adres 519 P-sein zonder cijferbak. Adressen 519 met ROOD- of GROEN-commando. Adres 520 alleen ROOD-commando. Onderzoeken wat 520-GROEN doet.
+
+
+
+## DCC commando's naar aspect
+
+Om de configuratie testen worden eerst via de DCC Command Centre (b.v. DR5000) en/of MultiMaus ROOD- en GROEN-commando's naar de ingestelde adressen gestuurd om te controleren welke commando's nodig zijn voor welk aspect.
+
+## RocRail configuratie
+
+De hierboven bekeken ROOD- en GROEN-commando's moeten nu door een juiste configuratie uit RocRail komen. Op de site van Arcomora wordt verwezen naar een video waarin wordt uitgelegd dat bij de DCCNext de adresseermethode 'Linear' moet worden gekozen.
+
+Maak twee seinen in RocRail met b.v. de namen sgNext1 en sgNext2.
+
 
 ![English flag](../images/gb.gif) English
