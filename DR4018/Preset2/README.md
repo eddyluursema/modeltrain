@@ -3,7 +3,7 @@
 [Navigate to English version](#English)
 Bij preset 2 worden 8 seinen met ieder 2 lampen aangesloten.
 
-![zie](./images/Preset2.png)
+![zie](./images/Preset2.PNG)
 
 Tekening uit de documentatie van Digikeijs.
 
@@ -22,7 +22,7 @@ Om een DR4018 met preset 2 samen te laten werken met RocRail zijn de volgende st
 * Klik steeds op het sein sg7 in de RocRail interface dan gaat het aspect ROOD en GROEN om beurten branden. Een andere mogelijkheid is om op het sein de rechtermuis te klikken; je kunt dan meteen het gewenste aspect kiezen.
 * Bekijk de test DR4018 en de logging in de RocRail interface. Als alles correct is ingesteld zie je dat RocRail dezelfde commando's stuurt als hiervoor met de hand is uitgeprobeerd.
 
-![zie](./images/TabGeneralSG7Preset2.png)
+![zie](./images/TabGeneralSG7Preset2.PNG)
 
 **Het gebruik van preset 2 is handig bij gebruik van tweekleurige seinen. Er wordt geen onnodige uitgang aan geel en wit besteed.**
 
@@ -30,7 +30,7 @@ Om een DR4018 met preset 2 samen te laten werken met RocRail zijn de volgende st
 
 With preset 2 8 signals with 2 lamps eacht can be connected.
 
-![zie](./images/Preset2.png)
+![zie](./images/Preset2.PNG)
 
 Drawing from Digikeijs documentation.
 
@@ -50,6 +50,6 @@ To have a DR4018 with preset 2 work under RocRail the follwing steps have been t
 * Look at the test DR4018 and the logging in the RocRail interface. If set correctly you will see RocRail sending the same commands as you did manually.
 
 
-![zie](./images/TabGeneralSG7Preset2.png)
+![zie](./images/TabGeneralSG7Preset2.PNG)
 
 **Using preset 2 has the advantage of not wasting an extra output to a superfluous yellow and white light.**
