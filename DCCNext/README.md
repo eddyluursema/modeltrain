@@ -247,12 +247,12 @@ Signal 1 4 aspects, database number 1
 
 Signal 2 3 aspects, database number 2
 
-|Commando|Aspect                                         |
-|--------|-----------------------------------------------|
-|152-R   |To red, if previously green then short yellow  |
-|152-G   |To green, if previously green then short yellow|
-|153-R   |To yellow                                      |
-|153-G   |No reaction                                    |
+|Command|Aspect                                         |
+|-------|-----------------------------------------------|
+|152-R  |To red, if previously green then short yellow  |
+|152-G  |To green, if previously green then short yellow|
+|153-R  |To yellow                                      |
+|153-G  |No reaction                                    |
 
 As mentioned in the manual.
 
