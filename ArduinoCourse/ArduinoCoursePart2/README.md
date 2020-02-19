@@ -241,7 +241,7 @@ void SignalControl_Blink() {
 }
 ```
 
-The big change between this code and the previous example starts after **pwmCycle = 1;** Also not the improvement at the bottom with a so called 'conditional assignment'.
+The big change between this code and the previous example starts after **pwmCycle = 1;** Also note the improvement at the bottom with a so called 'conditional assignment'.
  Use this program to experiment with fade timing.
 
 **12_FadingWithoutDelay.ino**
@@ -257,6 +257,10 @@ void loop() {
   SignalControl_Blink();
 }
 ```
+
+On observing the fading of the LEDs it is obvious that the incremental brightness steps are not garnular enough. The human eye can see the 20 steps in which we divide the intensity of the LED. In another [example](https://arduino.stackexchange.com/questions/19700/arduino-non-blocking-software-pwm-led-fader-not-working) the granularity is much smaller.
+
+So the next step will be to divide the 20 msec into about 255 steps so in 80 &mu;s steps.
 
 [TOP](#English)
 

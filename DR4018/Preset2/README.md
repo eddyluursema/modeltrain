@@ -24,7 +24,7 @@ Om een DR4018 met preset 2 samen te laten werken met RocRail zijn de volgende st
 
 ![zie](./images/TabGeneralSG7Preset2.PNG)
 
-**Het gebruik van preset 2 is handig bij gebruik van tweekleurige seinen. Er wordt geen onnodige uitgang aan geel en wit besteed.**
+**Het gebruik van preset 2 is handig bij gebruik van tweekleurige seinen. Er worden geen onnodige uitgangen aan geel en wit besteed.**
 
 # ![English flag](../../images/gb.gif)English
 
@@ -52,4 +52,4 @@ To have a DR4018 with preset 2 work under RocRail the follwing steps have been t
 
 ![zie](./images/TabGeneralSG7Preset2.PNG)
 
-**Using preset 2 has the advantage of not wasting an extra output to a superfluous yellow and white light.**
+**Using preset 2 has the advantage of not wasting extra outputs to a superfluous yellow and white light.**

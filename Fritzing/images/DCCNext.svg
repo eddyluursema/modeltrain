@@ -29,7 +29,7 @@
      id="namedview979"
      showgrid="false"
      inkscape:zoom="1.28"
-     inkscape:cx="192.94315"
+     inkscape:cx="44.896275"
      inkscape:cy="222.45949"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
@@ -54,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -860,20 +860,20 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2b0000;fill-opacity:1;stroke:none;stroke-width:1.24512005"
-       x="13.920257"
-       y="463.28845"
+       x="19.526426"
+       y="475.0629"
        id="text1011-9-3-2-6"
-       transform="matrix(0.9344958,-0.01704995,0.01951749,1.0697397,0,0)"
+       transform="matrix(0.93449579,-0.01704995,0.01951749,1.0697397,0,0)"
        inkscape:transform-center-x="16.395384"
        inkscape:transform-center-y="-6.267812"><tspan
          sodipodi:role="line"
          id="tspan1472-7"
-         x="13.920257"
-         y="463.28845">5V Servo</tspan><tspan
+         x="19.526426"
+         y="475.0629">5V Servo</tspan><tspan
          sodipodi:role="line"
          id="tspan1474-6"
-         x="13.920257"
-         y="479.95511">Power</tspan></text>
+         x="19.526426"
+         y="491.72955">Power</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2b0000;fill-opacity:1;stroke:none;stroke-width:1.24512005"
