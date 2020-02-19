@@ -1,4 +1,4 @@
-#![Nederlandse vlag](../images/nl.gif) Nederlands
+# ![Nederlandse vlag](../images/nl.gif) Nederlands
 
 [Navigate to English version](#English)
 
@@ -137,7 +137,7 @@ Zet in het tabblad Details de juiste volgnummers voor RED 0, voor GREEN 1 en voo
 * Bekijk de test DCCNext en de logging in de RocRail interface. Als alles correct is ingesteld zie je dat RocRail dezelfde commando's stuurt als hiervoor met de hand is uitgeprobeerd.
 
 
-#![English flag](../images/gb.gif) English
+# ![English flag](../images/gb.gif) English
 
 ## Schema DCCNext
 
