@@ -3,7 +3,7 @@
 [Navigate to English version](#English)
 
 ## UNDER CONSTRUCTION
-In deze pagina's wordt beschreven hoe je zelf een signaal- en/of wisseldecoder kan bouwen, maar er worden ook een aantal commerciële produkten opgesomd.
+In deze pagina's worden worden een aantal commerciële produkten opgesomd en beschreven hoe je zelf een signaal- en/of wisseldecoder kan bouwen.
 
 
 ## Commerciële DCC schakeldecoders
@@ -38,6 +38,26 @@ In deze pagina's wordt beschreven hoe je zelf een signaal- en/of wisseldecoder k
 
 * [Bicknell](https://github.com/bicknell/rpi-dcc-decoder) op basis van een Pi.
 
+## Overzicht schakeldecoders
+
+Na een stuk literatuuronderzoek en onderzoek in een werkende installatie is onderstaand overzicht samengesteld. Zodra meer hardware beschikbaar komt zal de lijst worden aangevuld.
+
+|Decoder |BuyDIY|Configuratie|NLsein|Wisselspoel|Fading|Servo|Open source|Prijs/poort|
+|--------|------|------------|------|-----------|------|-----|-----------|-----------|
+|DR4018  |Buy   |CV          |❌    |✔️        |      |❌   |❌        |&euro; 2   |
+|DCCNext |Kit   |UI ✔️      |✔️    |❌        |✔️    |✔️   |❌        |&euro; 1   |
+|OpenDCC1|DIY   |            |      |           |      |     |✔️        |&euro; 0.5 |
+|OpenDCC2|Kit   |            |      |           |      |     |✔️        |&euro; 3   |
+
+* BuyDIY: wordt de decoder kant en klaar geleverd (Buy), als zelfbouwkit of moet je alles inclusief printplaat samenstellen (DIY)?
+* Configuratie: kan middels CV waarden zijn of met een mooie User Interface
+* NLSein betekent dat bij de overgang van groen naar rood kort een geel aspect oplicht
+* Wisselspoel: kan een wisselspoel direct zonder extra elektronica worden aangestuurd?
+* Fading: kan het oplichten en doven van een licht vertraagd verlopen?
+* Servo: kunnen servo's voor b.v. wissels direct worden aangestuurd?
+* Open source: is de code van de microcontroller beschikbaar?
+
+
 ### Oplossingsrichtingen processor
 
 * DIY PCM met een processor uit de Atmel familie
@@ -52,7 +72,7 @@ In deze pagina's wordt beschreven hoe je zelf een signaal- en/of wisseldecoder k
 * Rechtstreeks uit controller
  * met serieweerstand
  * pas op maximale stroom door controller
-* Buffer b.v. UNL2003
+* Buffer b.v. UNL2003 (7 drivers) of ULN2803 (8 drivers)
   * hogere spanning en stroom b.v. voor wissels
   * maar 7 i.p.v. 8 buffers in één chip
 * MCP23017 [link](https://tronixstuff.com/2011/08/26/arduino-mcp23017-tutorial/)

@@ -7,7 +7,8 @@ In this course a universal DCC decoder for signals and switches is build step by
 * [Brightness without delay function](#10_BrightnessWithoutDelay)
 * [Brightness without delay 4 LEDs](#11_BrightnessWithoutDelay4LEDs)
 * [Fading without delay](#12_FadingWithoutDelay)
-* [Fading without delay 4 LEDs and different fading starts](#13_FadingWithoutDelay4LEDs)
+* [Fading without delay in micro secons](#13_FadingWithoutDelayMicro)
+* [Fading without delay 4 LEDs and different fading starts](#14_FadingWithoutDelay4LEDs)
 * Fading using hardware PWM output: UNDER CONSTRUCTION (14)
 * Fading without delay 4 LEDs and blinking: UNDER CONSTRUCTION (15)
 * Four aspect signal with fading: UNDER CONSTRUCTION (16)
@@ -258,13 +259,15 @@ void loop() {
 }
 ```
 
-On observing the fading of the LEDs it is obvious that the incremental brightness steps are not garnular enough. The human eye can see the 20 steps in which we divide the intensity of the LED. In another [example](https://arduino.stackexchange.com/questions/19700/arduino-non-blocking-software-pwm-led-fader-not-working) the granularity is much smaller.
+## 13_FadingWithoutDelayMicro
 
-So the next step will be to divide the 20 msec into about 255 steps so in 80 &mu;s steps.
+On observing the fading of the LEDs in the previous example it is obvious that the incremental brightness steps are not garnular enough. The human eye can see the 20 steps in which we divide the increment in intensity of the LED. In another [example](https://arduino.stackexchange.com/questions/19700/arduino-non-blocking-software-pwm-led-fader-not-working) the granularity is much smaller. So the next step will be to divide the 20 msec into X steps of Y &mu;s each. We will increase X until it is not visible by the human eye.
+
+Also we will set an output pin to 1 when entering the big piece of code setting and clearing the LED and to 0 when we are done. In this way we hope to see how much processing time is spend in that code using an oscilloscope.
 
 [TOP](#English)
 
-## 13_FadingWithoutDelay4LEDs
+## 14_FadingWithoutDelay4LEDs
 
 Now we extend as previously done the example over 4 LEDs.
 
@@ -329,7 +332,7 @@ void SignalControl_Blink() {
 }
 ```
 
-**13_FadingWithoutDelay4LEDs.ino**
+**14_FadingWithoutDelay4LEDs.ino**
 
 ```c++
 void setup() {

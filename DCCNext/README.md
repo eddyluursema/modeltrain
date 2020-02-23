@@ -14,7 +14,7 @@ De tekening van de DCCNext is niet compleet:
 
 ![Schema](./images/DCCNextSchematic.jpg) Bron: https://www.arcomora.com/arsigdec/
 
-Hierbij de aansluitingen van de DCCNext en pinnummers zoals je die op de DCCNext, de Arduino en op de Atmelchip ziet:
+Hierbij de aansluitingen van de DCCNext en pinnummers zoals je die op de DCCNext, de Arduino en op de Atmelchip ziet. Dit voorhet geval een eigen programma op de DCCNext geladen moet worden:
 
 |DCCNext|Arduino pin|Atmel    |
 |-------|-----------|---------|
@@ -62,8 +62,12 @@ Dit schema is gemaakt met Fritzing door eerst de DCCNext over te tekenen met Ink
 M.b.v. de handleiding van de [ArSigDec](https://www.globalvisuals.nl/downloads/arsigdecmanualdb.pdf) van Arcomora worden voor Nederland een standaard in de database aanwezig P-sein met en een P-sein zonder cijferbak geconfigureerd.
 
 Adres 150 P-sein met cijferbak. Adressen 150 en 151 met ieder ROOD- en GROEN-commando's.
+
+![NLseincijferbak](./images/NLseincijferbak.PNG)
+
 Adres 152 P-sein zonder cijferbak. Adressen 152 en 153 met ieder ROOD- en GROEN-commando's.
 
+![NLseincijferbak](./images/NLseinkaal.PNG)
 
 #### Upload
 
@@ -119,7 +123,7 @@ Dit is alles conform de handleiding.
 
 ## RocRail configuratie
 
-De hierboven bekeken ROOD- en GROEN-commando's moeten nu door een juiste configuratie uit RocRail komen. Op de site van Arcomora wordt verwezen naar een [video](https://www.youtube.com/watch?v=dic4zqEXa8o) waarin wordt uitgelegd dat bij de DCCNext de adresseermethode 'Linear' moet worden gekozen.
+De hierboven bekeken ROOD- en GROEN-commando's moeten nu door een juiste configuratie uit RocRail komen. Op de site van Arcomora wordt verwezen naar een [video](https://www.youtube.com/watch?v=dic4zqEXa8o) waarin wordt uitgelegd dat bij de DCCNext de adresseermethode 'Linear' moet worden gekozen. De wijzigingen t.o.v. de standaard instellingen zijn omcirceld.
 
 Maak een sein in RocRail met b.v. de naam sgNext1:
 
@@ -129,11 +133,15 @@ Zet in het tabblad Interface het poortadres op 150 (PADA) en Control op Linear:
 
 ![sgNext1TABInterface](./images/sgNext1TABInterface.PNG)
 
+Indien de gebruiker persé met MADA wil werken (wat trouwens voor de DCCNext niets uitmaakt):
+
+![sgNext1TABInterface](./images/sgNext1TABInterfaceMADA.PNG)
+
 Zet in het tabblad Details de juiste volgnummers voor RED 0, voor GREEN 1 en voor YELLOW 2:
 
 ![sgNext1TABDetails](./images/sgNext1TABDetails.PNG)
 
-* Klik steeds op het sein sgNext1 in de RocRail interface dan gaat het aspect ROOD, GEEL en GROEN om beurten branden (met netjes een overgang van ROOD naar GROEN via een korte tussenstand GEEL). Een andere mogelijkheid is om op het sein de rechtermuis te klikken; je kunt dan meteen het gewenste aspect kiezen.
+* Klik steeds op het sein sgNext1 in de RocRail interface dan gaat het aspect ROOD, GEEL, GROEN en GEEL+WIT om beurten branden (met netjes een overgang van ROOD naar GROEN via een korte tussenstand GEEL). Een andere mogelijkheid is om op het sein de rechtermuis te klikken; je kunt dan meteen het gewenste aspect kiezen.
 * Bekijk de test DCCNext en de logging in de RocRail interface. Als alles correct is ingesteld zie je dat RocRail dezelfde commando's stuurt als hiervoor met de hand is uitgeprobeerd.
 
 
@@ -201,7 +209,12 @@ Assembled:
 With the [ArSigDec](https://www.globalvisuals.nl/downloads/arsigdecmanualdb.pdf) manual of  Arcomora a Dutch P signal with speed indicator and a P signal without speed indicator were configured.
 
 Adres 150 P signal with speed indicator. Adresses 150 and 151 each possible with a RED and GREEN command.
+
+![NLseincijferbak](./images/NLseincijferbak.PNG)
+
 Adres 152 P signal without speed indicator. Adresses 152 and 153 each possible with a RED and GREEN command.
+
+![NLseincijferbak](./images/NLseinkaal.PNG)
 
 
 #### Upload
@@ -258,7 +271,7 @@ As mentioned in the manual.
 
 ## RocRail configuration
 
-The RED and GREEN-commands must now come from RocRail after correct configuration. In the manual of ArSigDec is referred to a [video](https://www.youtube.com/watch?v=dic4zqEXa8o) explaining to use 'Linear' when connecting DCCNext to RocRail.
+The RED and GREEN-commands must now come from RocRail after correct configuration. In the manual of ArSigDec is referred to a [video](https://www.youtube.com/watch?v=dic4zqEXa8o) explaining to use 'Linear' when connecting DCCNext to RocRail.Changes to the default settings are indicated with a circle.
 
 Create a signal sgNext1 in RocRail:
 
@@ -268,9 +281,13 @@ In the tab Interface set the port adress to 150 (PADA) and Control on Linear:
 
 ![sgNext1TABInterface](./images/sgNext1TABInterface.PNG)
 
+If the user wants to use MADA (which is of no influence on the DCCNext):
+
+![sgNext1TABInterface](./images/sgNext1TABInterfaceMADA.PNG)
+
 In the tab Details give the following numbers to RED 0, to GREEN 1 and to YELLOW 2:
 
 ![sgNext1TABDetails](./images/sgNext1TABDetails.PNG)
 
-* Click on the signal sgNext1 in the RocRail interface several times. The signal we go through the aspects RED, YELLOW and GREEN (with a short YELLOW when going from RED to GREEN directly). Another possibility is to right click the signal and chose the aspect.
+* Click on the signal sgNext1 in the RocRail interface several times. The signal we go through the aspects RED, YELLOW, GREEN and WHITE+YELLOW (with a short YELLOW when going from RED to GREEN directly). Another possibility is to right click the signal and chose the aspect.
 * Look at the test DCCNext and the logging in the RocRail interface. If set correctly you will see RocRail sending the same commands as you did manually.
