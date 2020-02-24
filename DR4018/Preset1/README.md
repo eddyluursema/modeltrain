@@ -23,6 +23,10 @@ Om een DR4018 met preset 1 samen te laten werken met RocRail zijn de volgende st
 
 **Het gebruik van preset 1 is handig bij gebruik van driekleurige seinen. Er wordt geen onnodige uitgang aan wit besteed. Helaas houd je bij 5 3-kleurige seinen één output over. Overweging: zet 4 3-kleurige seinen en 2 wissels op 1 DR4018.**
 
+5 seinen met 3 lampen aangesloten op een DR4018:
+
+![DR4018_5_sein3](./images/DR4018_5_sein3.PNG)
+
 # ![English flag](../../images/gb.gif)English
 
 To have a DR4018 work under RocRail the follwing steps have been taken:
@@ -34,14 +38,18 @@ To have a DR4018 work under RocRail the follwing steps have been taken:
 * Make (if neccessary) a test signal
 * In the tab General fill the name e.g. sg7
 
-![look at](./images/TabGeneralSG7Preset1.png)
+![TabGeneralSG7Preset1](./images/TabGeneralSG7Preset1.png)
 
 * In the tab Interface fill the adresses 501, 502 and 503 for RED, GREEN and YELLOW. Leave the Command setting to Default.
 
-![look at](./images/TabInterfaceSG7Preset1.png)
+![TabInterfaceSG7Preset1](./images/TabInterfaceSG7Preset1.png)
 
 * ❗ **Check the box 'Pair gates' on**
 * Click on the signal sg7 in the RocRail interface several times. The signal we go through the aspects RED, YELLOW and GREEN. Another possibility is to right click the signal and chose the aspect directly.
 * Look at the test DR4018 and the logging in the RocRail interface. If set correctly you will see RocRail sending the same commands as you did manually.
 
 **Using preset 1 has the advantage of not wasting an extra output to a superfluous white light. Unfortunately having 5 3-colour signals leaves 1output unused. Consider: put 4 3-colour signals and 2 switches on 1 DR4018.**
+
+5 signals with 3 lights each on a DR4018:
+
+![DR4018_5_sein3](./images/DR4018_5_sein3.PNG)
