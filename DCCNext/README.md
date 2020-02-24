@@ -152,7 +152,7 @@ En RocRail idem:
 
 ![sgNext1TABInterface10Aspects](./images/sgNext1TABInterface10Aspects.PNG)
 
-Echter de aspecten na BLANK zijn niet ingevoerd. Toch kent RocRail de andere aspecten door telkens in de RocRail-interface op het sein te klikken. Alle aspecten worden netjes doorlopen.
+Echter de aspecten na BLANK zijn niet ingevoerd. Toch kent RocRail de andere aspecten door telkens in de RocRail-interface op het sein te klikken. Alle aspecten worden netjes doorlopen (waarbij het technische aspectnummer natuurlijk weer 1 lager is dus loopt die in deze configuratie van 0 t/m 9).
 
 ![RocRailGUIaspect2](./images/RocRailGUIaspect2.PNG)
 
@@ -325,7 +325,7 @@ In RocRail:
 
 ![sgNext1TABInterface10Aspects](./images/sgNext1TABInterface10Aspects.PNG)
 
-The aspects after BLANK have not been configured. Yet RocRail knows the other aspects. Click on the signal in the RocRail interface. All 10 aspects are visible.
+The aspects after BLANK have not been configured. Yet RocRail knows the other aspects. Click on the signal in the RocRail interface. All 10 aspects are visible (with the technical aspect number agian being 1 lower so in this configuration from 0 to 9).
 
 ![RocRailGUIaspect2](./images/RocRailGUIaspect2.PNG)
 
