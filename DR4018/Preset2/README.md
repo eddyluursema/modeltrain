@@ -28,7 +28,7 @@ Om een DR4018 met preset 2 samen te laten werken met RocRail zijn de volgende st
 
 # ![English flag](../../images/gb.gif)English
 
-With preset 2 8 signals with 2 lamps eacht can be connected.
+With preset 2 8 signals with 2 lamps each can be connected.
 
 ![zie](./images/Preset2.PNG)
 
