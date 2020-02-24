@@ -8,13 +8,13 @@ De DCCNext heeft 16 uitgangen, die op verschillende pinnen van de Arduino zijn a
 
 Een normaal Arduino-board bevat een Atmel ATMega386 met pinnen van de chip, die verbonden zijn met pinnen op het board.
 
-![Pinnen](./images/ATmega328-Pinout.png) Bron: https://github.com/MCUdude/MiniCore
+![Pinnen](./images/ATmega328-Pinout.png)
 
 De tekening van de DCCNext is niet compleet:
 
 ![Schema](./images/DCCNextSchematic.jpg) Bron: https://www.arcomora.com/arsigdec/
 
-Hierbij de aansluitingen van de DCCNext en pinnummers zoals je die op de DCCNext, de Arduino en op de Atmelchip ziet. Dit voorhet geval een eigen programma op de DCCNext geladen moet worden:
+Hierbij de aansluitingen van de DCCNext en pinnummers zoals je die op de DCCNext, de Arduino en op de Atmelchip ziet. Dit voor het geval een eigen programma op de DCCNext geladen moet worden:
 
 |DCCNext|Arduino pin|Atmel    |
 |-------|-----------|---------|
@@ -137,12 +137,37 @@ Indien de gebruiker persé met MADA wil werken (wat trouwens voor de DCCNext nie
 
 ![sgNext1TABInterface](./images/sgNext1TABInterfaceMADA.PNG)
 
-Zet in het tabblad Details de juiste volgnummers voor RED 0, voor GREEN 1 en voor YELLOW 2:
+Zet in het tabblad Details de juiste volgnummers voor RED 0, voor GREEN 1, YELLOW 2 en WHITE 3. Indien je een P-sein zonder cijferbak hebt vul je alleen RED, GREEN en YELLOW:
 
 ![sgNext1TABDetails](./images/sgNext1TABDetails.PNG)
 
 * Klik steeds op het sein sgNext1 in de RocRail interface dan gaat het aspect ROOD, GEEL, GROEN en GEEL+WIT om beurten branden (met netjes een overgang van ROOD naar GROEN via een korte tussenstand GEEL). Een andere mogelijkheid is om op het sein de rechtermuis te klikken; je kunt dan meteen het gewenste aspect kiezen.
 * Bekijk de test DCCNext en de logging in de RocRail interface. Als alles correct is ingesteld zie je dat RocRail dezelfde commando's stuurt als hiervoor met de hand is uitgeprobeerd.
+
+De ArSigDec kan ook worden geconfigureerd voor een sein met nummer 33 uit de database 'Cible-E avec oeilleton' uit Frankrijk. Het aantal aspecten in RocRail wordt dan op 10 gezet.
+
+![Install10Aspects](./images/Install10Aspects.PNG)
+
+En RocRail idem:
+
+![sgNext1TABInterface10Aspects](./images/sgNext1TABInterface10Aspects.PNG)
+
+Echter de aspecten na BLANK zijn niet ingevoerd. Toch kent RocRail de andere aspecten door telkens in de RocRail-interface op het sein te klikken. Alle aspecten worden netjes doorlopen.
+
+![RocRailGUIaspect2](./images/RocRailGUIaspect2.PNG)
+
+Maar zodra het zesde aspect en hoger moet worden getoond verdwijnt het seinsymbool uit de RocRail-interface.
+
+Je kunt op het sein rechtermuis en dan Aspect kiezen:
+
+![RocRailGUIaspect2](./images/RocRailGUIaspect2.PNG)
+
+![RocRailGUIChose_aspect](./images/RocRailGUIChose_aspect.PNG)
+
+Daarna kun je direct het gewenste aspectnummer ingeven:
+
+![RocRailGUIaspect_textbox](./images/RocRailGUIaspect_textbox.PNG)
+
 
 
 # ![English flag](../images/gb.gif)English
@@ -153,13 +178,13 @@ The DCCNext has 16 outputs connected to different pins of the Arduino.
 
 A normal Arduino board has a Atmel ATMega386 with pins on the chip connected to pins on the board.
 
-![Pinnen](./images/ATmega328-Pinout.png) Bron: https://github.com/MCUdude/MiniCore
+![Pinnen](./images/ATmega328-Pinout.png)
 
 The schema DCCNext is not complete:
 
 ![Schema](./images/DCCNextSchematic.jpg) Bron: https://www.arcomora.com/arsigdec/
 
-Here are the pins of the DCCNext en pinnummers, the Arduino and the Atmel chip:
+Here are the pins of the DCCNext en pinnummers, the Arduino and the Atmel chip in case you might want to load your own program into the DCCNext:
 
 |DCCNext|Arduino pin|Atmel    |
 |-------|-----------|---------|
@@ -285,9 +310,33 @@ If the user wants to use MADA (which is of no influence on the DCCNext):
 
 ![sgNext1TABInterface](./images/sgNext1TABInterfaceMADA.PNG)
 
-In the tab Details give the following numbers to RED 0, to GREEN 1 and to YELLOW 2:
+In the tab Details give the following numbers to RED 0, to GREEN 1, to YELLOW 2 and to WHITE 3. If you have a Dutch P-signal without speed indicator you only have to fill RED, GREEN and YELLOW:
 
 ![sgNext1TABDetails](./images/sgNext1TABDetails.PNG)
 
 * Click on the signal sgNext1 in the RocRail interface several times. The signal we go through the aspects RED, YELLOW, GREEN and WHITE+YELLOW (with a short YELLOW when going from RED to GREEN directly). Another possibility is to right click the signal and chose the aspect.
 * Look at the test DCCNext and the logging in the RocRail interface. If set correctly you will see RocRail sending the same commands as you did manually.
+
+The ArSigDec can also be configured for a signal with 10 aspects; that is number 33 from the database 'Cible-E avec oeilleton' from France. The number of aspects in RocRail must be set to 10.
+
+![Install10Aspects](./images/Install10Aspects.PNG)
+
+In RocRail:
+
+![sgNext1TABInterface10Aspects](./images/sgNext1TABInterface10Aspects.PNG)
+
+The aspects after BLANK have not been configured. Yet RocRail knows the other aspects. Click on the signal in the RocRail interface. All 10 aspects are visible.
+
+![RocRailGUIaspect2](./images/RocRailGUIaspect2.PNG)
+
+From the 6th aspect and higher th signal symbol disappears from the RocRail interface.
+
+Yoy can also right clikc the signal and have the aspect entered directly:
+
+![RocRailGUIaspect2](./images/RocRailGUIaspect2.PNG)
+
+![RocRailGUIChose_aspect](./images/RocRailGUIChose_aspect.PNG)
+
+Type the aspect number:
+
+![RocRailGUIaspect_textbox](./images/RocRailGUIaspect_textbox.PNG)

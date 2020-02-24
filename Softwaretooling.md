@@ -23,6 +23,7 @@ Fritzing|Electronic schema design tool
 Arduino IDE|Building Arduino programs and upload into Arduino like controllers
 Picoscope|Mixed Signal Oscilloscope
 PuTTY|Terminal emulator
+Ultra Serial Port Monitor|Free sniffer on COM-ports https://download.cnet.com/Ultra-Serial-Port-Monitor/3000-2094_4-10969502.html
 
 👍Fine tuning Atom:
 
