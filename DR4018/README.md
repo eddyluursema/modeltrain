@@ -13,7 +13,7 @@ In deze repository worden een aantal onderzoeken beschreven uitgevoerd op de Dig
 7. [DR4018 preset 2, seinen en RocRail](/DR4018/Preset2/README.md)
 8. [DR4018 preset 7, seinen en RocRail](/DR4018/Preset7/README.md)
 9. [DR4018 mengvorm seinen en wissels met preset 1] UNDER CONSTRUCTION
-. [DR4018 mengvorm seinen en wissels met preset 7](/DR4018/DR4018_mixedswitchsignals_preset7/README.md)
+10. [DR4018 mengvorm seinen en wissels met preset 7](/DR4018/DR4018_mixedswitchsignals_preset7/README.md)
 
 
 # ![English flag](../images/gb.gif)English
