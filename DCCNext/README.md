@@ -121,7 +121,7 @@ Sein 2 3 aspecten, database nummer 2
 
 Dit is alles conform de handleiding.
 
-## RocRail configuratie
+## RocRail configuratie P-sein
 
 De hierboven bekeken ROOD- en GROEN-commando's moeten nu door een juiste configuratie uit RocRail komen. Op de site van Arcomora wordt verwezen naar een [video](https://www.youtube.com/watch?v=dic4zqEXa8o) waarin wordt uitgelegd dat bij de DCCNext de adresseermethode 'Linear' moet worden gekozen. De wijzigingen t.o.v. de standaard instellingen zijn omcirceld.
 
@@ -143,6 +143,16 @@ Zet in het tabblad Details de juiste volgnummers voor RED 0, voor GREEN 1, YELLO
 
 * Klik steeds op het sein sgNext1 in de RocRail interface dan gaat het aspect ROOD, GEEL, GROEN en GEEL+WIT om beurten branden (met netjes een overgang van ROOD naar GROEN via een korte tussenstand GEEL). Een andere mogelijkheid is om op het sein de rechtermuis te klikken; je kunt dan meteen het gewenste aspect kiezen.
 * Bekijk de test DCCNext en de logging in de RocRail interface. Als alles correct is ingesteld zie je dat RocRail dezelfde commando's stuurt als hiervoor met de hand is uitgeprobeerd.
+
+In de logging van RocView zie je de laatste 4 opdrachten voor 4 aspecten van sein sgNext1. ⚠️De adressen in de logging van RocView zijn altijd 1 lager dan in de gebruikersinterface. Het jongste commando staat bovenaan:
+
+![LoggingRocView4aspecten](./images/LoggingRocView4aspecten.PNG)
+
+In de logging van RocRail zie je de laatste opdracht voor aspect van sein sgNext1. ⚠️De adressen in de logging van RocRail zijn ook altijd 1 lager dan in de gebruikersinterface. Het jongste commando staat onderaan:
+
+![LoggingRocRailLastAspect](./images/LoggingRocRailLastAspect.PNG)
+
+## RocRail configuratie Frans sein
 
 De ArSigDec kan ook worden geconfigureerd voor een sein met nummer 33 uit de database 'Cible-E avec oeilleton' uit Frankrijk. Het aantal aspecten in RocRail wordt dan op 10 gezet.
 
@@ -320,6 +330,16 @@ In the tab Details give the following numbers to RED 0, to GREEN 1, to YELLOW 2 
 
 * Click on the signal sgNext1 in the RocRail interface several times. The signal we go through the aspects RED, YELLOW, GREEN and WHITE+YELLOW (with a short YELLOW when going from RED to GREEN directly). Another possibility is to right click the signal and chose the aspect.
 * Look at the test DCCNext and the logging in the RocRail interface. If set correctly you will see RocRail sending the same commands as you did manually.
+
+In the logging of RocView you can see the last 4 commands for 4 aspects of sgNext1. ⚠️The adresses in the logging of RocView are always 1 lower than in the user interface. The last command is at the top:
+
+![LoggingRocView4aspecten](./images/LoggingRocView4aspecten.PNG)
+
+In the logging of RocView you can see the last command for aspect 4 of sgNext1. ⚠️The adresses in the logging of RocView are always 1 lower than in the user interface. The last command is at the bottom:
+
+![LoggingRocRailLastAspect](./images/LoggingRocRailLastAspect.PNG)
+
+## RocRail configuratie French signal
 
 The ArSigDec can also be configured for a signal with 10 aspects; that is number 33 from the database 'Cible-E avec oeilleton' from France. The number of aspects in RocRail must be set to 10.
 
