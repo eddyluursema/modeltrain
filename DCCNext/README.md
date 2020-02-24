@@ -156,11 +156,11 @@ Echter de aspecten na BLANK zijn niet ingevoerd. Toch kent RocRail de andere asp
 
 ![RocRailGUIaspect2](./images/RocRailGUIaspect2.PNG)
 
-Maar zodra het zesde aspect en hoger moet worden getoond verdwijnt het seinsymbool uit de RocRail-interface.
+Maar zodra het zesde aspect en hoger moet worden getoond verdwijnt het seinsymbool uit de RocRail-interface, maar keert terug bij aspect 1 t/m 5.
+
+![RocRailGUIaspect5](./images/RocRailGUIaspect5.PNG)
 
 Je kunt op het sein rechtermuis en dan Aspect kiezen:
-
-![RocRailGUIaspect2](./images/RocRailGUIaspect2.PNG)
 
 ![RocRailGUIChose_aspect](./images/RocRailGUIChose_aspect.PNG)
 
@@ -329,11 +329,11 @@ The aspects after BLANK have not been configured. Yet RocRail knows the other as
 
 ![RocRailGUIaspect2](./images/RocRailGUIaspect2.PNG)
 
-From the 6th aspect and higher th signal symbol disappears from the RocRail interface.
+From the 6th aspect and higher th signal symbol disappears from the RocRail interface but returns with aspect 1 to 5.
 
-Yoy can also right clikc the signal and have the aspect entered directly:
+![RocRailGUIaspect5](./images/RocRailGUIaspect5.PNG)
 
-![RocRailGUIaspect2](./images/RocRailGUIaspect2.PNG)
+You can also right clikc the signal and have the aspect entered directly:
 
 ![RocRailGUIChose_aspect](./images/RocRailGUIChose_aspect.PNG)
 
