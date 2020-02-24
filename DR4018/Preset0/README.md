@@ -2,9 +2,13 @@
 
 [Navigate to English version](#English)
 
+#### Aansluiting
+
 ![look at](./images/Preset0.png)
 
 Plaatje uit de documentatie van Digikeijs.
+
+#### RocRail
 
 Om een DR4018 met preset 0 samen te laten werken met RocRail zijn de volgende stappen ondernomen.
 
@@ -20,7 +24,11 @@ Om een DR4018 met preset 0 samen te laten werken met RocRail zijn de volgende st
 
 ![look at](./images/RocRailSwitchInterface.PNG)
 
+#### Testen
+
 * Met deze configuratie zullen ROOD- en GROEN- opdrachten het wissel op aansluiting 1 en 2 van de DR4018 laten bewegen zodra op de wissel in de interface van het baanplan wordt geklikt.
+
+#### Logging
 
 ![OperateSwitch](./images/OperateSwitch.PNG)
 
@@ -32,13 +40,25 @@ In de logging van RocRail verschijnt de actie (met meest recente actie onder) wa
 
 ![RocRail](./images/RocRail.PNG)
 
+#### Ontkoppelaar
 
+Een ontkoppelaar wordt net als een wissel aangesloten met dan met maar één spoel. In RocRail maken we een Output Accessory met een naam b.v. dc1 en een poortadres:
+
+![RocRail](./images/RocRailDecouplerGeneral.PNG)
+
+![RocRail](./images/RocRailDecouplerInterface.PNG)
+
+Het testen gaat door er in de interface net als bij een wissel op te klikken. Na een seconde wordt het gedeactiveerd door de DR4018.
 
 # ![English flag](../../images/gb.gif)English
+
+#### Electric schema
 
 ![look at](./images/Preset0.png)
 
 Picture from Digikeijs documentation.
+
+#### RocRail configuration
 
 To have a DR4018 work under RocRail the follwing steps have been taken:
 
@@ -54,9 +74,13 @@ To have a DR4018 work under RocRail the follwing steps have been taken:
 
 ![look at](./images/RocRailSwitchInterface.PNG)
 
+#### Testing
+
 * With this configuration RED and GREEN commands are sent by RocRail as the user clicks on the switch in the railroad plan.
 
 ![OperateSwitch](./images/OperateSwitch.PNG)
+
+#### Logging
 
 In the logging of RocView the action is show (most recent at the top) with a technical adress 1 lower than in the user interface:
 
@@ -65,3 +89,13 @@ In the logging of RocView the action is show (most recent at the top) with a tec
 In the logging of RocRail the action is show (most recent at the bottom) with a technical adress 1 lower than in the user interface:
 
 ![RocRail](./images/RocRail.PNG)
+
+#### Decoupler
+
+A decoupler is connected like a switch but with only one coil. In RocRail we create an Output Accessory with a name e.g. dc1 and a portadress:
+
+![RocRail](./images/RocRailDecouplerGeneral.PNG)
+
+![RocRail](./images/RocRailDecouplerInterface.PNG)
+
+Clicking the Output Accessory in the user interface will activate it. After a second it is deactivated by the DR4018.
