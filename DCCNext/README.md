@@ -137,7 +137,7 @@ Indien de gebruiker persé met MADA wil werken (wat trouwens voor de DCCNext nie
 
 ![sgNext1TABInterface](./images/sgNext1TABInterfaceMADA.PNG)
 
-Zet in het tabblad Details de juiste volgnummers voor RED 0, voor GREEN 1, YELLOW 2 en WHITE 3. Indien je een P-sein zonder cijferbak hebt vul je alleen RED, GREEN en YELLOW:
+Zet in het tabblad Details de juiste volgnummers voor RED 0, voor GREEN 1, YELLOW 2 en WHITE 3. Indien je een P-sein zonder cijferbak hebt vul je alleen RED, GREEN en YELLOW en naturlijk 3 aspecten:
 
 ![sgNext1TABDetails](./images/sgNext1TABDetails.PNG)
 
@@ -145,6 +145,10 @@ Zet in het tabblad Details de juiste volgnummers voor RED 0, voor GREEN 1, YELLO
 * Bekijk de test DCCNext en de logging in de RocRail interface. Als alles correct is ingesteld zie je dat RocRail dezelfde commando's stuurt als hiervoor met de hand is uitgeprobeerd.
 
 De ArSigDec kan ook worden geconfigureerd voor een sein met nummer 33 uit de database 'Cible-E avec oeilleton' uit Frankrijk. Het aantal aspecten in RocRail wordt dan op 10 gezet.
+
+![FrankrijkSein33](./images/FrankrijkSein33.PNG)
+
+Bron: handleiding ArSigDec.
 
 ![Install10Aspects](./images/Install10Aspects.PNG)
 
@@ -310,7 +314,7 @@ If the user wants to use MADA (which is of no influence on the DCCNext):
 
 ![sgNext1TABInterface](./images/sgNext1TABInterfaceMADA.PNG)
 
-In the tab Details give the following numbers to RED 0, to GREEN 1, to YELLOW 2 and to WHITE 3. If you have a Dutch P-signal without speed indicator you only have to fill RED, GREEN and YELLOW:
+In the tab Details give the following numbers to RED 0, to GREEN 1, to YELLOW 2 and to WHITE 3. If you have a Dutch P-signal without speed indicator you only have to fill RED, GREEN and YELLOW and the fact that there are 3 aspects:
 
 ![sgNext1TABDetails](./images/sgNext1TABDetails.PNG)
 
@@ -318,6 +322,10 @@ In the tab Details give the following numbers to RED 0, to GREEN 1, to YELLOW 2 
 * Look at the test DCCNext and the logging in the RocRail interface. If set correctly you will see RocRail sending the same commands as you did manually.
 
 The ArSigDec can also be configured for a signal with 10 aspects; that is number 33 from the database 'Cible-E avec oeilleton' from France. The number of aspects in RocRail must be set to 10.
+
+![FrankrijkSein33](./images/FrankrijkSein33.PNG)
+
+Source: ArSigDec manual.
 
 ![Install10Aspects](./images/Install10Aspects.PNG)
 
