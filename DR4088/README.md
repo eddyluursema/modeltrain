@@ -1,5 +1,14 @@
 # ![Nederlandse vlag](../images/nl.gif) Nederlands
 
+## Aansluitschema
+
+Volgens diverse bronnen zoals [link](https://encyclopedie.beneluxspoor.net/index.php?title=Diodeschakeling) vermelden dat niet-gedetecteerde stukken rails via een diodebrug met de centrale moeten worden verbonden om zo het spanningsverlies over deze brug gelijk te maken aan het spanningsverlies over de brug in de bezetmelder. Er is maar één diodebrug in de baan; alle niet-gedetecteerde stukken rails zijn met elkaar verbonden.
+
+Verder is de DR4088 via Loconet verbonden met de DR5000.
+
+![DR4088SetAdress](./images/DR5000DR4088Track3.PNG)
+
+
 ## DR4088 adres geven
 Twee leuke video's om de DR4088 beginadres 17 te geven vind je [hier](https://www.youtube.com/watch?v=5ghAUfvjuvw) en [hier](https://www.youtube.com/watch?v=1XlbdtUaOn8).
 
@@ -80,6 +89,14 @@ Indien in het schakelcherm logging is ingeschakeld verschijnt b.v.
 
 
 # ![English flag](../images/gb.gif) English
+
+## Wiring
+
+According to several sources like [link](https://encyclopedie.beneluxspoor.net/index.php?title=Diodeschakeling) undetected tracks must be connected to the command station through a diode bridge to compensate the loss of voltage which must be the same as the loss of voltage over the bridge build into the detector. There is only one bridge; all undetected tracks are connected to eachother.
+
+The DR4088 is connected to the DR5000 over Loconet.
+
+![DR4088SetAdress](./images/DR5000DR4088Track3.PNG)
 
 ## Give DR4088 an adress
 Helpful videos to give the DR4088 begin adress 17 are [here](https://www.youtube.com/watch?v=5ghAUfvjuvw) en [here](https://www.youtube.com/watch?v=1XlbdtUaOn8).
