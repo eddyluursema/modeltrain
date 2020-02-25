@@ -6,7 +6,6 @@
 
 ![look at](./images/Preset0.png)
 
-Plaatje uit de documentatie van Digikeijs.
 
 #### RocRail
 
@@ -56,7 +55,6 @@ Het testen gaat door er in de interface net als bij een wissel op te klikken. Na
 
 ![look at](./images/Preset0.png)
 
-Picture from Digikeijs documentation.
 
 #### RocRail configuration
 
