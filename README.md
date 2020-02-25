@@ -28,19 +28,19 @@ Eddy Luursema Februari 2020
 In this repository several subjects concerning my model railroad can be found. Most pictures are made by me; otherwise the source is mentioned.
 Eddy Luursema February 2020
 
-1. [Buy or DIY  switching decoders](/ByorDIYSignaldecoders/README.md)
-2. [DR4018](/DR4018/README.md) usage, programming and RocRail configuration of the Digikeijs accessory decoder   
-3. [DR5000](/DR5000/README.md) usage, programming and RocRail configuration of the Digikeijs Command Station
-4. [DR4088](/DR4088/README.md) usage, programming and RocRail configuration of the Digikeijs feedback module
-5. [ArSigDec](/DCCNext/README.md) usage, programming and RocRail configuration of the ArCoMoRa accessory decoder     
-6. [Track plans](/Track/README.md)
-7. [Table design](/Table/README.md)
+1. [Buy or DIY  switching decoders](/ByorDIYSignaldecoders/README.md#English)
+2. [DR4018](/DR4018/README.md#English) usage, programming and RocRail configuration of the Digikeijs accessory decoder   
+3. [DR5000](/DR5000/README.md#English) usage, programming and RocRail configuration of the Digikeijs Command Station
+4. [DR4088](/DR4088/README.md#English) usage, programming and RocRail configuration of the Digikeijs feedback module
+5. [ArSigDec](/DCCNext/README.md#English) usage, programming and RocRail configuration of the ArCoMoRa accessory decoder     
+6. [Track plans](/Track/README.md#English)
+7. [Table design](/Table/README.md#English)
 8. Elektrical schema under construction
-9. [DCC sniffers](./DCCsniffers/README.md)
-10. [DCCplusplus](./DCCplusplus/README.md)
-11. [Hardware tools](./Hardwaretooling/README.md)
-12. [Software tooling](./Softwaretooling.md) with hints for configuration settings
-13. [Fritzing](./Fritzing/README.md) drawing elektrical schemas and creating your own parts like the DR4018 and signals
-14. [Projects](./Projects.md) in the futuure
-15. Using [github and github-desktop](/Github/README.md) for documentation
-16. [Arduino course](/ArduinoCourse/README.md)
+9. [DCC sniffers](./DCCsniffers/README.md#English)
+10. [DCCplusplus](./DCCplusplus/README.md#English)
+11. [Hardware tools](./Hardwaretooling/README.md#English)
+12. [Software tooling](./Softwaretooling.md#English) with hints for configuration settings
+13. [Fritzing](./Fritzing/README.md#English) drawing elektrical schemas and creating your own parts like the DR4018 and signals
+14. [Projects](./Projects.md#English) in the futuure
+15. Using [github and github-desktop](/Github/README.md#English) for documentation
+16. [Arduino course](/ArduinoCourse/README.md#English)
