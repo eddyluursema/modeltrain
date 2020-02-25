@@ -27,6 +27,14 @@ CV|Waarde|Betekenis
 
 **⚠️ CV 47 moet altijd als eerste worden geschreven, omdat de andere CV's wijzigingen zijn op preset 1**
 
+#### Test
+
+Op adres 501 GROEN wordt output 1 van de DR4018 geactiveerd gedurende 0.5 s; bij ROOD output 2.
+
+Op adres 502 GROEN wordt output 3 van de DR4018 geactiveerd gedurende 0.5 s; bij ROOD output 4.
+
+Vanaf adres 504 t/m adres 516 zal een GROEN de outputs 5 .. 16 activeren en ROOD decativeren.
+
 #### RocRail
 
 Om een DR4018 zoals hierboven geconfigureerd samen te laten werken met RocRail moet je de [handleiding](../Preset1/README.md) lezen van preset 1 voor de seinen en [handleiding](../Preset0/README.md) lezen van preset 0 voor de wissels.
@@ -57,6 +65,14 @@ CV|Value|Meaning
 150|8|Deactivate adres 2 output port 4 on
 
 **⚠️CV 47 must always be the first CV to set. The other CV values are changes on preset 1**
+
+#### Test
+
+A GREEN on adress 501 will activate output 1 of the DR4018 during 0.5 s; at RED output 2.
+
+A GREEN on adress 502 will activate output 3 of the DR4018 during 0.5 s; at RED output 4.
+
+From adress 504 until adress 516 a GREEN will activate output 5 .. 16 and RED will decativate it.
 
 #### RocRail
 
