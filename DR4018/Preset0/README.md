@@ -4,7 +4,7 @@
 
 #### Aansluiting
 
-![look at](./images/Preset0.PNG)
+![look at](./images/Preset0.png)
 
 Plaatje uit de documentatie van Digikeijs.
 
@@ -54,7 +54,7 @@ Het testen gaat door er in de interface net als bij een wissel op te klikken. Na
 
 #### Electric schema
 
-![look at](./images/Preset0.PNG)
+![look at](./images/Preset0.png)
 
 Picture from Digikeijs documentation.
 
