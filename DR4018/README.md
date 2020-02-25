@@ -20,7 +20,7 @@ In deze repository worden een aantal onderzoeken beschreven uitgevoerd op de Dig
 
 In this repository some research on the Digikeijs switching decoder are described. Configurations connecting the DR4018 to the modeltrain controlling software RocRail are available.
 
-1. [DR4018 adressing](/DR4018/DR4018_adressing/README.md)
+1. [DR4018 adressing](/DR4018/DR4018_adressing/README.md#English)
 2. [DR4018 tester](/DR4018/DR4018_tester/README.md)
 3. [Give DR4018 adress and preset](/DR4018/DR4018_programming/README.md)
 4. [DR4018 overview all CV values for all presets](/DR4018/DR4018_overview/README.md)
