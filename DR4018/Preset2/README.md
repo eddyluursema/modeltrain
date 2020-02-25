@@ -41,7 +41,7 @@ With preset 2 8 signals with 2 lamps each can be connected.
 
 Drawing from Digikeijs documentation.
 
-#### Preset 2 aND RocRail
+#### Preset 2 and RocRail
 
 To have a DR4018 with preset 2 work under RocRail the follwing steps have been taken:
 
