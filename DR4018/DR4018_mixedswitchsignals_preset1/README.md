@@ -2,6 +2,13 @@
 
 [Navigate to English version](#English)
 
+#### Aansluitschema
+
+![2 wissels als 4 seinen op één decoder](./images/DR4018_mixed2switchesand4signals3L.png)
+
+
+#### DR4018 configuratie
+
 De volgende CV-adres-value-combinaties moeten UNDER CONSTRUCTION in de DR4018 worden geconfigureerd. Deze waarden zijn gekopieerd uit het hoofdstuk over preset 7 met twee wissels en 3 seinen:
 
 CV|Waarde|Betekenis
@@ -20,15 +27,18 @@ CV|Waarde|Betekenis
 
 **⚠️ CV 47 moet altijd als eerste worden geschreven, omdat de andere CV's wijzigingen zijn op preset 1**
 
-Om een DR4018 zoals hierboven geconfigureerd samen te laten werken met RocRail moet je de [handleiding](../Preset7/README.md) lezen van preset 7 voor de seinen.
+#### RocRail
+
+Om een DR4018 zoals hierboven geconfigureerd samen te laten werken met RocRail moet je de [handleiding](../Preset1/README.md) lezen van preset 1 voor de seinen en [handleiding](../Preset0/README.md) lezen van preset 0 voor de wissels.
 
 # ![English flag](../../images/gb.gif)English
 
-In my modeltrain track I use 4 accessory decoders DR4018 in the four corners of the table. To save wiring both 2 switches and 3 Dutch signals are connected to the same decoder. The documentation comes from the site of Digikeijs and is a Dutch document "DR4018 toepassing handleiding_beneluxforum.pdf":
+#### Wiring
 
-![2 switches and 3 Dutch signals](./images/DR4018_mixedswitchesandsignals.png)
+![2 switches and 4 signals on one decoder](./images/DR4018_mixed2switchesand4signals3L.png)
 
-This picture was constructed with cut and paste from two pictures from the DR4018 manual by Digikeijs.
+
+#### DR4018 configuration
 
 The next CV-adres-value-combinations must be written to the DR4018:
 
@@ -47,3 +57,7 @@ CV|Value|Meaning
 150|8|Deactivate adres 2 output port 4 on
 
 **⚠️CV 47 must always be the first CV to set. The other CV values are changes on preset 1**
+
+#### RocRail
+
+To let a DR4018 configured like this work with RocRail take a look at the [manual](../Preset1/README.md) for preset 1 for signals and the [manual](../Preset0/README.md) for preset 0 for switches.
