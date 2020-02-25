@@ -2,6 +2,14 @@
 
 [Navigate to English version](#English)
 
+#### Aansluitschema
+
+5 seinen met 3 lampen aangesloten op een DR4018:
+
+![DR4018_5_sein3](./images/DR4018_5_sein3.PNG)
+
+#### Preset 1 en RocRail
+
 Om een DR4018 met preset 1 samen te laten werken met RocRail zijn de volgende stappen ondernomen:
 
 * Sluit een testcircuit of een sein aan op de DR4018
@@ -23,11 +31,16 @@ Om een DR4018 met preset 1 samen te laten werken met RocRail zijn de volgende st
 
 **Het gebruik van preset 1 is handig bij gebruik van driekleurige seinen. Er wordt geen onnodige uitgang aan wit besteed. Helaas houd je bij 5 3-kleurige seinen één output over. Overweging: zet 4 3-kleurige seinen en 2 wissels op 1 DR4018.**
 
-5 seinen met 3 lampen aangesloten op een DR4018:
+
+# ![English flag](../../images/gb.gif)English
+
+#### Wiring
+
+5 signals with 3 lights each on a DR4018:
 
 ![DR4018_5_sein3](./images/DR4018_5_sein3.PNG)
 
-# ![English flag](../../images/gb.gif)English
+#### Preset 1 and RocRail
 
 To have a DR4018 work under RocRail the follwing steps have been taken:
 
@@ -49,7 +62,3 @@ To have a DR4018 work under RocRail the follwing steps have been taken:
 * Look at the test DR4018 and the logging in the RocRail interface. If set correctly you will see RocRail sending the same commands as you did manually.
 
 **Using preset 1 has the advantage of not wasting an extra output to a superfluous white light. Unfortunately having 5 3-colour signals leaves 1output unused. Consider: put 4 3-colour signals and 2 switches on 1 DR4018.**
-
-5 signals with 3 lights each on a DR4018:
-
-![DR4018_5_sein3](./images/DR4018_5_sein3.PNG)
