@@ -9,7 +9,7 @@
 
 #### DR4018 configuratie
 
-De volgende CV-adres-value-combinaties moeten UNDER CONSTRUCTION in de DR4018 worden geconfigureerd. Deze waarden zijn gekopieerd uit het hoofdstuk over preset 7 met twee wissels en 3 seinen:
+De volgende CV-adres-value-combinaties moeten in de DR4018 worden geconfigureerd. Deze waarden zijn gekopieerd uit het hoofdstuk over preset 7 met twee wissels en 3 seinen:
 
 CV|Waarde|Betekenis
 --|------|---------
@@ -24,6 +24,8 @@ CV|Waarde|Betekenis
 144|2|Uitgangspoort 2 aan bij deactiveren 1e adres
 147|4|Uitgangspoort 3 aan bij activeren 2e adres
 150|8|Uitgangspoort 4 aan bij deactiveren 2e adres
+153|0|Geen uitgangspoort bij activeren 3e adres
+159|0|Geen uitgangspoort bij activeren 4e adres
 
 **⚠️ CV 47 moet altijd als eerste worden geschreven, omdat de andere CV's wijzigingen zijn op preset 1**
 
@@ -63,6 +65,8 @@ CV|Value|Meaning
 144|2|Deactivate adres 1 output port 2 on
 147|4|Activate adres 2 output port 3 on
 150|8|Deactivate adres 2 output port 4 on
+153|0|No output on activate 3rd adress
+159|0|No output on activate 4th adress
 
 **⚠️CV 47 must always be the first CV to set. The other CV values are changes on preset 1**
 
