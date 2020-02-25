@@ -10,6 +10,8 @@ In mijn baan gebruik ik 4 schakeldecoders DR4018 op de vier hoeken van de tafel.
 
 ![2 wissels als 3 NS-seinen op één decoder](./images/DR4018_mixedswitchesandsignals.png)
 
+#### Configuratie
+
 De volgende CV-adres-value-combinaties moeten in de DR4018 worden geprogrammeerd:
 
 CV|Waarde|Betekenis
@@ -41,7 +43,7 @@ Vanaf adres 505 t/m 508 zal een GROEN en ROOD een seinbeeld op het 1e sein geven
 
 #### RocRail
 
-Om een DR4018 zoals hierboven geconfigureerd samen te laten werken met RocRail moet je de [handleiding](../Preset7/README.md) lezen van preset 7 voor de seinen.
+Om een DR4018 zoals hierboven geconfigureerd samen te laten werken met RocRail moet je de [handleiding](../Preset7/README.md) lezen van preset 7 voor de seinen en [handleiding](../Preset0/README.md) lezen van preset 0 voor de wissels.
 
 # ![English flag](../../images/gb.gif)English
 
@@ -52,6 +54,8 @@ In my modeltrain track I use 4 accessory decoders DR4018 in the four corners of 
 #### Wiring
 
 ![2 switches and 3 Dutch signals](./images/DR4018_mixedswitchesandsignals.png)
+
+#### Configuration
 
 The next CV-adres-value-combinations must be written to the DR4018:
 
@@ -84,4 +88,4 @@ From adress 505 until adress 508 a combination of RED and GREEN will show an asp
 
 #### RocRail
 
-To configure a DR4018 with signals as described above in RocRail read the [manual](../Preset7/README.md) of preset 7.
+To configure a DR4018 with signals as described above in RocRail read the [manual](../Preset7/README.md) of preset 7 for the signals and [manual](../Preset0/README.md) of preset 0 for the switches.
