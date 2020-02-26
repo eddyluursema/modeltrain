@@ -2,7 +2,7 @@
 
 ## Aansluitschema
 
-Volgens diverse bronnen zoals [link](https://encyclopedie.beneluxspoor.net/index.php?title=Diodeschakeling) en [link](https://www.nproject.org/nl/modelspoor-digitaal-en-dcc/diodeschakeling-voor-toepassing-in-ongedetecteerde-secties-bij-een-digitale-modelbaan) vermelden dat niet-gedetecteerde stukken rails via een diodebrug met de centrale moeten worden verbonden om zo het spanningsverlies over deze brug gelijk te maken aan het spanningsverlies over de brug in de bezetmelder. Er is maar één diodebrug in de baan; alle niet-gedetecteerde stukken rails zijn met elkaar verbonden.
+Volgens diverse Nederlandse bronnen zoals [link](https://encyclopedie.beneluxspoor.net/index.php?title=Diodeschakeling) en [link](https://www.nproject.org/nl/modelspoor-digitaal-en-dcc/diodeschakeling-voor-toepassing-in-ongedetecteerde-secties-bij-een-digitale-modelbaan) en een uit Engeland [link](http://www.wiringfordcc.com/blockdet.htm) vermelden dat niet-gedetecteerde stukken rails via een diodebrug met de centrale moeten worden verbonden om zo het spanningsverlies over deze brug gelijk te maken aan het spanningsverlies over de brug in de bezetmelder. Er is maar één diodebrug in de baan; alle niet-gedetecteerde stukken rails zijn met elkaar verbonden.
 
 Verder is de DR4088 via Loconet verbonden met de DR5000.
 
@@ -92,7 +92,7 @@ Indien in het schakelcherm logging is ingeschakeld verschijnt b.v.
 
 ## Wiring
 
-According to several Dutch sources like [link](https://encyclopedie.beneluxspoor.net/index.php?title=Diodeschakeling) and [link](https://www.nproject.org/nl/modelspoor-digitaal-en-dcc/diodeschakeling-voor-toepassing-in-ongedetecteerde-secties-bij-een-digitale-modelbaan) undetected tracks must be connected to the command station through a diode bridge to compensate the loss of voltage which must be the same as the loss of voltage over the bridge build into the detector. There is only one bridge; all undetected tracks are connected to eachother.
+According to an English source [link](http://www.wiringfordcc.com/blockdet.htm) and several Dutch sources like [link](https://encyclopedie.beneluxspoor.net/index.php?title=Diodeschakeling) and [link](https://www.nproject.org/nl/modelspoor-digitaal-en-dcc/diodeschakeling-voor-toepassing-in-ongedetecteerde-secties-bij-een-digitale-modelbaan) undetected tracks must be connected to the command station through a diode bridge to compensate the loss of voltage which must be the same as the loss of voltage over the bridge build into the detector. There is only one bridge; all undetected tracks are connected to eachother.
 
 The DR4088 is connected to the DR5000 over Loconet.
 
