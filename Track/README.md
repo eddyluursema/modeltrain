@@ -35,7 +35,7 @@ The control architecture:
 
 ![Architecture](./images/Architecture.PNG)
 
-The elektrical schema is drawn with only one of four DR4018. At the moment the 3 light signals are connected as 4 light signalswith one spare connection. The DCC signal for the DR4018 is connected behind the diode bridge, because of ease of wiring under the table. The DR4018 has no problems receiving the DCC signal.
+The elektrical schema is drawn with only one of four DR4018. At the moment the 3 light signals are connected as 4 light signals with one spare connection. The DCC signal for the DR4018 is connected behind the diode bridge, because of ease of wiring under the table. The DR4018 has no problems receiving the DCC signal.
 
 ![ElectricSchema](./images/ElectricSchema.PNG)
 
