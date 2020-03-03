@@ -2,11 +2,11 @@
 
 ## Loconet via USB
 
-Via https://download.cnet.com/Ultra-Serial-Port-Monitor/3000-2094_4-10969502.html een gratis sniffer gevonden om het Loconet-verkeer tussen laptop en DCC station te bestuderen. Vervolgens de GUI van het DCC station gebruikt om verkeer te genereren door loc's, seinen, wissels te bedienen en loc's over melders te laten rijden.
+Via https://download.cnet.com/Ultra-Serial-Port-Monitor/3000-2094_4-10969502.html een gratis sniffer gevonden om het Loconet-verkeer tussen laptop en DCC station te bestuderen. Vervolgens de GUI van het DCC station (DR5000) gebruikt om verkeer te genereren door loc's, seinen en wissels te bedienen, loc's over melders te laten rijden en CV-waarden te configureren.
 
 #### Loc-bediening
 
-De besturing van loc's staat niet duidelijk in de  [Personal Edition van Loconet](https://www.digitrax.com/static/apps/cms/media/documents/loconet/loconetpersonaledition.pdf) van Digitrax. Zodra in de interface van het DCC station een loc-adres wordt gekozen, zien we een soort aanmelding. E0 06 62 is de aanmeldboodschap; de twee daarop volgende bytes het loc-adres waarbij van het tweede adresbyte het msb niet wordt meegenomen.
+De besturing van loc's staat vermeld in de  [Personal Edition van Loconet](https://www.digitrax.com/static/apps/cms/media/documents/loconet/loconetpersonaledition.pdf) van Digitrax. Zodra in de interface van het DCC station een loc-adres wordt gekozen, zien we een aanmelding in een zogenaamd slot. E0 06 62 is de aanmeldboodschap; de twee daarop volgende bytes het loc-adres waarbij van het tweede adresbyte het msb niet wordt meegenomen.
 
 |Loc |Actie       | Bericht         |
 |----|------------|-----------------|
@@ -22,7 +22,7 @@ De besturing van loc's staat niet duidelijk in de  [Personal Edition van Loconet
 Volgens de Personal Edition van Loconet van Digitrax is het laatste byte de checksum zijnde de EXOR van alle bits in het bericht behalve de checksum zelf (pag. 6): **The CHECKSUM is the 1's COMPLEMENT of the byte wise Exclusive Or of all the
 bytes in the message, except the CHECKSUM itself.**
 
-Na het aanmelden krijgen loc's een soort volgnummer in de volgorde waarin ze een snelheid krijgen toegewezen (3 was de eerste loc op de baan). Onduidelijk is hoe het volgnummer gekoppeld is aan de aanmelding.
+Na het aanmelden krijgen loc's een volgnummer in de volgorde waarin ze een slot kregen toegewezen (3 was de eerste loc op de baan).
 
 |Loc|Actie       | Bericht    |
 |---|------------|------------|
@@ -42,8 +42,8 @@ Na het aanmelden krijgen loc's een soort volgnummer in de volgorde waarin ze een
 |4  |Speed 0     |A0 03 00 5C |
 |4  |Speed 127   |A0 03 7F 23 |
 
-De snelheden hierboven genoemd zijn afgeleid uit de logging van het DCC station.
-Bij snelheden is het 3e byte snelheid. Ook apart is dat de richting eenmalig wordt verzonden.
+De snelheden hierboven genoemd zijn afgeleid uit de logging van het DCC station en het bekijken van de Loconet-boodschap.
+Bij snelheden is het 3e byte de snelheid. Bijzonder is dat de rijrichting eenmalig wordt verzonden.
 
 #### Wisselbediening
 
@@ -63,7 +63,7 @@ Bij snelheden is het 3e byte snelheid. Ook apart is dat de richting eenmalig wor
 |Wissel 2048 R| B0 7F 1F 2F / B0 7F 0F 3F|
 |Wissel 2048 G| B0 7F 3F 0F / B0 7F 2F 1F|
 
-Als we kijken naar 'Wissel 1 R' is volgens pag. 10 0xB0 een wisselopdracht; dat klopt. In het 3e byte <SW2> met de waarde 0x10 is DIR = 0 voor Thrown/RED en ON=1. Kort daarna gaat ON weer naar 0. Het adres van de wissel is 0; hier zien we weer dat onder water adressen één lager zijn dan in de interface wordt aangegeven/aangeklikt.
+Als we kijken naar 'Wissel 1 R' is volgens pag. 10 0xB0 een wisselopdracht; dat klopt. In het 3e byte <SW2> met de waarde 0x10 is DIR = 0 voor Thrown/RED en ON=1. Kort daarna gaat ON weer naar 0. Het adres van de wissel is 0; hier zien we weer dat de technische (onder water) adressen één lager zijn dan in de interface wordt aangegeven/aangeklikt.
 
 Als we kijken naar 'Wissel 1 G' is het 3e byte 0x30 dus DIR is 1 voor Closed/GREEN en ON = 1. Korte tijd later is ON weer 0.
 
@@ -106,13 +106,12 @@ L als bit5 van <IN2> geeft IN- of UITrijden aan. Melder 17 bij het inrijden (ws.
 "L"=0 for input SENSOR now 0V (LO) , 1 for Input sensor >=+6V (HI)
 "X"=1, control bit , 0 is RESERVED for future!**
 
-😃Als de power wordt uit- en weer ingeschakeld zal de bezetmelder van alle 32 melders de toestand in één boodschap weergeven:
+😃Als de power wordt uit- en weer ingeschakeld zal de bezetmelder van alle 32 melders de toestand in één boodschap weergeven (het feit dat er 32 zijn i.p.v. de 16 ingesteld bij de DR4088 zou te maken kunnen hebben met het feit dat de DR5000 standaard staat ingesteld op 16 S88 ingangen):
 
-B2 08 40 05 B2 08 60 25 B2 09 40 04 B2 09 60 24 B2 0A 40 07 B2 0A 60 27 B2 0B 40 06
-B2 0B 60 26 B2 0C 40 01 B2 0C 60 21 B2 0D 40 00 B2 0D 60 20 B2 0E 40 03 B2 0E 60 23
-B2 0F 40 02 B2 0F 60 22 B2 00 40 0D B2 00 60 2D B2 01 40 0C B2 01 60 2C
-B2 02 40 0F B2 02 60 2F B2 03 40 0E B2 03 60 2E B2 04 40 09 B2 04 60 29
-B2 05 40 08 B2 05 60 28 B2 06 40 0B B2 06 60 2B B2 07 40 0A B2 07 60 2A
+B2 08 40 05 B2 08 60 25 B2 09 40 04 B2 09 60 24 B2 0A 40 07 B2 0A 60 27 B2 0B 40 06 B2 0B 60 26
+B2 0C 40 01 B2 0C 60 21 B2 0D 40 00 B2 0D 60 20 B2 0E 40 03 B2 0E 60 23 B2 0F 40 02 B2 0F 60 22
+B2 00 40 0D B2 00 60 2D B2 01 40 0C B2 01 60 2C B2 02 40 0F B2 02 60 2F B2 03 40 0E B2 03 60 2E
+B2 04 40 09 B2 04 60 29 B2 05 40 08 B2 05 60 28 B2 06 40 0B B2 06 60 2B B2 07 40 0A B2 07 60 2A
 
 ##### Power
 
@@ -125,4 +124,38 @@ Conform specs.
 
 ##### Multimaus
 
-Ook opdrachten gegeven op de Multimaus verschijnen op Loconet. Bij wisselcommando's zijn ze identiek.
+Ook opdrachten gegeven op de Multimaus. De resultaten van die acties verschijnen op Loconet. Bij wisselcommando's zijn ze identiek.
+
+#### CV programmeren
+Via interface van de DR5000 een CV waarde geprogrammeerd bv. adres 9999
+
+|Adres|CV |Value|Bericht|
+|-----|---|-----|-------|
+|9999 |1  |0    |EF 0E 7C 6C 00 4E 0F 07 00 00 00 4C 4E 4A|
+|9999 |1  |1    |EF 0E 7C 6C 00 4E 0F 07 00 00 01 4C 4E 4B|
+|9999 |1  |2    |EF 0E 7C 6C 00 4E 0F 07 00 00 02 4C 4E 48|
+|9999 |1  |3    |EF 0E 7C 6C 00 4E 0F 07 00 00 03 4C 4E 49|
+|9999 |1  |127  |EF 0E 7C 6C 00 4E 0F 07 00 00 7F 4C 4E 35|
+|9999 |1  |128  |EF 0E 7C 6C 00 4E 0F 07 02 00 00 4C 4E 48|
+|9999 |1  |255  |EF 0E 7C 6C 00 4E 0F 07 02 00 7F 4C 4E 37|
+|9999 |2  |0    |EF 0E 7C 6C 00 4E 0F 07 00 01 00 4C 4E 4B|
+|9999 |3  |0    |EF 0E 7C 6C 00 4E 0F 07 00 02 00 4C 4E 48|
+|9999 |128|0    |EF 0E 7C 6C 00 4E 0F 07 00 7F 00 4C 4E 35|
+|9999 |255|0    |EF 0E 7C 6C 00 4E 0F 07 01 7E 00 4C 4E 35|
+|1    |1  |0    |EF 0E 7C 6C 00 00 01 07 01 7E 00 4C 4E 75|
+|127  |1  |0    |EF 0E 7C 6C 00 00 7F 07 00 00 00 4C 4E 74|
+
+
+
+byte6 * 128 + byte 7 = adres
+
+byte9-bit0 byte10 = CV-adres minus 1
+
+byte9-bit1 byte11 = CV-waarde
+
+
+# Loconet software
+
+https://github.com/mrrwa/LocoNet
+
+https://github.com/ClubNCaldes/LNetDCCpp

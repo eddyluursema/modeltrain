@@ -11,6 +11,7 @@ In this course a universal DCC decoder for signals and switches is build step by
 * Part 3 uses external hardware to overcome speed problems with the Arduino and to have more IO and servo control: UNDER CONSTRUCTION
 * Part 4 communication through DCC and Loconet with the Command Centre: UNDER CONSTRUCTION
 * Part 5 integration towards a complete accessory decoder: UNDER CONSTRUCTION
+* [Part 6 programming an Arduino through ICSP](/ArduinoCourse/ArduinoUSBASP/README.md)
 
 ## Further plans for this course
 
