@@ -27,7 +27,6 @@ In this course a universal DCC decoder for signals and switches is build step by
 
 * DCC sniffer
 
-* ICSP programming
 
 https://www.arduino.cc/en/tutorial/arduinoISP
 https://learn.sparkfun.com/tutorials/installing-an-arduino-bootloader/all
