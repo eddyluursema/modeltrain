@@ -12,6 +12,7 @@ In this course a universal DCC decoder for signals and switches is build step by
 * Part 4 communication through DCC and Loconet with the Command Centre: UNDER CONSTRUCTION
 * Part 5 integration towards a complete accessory decoder: UNDER CONSTRUCTION
 * [Part 6 programming an Arduino through ICSP](/ArduinoCourse/ArduinoUSBASP/README.md)
+* [Part 7 memory usage](/ArduinoCourse/ArduinoMemory/README.md)
 
 ## Further plans for this course
 
@@ -27,6 +28,8 @@ In this course a universal DCC decoder for signals and switches is build step by
 
 * DCC sniffer
 
+Some links:
 
 https://www.arduino.cc/en/tutorial/arduinoISP
+
 https://learn.sparkfun.com/tutorials/installing-an-arduino-bootloader/all
