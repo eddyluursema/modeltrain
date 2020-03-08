@@ -7,7 +7,6 @@ Dit zijn een aantal van mijn toekomstige projecten.
 * LocoNet
 * XPressnet
 * Verbeteren DCC sniffer
-* USB om verkeer DR5000 - laptop te bekijken
 
 ## Schakeldecoders
 
