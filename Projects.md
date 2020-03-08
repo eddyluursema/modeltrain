@@ -11,7 +11,7 @@ Dit zijn een aantal van mijn toekomstige projecten.
 
 ## Schakeldecoders
 
-* DCCNext
+* OpenDCC
 
 ## RocRail
 
