@@ -3,7 +3,7 @@
 [Navigate to English version](#English)
 
 In deze repository worden diverse onderwerpen rondom mijn modelspoorbaan beschreven. Plaatjes zijn zelf gemaakt; indien ze van derden zijn staat de bron vermeld.
-Eddy Luursema Februari 2020
+Eddy Luursema Maart 2020
 
 1. [Kopen of bouwen van schakeldecoders](/ByorDIYSignaldecoders/README.md)
 2. [DR4018](/DR4018/README.md) gebruik, programmering en RocRail toepassen van de Digikeijs schakeldecoder     
@@ -13,19 +13,20 @@ Eddy Luursema Februari 2020
 6. [Baanontwerp en elektrisch schema](/Track/README.md)
 7. [Tafelconstructie](/Table/README.md)
 8. [DCC-sniffers](./DCCsniffers/README.md)
-9. [DCCplusplus](./DCCplusplus/README.md)
-10. [Gereedschappen](./Hardwaretooling/README.md)
-11. [Softwaretooling](./Softwaretooling.md) met tips voor instellingen
-12. [Fritzing](./Fritzing/README.md) teken elektrische schema's en het maken van eigen onderdelen zoals de DR4018 en seinen
-13. [Projecten](./Projects.md) in de toekomst
-14. Gebruik van [github en github-desktop](/Github/README.md) voor documentatie
-15. [Arduino cursus](/ArduinoCourse/README.md)
+9. [Loconet sniffer](./Loconet/README.md)
+10. [DCCplusplus](./DCCplusplus/README.md)
+11. [Gereedschappen](./Hardwaretooling/README.md)
+12. [Softwaretooling](./Softwaretooling.md) met tips voor instellingen
+13. [Fritzing](./Fritzing/README.md) teken elektrische schema's en het maken van eigen onderdelen zoals de DR4018 en seinen
+14. [Projecten](./Projects.md) in de toekomst
+15. Gebruik van [github en github-desktop](/Github/README.md) voor documentatie
+16. [Arduino cursus](/ArduinoCourse/README.md)
 
 
 # ![English flag](./images/gb.gif)English
 
 In this repository several subjects concerning my model railroad can be found. Most pictures are made by me; otherwise the source is mentioned.
-Eddy Luursema February 2020
+Eddy Luursema March 2020
 
 1. [Buy or DIY  switching decoders](/ByorDIYSignaldecoders/README.md#English)
 2. [DR4018](/DR4018/README.md#English) usage, programming and RocRail configuration of the Digikeijs accessory decoder   
@@ -35,10 +36,11 @@ Eddy Luursema February 2020
 6. [Track plan and electrical schema](/Track/README.md#English)
 7. [Table design](/Table/README.md#English)
 8. [DCC sniffers](./DCCsniffers/README.md#English)
-9. [DCCplusplus](./DCCplusplus/README.md#English)
-10. [Hardware tools](./Hardwaretooling/README.md#English)
-11. [Software tooling](./Softwaretooling.md#English) with hints for configuration settings
-12. [Fritzing](./Fritzing/README.md#English) drawing elektrical schemas and creating your own parts like the DR4018 and signals
-13. [Projects](./Projects.md#English) in the futuure
-14. Using [github and github-desktop](/Github/README.md#English) for documentation
-15. [Arduino course](/ArduinoCourse/README.md#English)
+9. [Loconet sniffer](./Loconet/README.md)
+10. [DCCplusplus](./DCCplusplus/README.md#English)
+11. [Hardware tools](./Hardwaretooling/README.md#English)
+12. [Software tooling](./Softwaretooling.md#English) with hints for configuration settings
+13. [Fritzing](./Fritzing/README.md#English) drawing elektrical schemas and creating your own parts like the DR4018 and signals
+14. [Projects](./Projects.md#English) in the futuure
+15. Using [github and github-desktop](/Github/README.md#English) for documentation
+16. [Arduino course](/ArduinoCourse/README.md#English)
