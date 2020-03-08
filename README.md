@@ -5,7 +5,7 @@
 In deze repository worden diverse onderwerpen rondom mijn modelspoorbaan beschreven. Plaatjes zijn zelf gemaakt; indien ze van derden zijn staat de bron vermeld.
 Eddy Luursema Maart 2020
 
-1. [Kopen of bouwen van schakeldecoders](/ByorDIYSignaldecoders/README.md)
+1. [Kopen of bouwen van schakeldecoders](/BuyorDIYSignaldecoders/README.md)
 2. [DR4018](/DR4018/README.md) gebruik, programmering en RocRail toepassen van de Digikeijs schakeldecoder     
 3.  [DR5000](/DR5000/README.md) gebruik, programmering en RocRail toepassen van het Digikeijs Command station
 4. [DR4088](/DR4088/README.md) gebruik, programmering en RocRail toepassen van de Digikeijs bezetmelder
@@ -28,7 +28,7 @@ Eddy Luursema Maart 2020
 In this repository several subjects concerning my model railroad can be found. Most pictures are made by me; otherwise the source is mentioned.
 Eddy Luursema March 2020
 
-1. [Buy or DIY  switching decoders](/ByorDIYSignaldecoders/README.md#English)
+1. [Buy or DIY  switching decoders](/BuyorDIYSignaldecoders/README.md#English)
 2. [DR4018](/DR4018/README.md#English) usage, programming and RocRail configuration of the Digikeijs accessory decoder   
 3. [DR5000](/DR5000/README.md#English) usage, programming and RocRail configuration of the Digikeijs Command Station
 4. [DR4088](/DR4088/README.md#English) usage, programming and RocRail configuration of the Digikeijs feedback module

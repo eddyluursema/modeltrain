@@ -44,10 +44,10 @@ Na een stuk literatuuronderzoek en onderzoek in een werkende installatie is onde
 
 |Decoder |BuyDIY|Configuratie|NLsein|Wisselspoel|Fading|Servo|Open source|Prijs/poort|
 |--------|------|------------|------|-----------|------|-----|-----------|-----------|
-|DR4018  |Buy   |CV          |❌    |✔️        |      |❌   |❌        |&euro; 2   |
-|DCCNext |Kit   |UI ✔️      |✔️    |❌        |✔️    |✔️   |❌        |&euro; 1   |
-|OpenDCC1|DIY   |            |      |           |      |     |✔️        |&euro; 0.5 |
-|OpenDCC2|Kit   |            |      |           |      |     |✔️        |&euro; 3   |
+|DR4018  |Buy   |CV          |❌    |✔️           |      |❌    |❌         |&euro; 2   |
+|DCCNext |Kit   |UI ✔️        |✔️    |❌           |✔️     |✔️    |❌         |&euro; 1   |
+|OpenDCC1|DIY   |            |      |           |      |     |✔️          |&euro; 0.5 |
+|OpenDCC2|Kit   |            |      |           |      |     |✔️          |&euro; 3   |
 
 * BuyDIY: wordt de decoder kant en klaar geleverd (Buy), als zelfbouwkit of moet je alles inclusief printplaat samenstellen (DIY)?
 * Configuratie: kan middels CV waarden zijn of met een mooie User Interface
