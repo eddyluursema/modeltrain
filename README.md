@@ -16,11 +16,12 @@ Eddy Luursema Maart 2020
 9. [Loconet sniffer](./Loconet/README.md)
 10. [DCCplusplus](./DCCplusplus/README.md)
 11. [Gereedschappen](./Hardwaretooling/README.md)
-12. [Softwaretooling](./Softwaretooling.md) met tips voor instellingen
-13. [Fritzing](./Fritzing/README.md) teken elektrische schema's en het maken van eigen onderdelen zoals de DR4018 en seinen
-14. [Projecten](./Projects.md) in de toekomst
-15. Gebruik van [github en github-desktop](/Github/README.md) voor documentatie
-16. [Arduino cursus](/ArduinoCourse/README.md)
+12. [Oscilloscoop en logic analyzer](./OscilloscopeLogicAnalyzer/README.md)
+13. [Softwaretooling](./Softwaretooling.md) met tips voor instellingen
+14. [Fritzing](./Fritzing/README.md) teken elektrische schema's en het maken van eigen onderdelen zoals de DR4018 en seinen
+15. [Projecten](./Projects.md) in de toekomst
+16. Gebruik van [github en github-desktop](/Github/README.md) voor documentatie
+17. [Arduino cursus](/ArduinoCourse/README.md)
 
 
 # ![English flag](./images/gb.gif)English
@@ -39,8 +40,9 @@ Eddy Luursema March 2020
 9. [Loconet sniffer](./Loconet/README.md)
 10. [DCCplusplus](./DCCplusplus/README.md#English)
 11. [Hardware tools](./Hardwaretooling/README.md#English)
-12. [Software tooling](./Softwaretooling.md#English) with hints for configuration settings
-13. [Fritzing](./Fritzing/README.md#English) drawing elektrical schemas and creating your own parts like the DR4018 and signals
-14. [Projects](./Projects.md#English) in the futuure
-15. Using [github and github-desktop](/Github/README.md#English) for documentation
-16. [Arduino course](/ArduinoCourse/README.md#English)
+12. [Oscilloscope and logic analyzer](./OscilloscopeLogicAnalyzer/README.md)
+13. [Software tooling](./Softwaretooling.md#English) with hints for configuration settings
+14. [Fritzing](./Fritzing/README.md#English) drawing elektrical schemas and creating your own parts like the DR4018 and signals
+15. [Projects](./Projects.md#English) in the futuure
+16. Using [github and github-desktop](/Github/README.md#English) for documentation
+17. [Arduino course](/ArduinoCourse/README.md#English)

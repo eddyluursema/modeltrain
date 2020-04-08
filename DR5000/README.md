@@ -52,6 +52,13 @@ Indien in het schakelcherm logging is ingeschakeld verschijnt b.v.
 
 ![RocRailproperties2](./images/RocRailproperties2.png)  ![RocRailproperties3](./images/RocRailproperties3.png)
 
+## Loc adres wijzigen
+
+Het is niet gelukt om m.b.v. de MultiMaus in combinatie met de DR5000 een nieuwe loc (standaard geleverd met adres 3) een nieuw adres te geven. Dit kan wel via het scherm CV programmering. Kies als adres 3 (het standaard adres) en CV 1 (de CV van het loc adres) en geef het nieuwe adres op; in dit geval 5.
+
+![RocRailproperties1](./images/LocAdres.PNG)
+
+
 
 # ![English flag](../images/gb.gif)English
 
@@ -104,3 +111,9 @@ If enabled speed changes are visible in the logging
 * Set to Loconet and 115200 bps
 
 ![RocRailproperties2](./images/RocRailproperties2.png)  ![RocRailproperties3](./images/RocRailproperties3.png)
+
+## Change loc adress
+
+To change the adress of a new loc with the MultiMaus in combination with the DR5000 was unsuccesfull (standard a new loc has adress 3). This can be done by the CV programming form. Choose adress 3 (the standaard adress) and CV 1 (the CV of the loc adress) and enter the new adress; in this example 5.
+
+![RocRailproperties1](./images/LocAdres.PNG)

@@ -2,11 +2,13 @@
 
 [Navigate to English version](#English)
 
+## Ontwerp 1
+
 Mijn baan is getekend in 3D Modelbahn Studio en in RocRail:
 
 ![3D Modelbahn Studio](./images/TrackDesign3D.png)
 
-![RocRail](./images/TrackDesignRocRail.png)
+![RocRail](./images/TrackDesignRocRail_1.png)
 
 3D Modelbahn Studio is niet helemaal foutloos. Uitsluitend baanstukken zijn gebruikt uit de library en toch sluiten bepaalde stukken niet aan (twee rode vertikale streepjes).
 
@@ -20,8 +22,14 @@ Het elektrische schema is getoond van slechts een van de 4 DR4018. Voorlopig zij
 
 Het uiteindelijke [RocRail-bestand in XML](./images/plan.xml) om de baan te besturen is bijgevoegd.
 
+## Ontwerp 2
+
+![RocRail](./images/TrackDesignRocRail_2.png)
+
 
 # ![English flag](../images/gb.gif)English
+
+## Design 1
 
 My model railroad is drawn with 3D Modelbahn Studio and with RocRail:
 
@@ -40,3 +48,7 @@ The elektrical schema is drawn with only one of four DR4018. At the moment the 3
 ![ElectricSchema](./images/ElectricSchema.PNG)
 
 The final [RocRail-file in XML](./images/plan.xml) to control my modeltrain track is available.
+
+## Design 2
+
+![RocRail](./images/TrackDesignRocRail_2.png)
