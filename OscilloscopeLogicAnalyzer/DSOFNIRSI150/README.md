@@ -55,14 +55,23 @@ Leuke analoge oscilloscoop voor weinig geld, maar met een beperkte bandbreedte.
 
 ### Praktische toepassing: PWM servo
 
-Een kleine sketch om een servo heen en weer te bewegen is op een Arduino Uno gezet waarna het servo-stuursignaal met de DSO FNIRISI is bekeken:
+Een kleine sketch om een servo heen en weer te bewegen is op een Arduino Uno gezet waarna het servo-stuursignaal met de DSO FNIRISI is bekeken. Goed is te zien dat een servo-besturingssignaal een cyclystijd heeft van 20 ms en dat de servo-positie verstopt zit in een kleine pulsbreedte tussen 0.5 en 2 msec:
 
-![ServoForwardBackward](./images/ServoForwardBackward.mp4)
+![LEDPWM1](./images/Servo1.png)
+
+![LEDPWM1](./images/Servo2.png)
 
 
 ### Praktische toepassing: PWM LED
 
-TODO
+De duty cycle van een LED wordt langzaam in stapjes verhoogd van 0 naar 100 %. Dit is goed zichtbaar te maken:
+
+![LEDPWM1](./images/LEDPWM1.png)
+
+![LEDPWM2](./images/LEDPWM2.png)
+
+![LEDPWM3](./images/LEDPWM3.png)
+
 
 ### AD 9833 golfvormgenerator
 
