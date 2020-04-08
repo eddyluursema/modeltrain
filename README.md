@@ -3,7 +3,7 @@
 [Navigate to English version](#English)
 
 In deze repository worden diverse onderwerpen rondom mijn modelspoorbaan beschreven. Plaatjes zijn zelf gemaakt; indien ze van derden zijn staat de bron vermeld.
-Eddy Luursema Maart 2020
+Eddy Luursema April 2020
 
 1. [Kopen of bouwen van schakeldecoders](/BuyorDIYSignaldecoders/README.md)
 2. [DR4018](/DR4018/README.md) gebruik, programmering en RocRail toepassen van de Digikeijs schakeldecoder     
@@ -27,7 +27,7 @@ Eddy Luursema Maart 2020
 # ![English flag](./images/gb.gif)English
 
 In this repository several subjects concerning my model railroad can be found. Most pictures are made by me; otherwise the source is mentioned.
-Eddy Luursema March 2020
+Eddy Luursema April 2020
 
 1. [Buy or DIY  switching decoders](/BuyorDIYSignaldecoders/README.md#English)
 2. [DR4018](/DR4018/README.md#English) usage, programming and RocRail configuration of the Digikeijs accessory decoder   
