@@ -2,14 +2,18 @@
 
 [Navigate to English version](#English)
 
+#### Inleiding
+
+In mijn baan gebruik ik 4 schakeldecoders DR4018 op de vier hoeken van de tafel. Om bedrading te besparen werden zowel max. 2 wissels als 3 4-aspect NS-seinen op één decoder aangesloten. Hiertoe is documentatie geraadpleegd afkomstig van Digikeijs "DR4018 toepassing handleiding_beneluxforum.pdf". Echter als je maar 3-aspect seinen tot je beschikking hebt gaan er 3 signaaldraden verloren, die je voor een extra 3-aspect sein kunt gebruiken.
+
 #### Aansluitschema
 
-![2 wissels als 4 seinen op één decoder](./images/DR4018_mixed2switchesand4signals3L.png)
+![2 wissels als 4 3-aspect seinen op één decoder](./images/DR4018_mixed2switchesand4signals3L.png)
 
 
 #### DR4018 configuratie
 
-De volgende CV-adres-value-combinaties moeten in de DR4018 worden geconfigureerd. Deze waarden zijn gekopieerd uit het hoofdstuk over preset 7 met twee wissels en 3 seinen:
+De volgende CV-adres-value-combinaties moeten in de DR4018 worden geconfigureerd. Deze waarden zijn gekopieerd uit het hoofdstuk over preset 7 met twee wissels en 3 seinen. Daarna is experimenteel de configuratie tot stand gekomen:
 
 CV|Waarde|Betekenis
 --|------|---------
@@ -45,6 +49,10 @@ Om een DR4018 zoals hierboven geconfigureerd samen te laten werken met RocRail m
 
 # ![English flag](../../images/gb.gif)English
 
+#### Introduction
+
+In my modeltrain track I use 4 accessory decoders DR4018 in the four corners of the table. To save wiring both 2 switches and 3 Dutch signals are connected to the same decoder. The documentation comes from the site of Digikeijs and is a Dutch document "DR4018 toepassing handleiding_beneluxforum.pdf". However having only 3 aspects per signal leaves 3 outputs from the DR4018 unused. These 3 outputs can be used for an extra 3 aspect signal.
+
 #### Wiring
 
 ![2 switches and 4 signals on one decoder](./images/DR4018_mixed2switchesand4signals3L.png)
@@ -52,7 +60,7 @@ Om een DR4018 zoals hierboven geconfigureerd samen te laten werken met RocRail m
 
 #### DR4018 configuration
 
-The next CV-adres-value-combinations must be written to the DR4018:
+The next CV-adres-value-combinations must be written to the DR4018. These values have ben copied from the chapter on preset 7 with two switches and 3 signals. Using this as a start, we got the following set of values by experimenting:
 
 CV|Value|Meaning
 --|------|------

@@ -19,7 +19,12 @@ Volg de instructies zoals aangegeven bij deze [link](https://learn.sparkfun.com/
 * Gebruik de 'Show cursors' (twee vlaggetjes) om nauwkeurige metingen te doen
 * Het geel/goen-icoontje roept de protocoldecoders op
 
+#### Eerste meting
 
+Maak een klein Arduino programma dat een LED laat knipperen op b.v. 1 Hz en bij het inschakelen de tekst 'On' en bij het uitschakelen de tekst 'Off' toont via de seriële uitgang. Sluit de analyzer aan op de LED-pin en de seriële uitgang. Schakel bij de knop protocolanalyse de UART-analyse in. Je ziet het volgende:
 
+![Device](./images/ToggleSerial.PNG)
+
+Heel goed is het flippen van de pin en de seriële data te zien met start- en stopbit. De protocolanalyse laat de teksten zien inclusief carrige return en linefeed (tenminste als je println() hebt gebruikt)
 
 # ![English flag](../../images/gb.gif)English

@@ -22,11 +22,13 @@ RocRail|Model railroad software to control locomotives, signals and switches avo
 Fritzing|Electronic schema design tool
 Arduino IDE|Building Arduino programs and upload into Arduino like controllers
 Picoscope|Mixed Signal Oscilloscope
+PulseView|Cheap logic analyzer software with protocol recognition 
 PuTTY|Terminal emulator
 Ultra Serial Port Monitor|Free sniffer on COM-ports https://download.cnet.com/Ultra-Serial-Port-Monitor/3000-2094_4-10969502.html
 
 👍Fine tuning Atom:
 
+* Use ctrl-shift-m to preview
 * Go to Settings
 * Go to Install
 * Look for package 'autocomplete-emojis'

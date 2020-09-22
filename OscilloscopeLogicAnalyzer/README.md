@@ -14,7 +14,7 @@ Na een stuk literatuuronderzoek is onderstaand overzicht samengesteld. Zodra har
 |Type                |#analog|#digital|BW    |Protocols|DCC|Prijs China|Prijs NL|
 |--------------------|-------|--------|------|---------|---|-----------|--------|
 |DSO FNIRSI 150      |1      |-       |200kHz| -       |❌ |&euro;13   |&euro;52|
-|USB LA 24M          |2      |8       |24MHz |I2C/SPI  |✔️ |&euro; 5   |&euro; 10|
+|USB LA 24M          |-      |8       |24MHz |I2C/SPI  |✔️ |&euro; 5   |&euro; 10|
 |Picoscope 2205A MSO |2      |16      |25MHz |I2C/SPI  |✔️ |-          |&euro; 500|
 
 ## DSO FNIRSI 150
@@ -25,6 +25,8 @@ Na een stuk literatuuronderzoek is onderstaand overzicht samengesteld. Zodra har
 ## USB LA 24M
 
 ![USB LA](./images/USBLogicAnalyzer24M.PNG)
+
+
 
 ## Picoscope 2205 MSO
 
