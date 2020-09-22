@@ -26,6 +26,7 @@ Na een stuk literatuuronderzoek is onderstaand overzicht samengesteld. Zodra har
 
 ![USB LA](./images/USBLogicAnalyzer24M.PNG)
 
+[Meetrapport](./USBLA24M/README.md)
 
 
 ## Picoscope 2205 MSO
