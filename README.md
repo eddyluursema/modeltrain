@@ -8,7 +8,7 @@ Eddy Luursema April 2020
 1. [Kopen of bouwen van schakeldecoders](/BuyorDIYSignaldecoders/README.md)
 2. [DR4018](/DR4018/README.md) gebruik, programmering en RocRail toepassen van de Digikeijs schakeldecoder     
 3.  [DR5000](/DR5000/README.md) gebruik, programmering en RocRail toepassen van het Digikeijs Command station
-4. [DR4088](/DR4088/README.md) gebruik, programmering en RocRail toepassen van de Digikeijs bezetmelder
+4. [DR4088](/DR4088/README.md) gebruik, programmering en RocRail toepassen van de Digikeijs Loconet bezetmelder
 5. [ArSigDec](/DCCNext/README.md) gebruik, programmering en RocRail toepassen van de ArCoMoRa schakeldecoder     
 6. [Baanontwerp en elektrisch schema](/Track/README.md)
 7. [Tafelconstructie](/Table/README.md)
