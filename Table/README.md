@@ -19,6 +19,10 @@ De tafel is kantelbaar waardoor het mogelijk is met een gereedschapswagen en ver
 
 ![foto](./images/TiltedTableToolcar.png).
 
+De elektronica inclusief kabelgeleiders zijn gemonteerd op kleine moduleplaten, die met bouten, ringen en afstandbussen onderaan de tafel worden vastgemaakt. Als er nieuwe aansluitingen onder de moduleplaat moeten worden aangebracht, wordt met een klein hoekvormig hulpmiddel de module 90 graden omgeklapt zodat de aansluitingen niet hoeven te worden losgemaakt.
+
+![foto](./images/WorkingOnModule.png).
+
 Voor de nabouwers zijn hier de afmetingen:
 
 ![TableDesign3](./images/TableDesign3.png)
@@ -47,6 +51,11 @@ The removable sides of the table are connected to eachother with so called bed m
 The table can be tilted to enable a small car with tools and a movable chair to facilitate easy mounting while sitting:
 
 ![photo](./images/TiltedTableToolcar.png).
+
+The elektronics including cable trays are mounted on small module plates which are connected with bolts, rings and spacers underneath the table. If new connections are needed underneath a plate a small wooden attachment is used to turn the plate 90 degrees without disconnecting all wiring.
+
+![foto](./images/WorkingOnModule.png).
+
 
 To rebuild this table the dimensions are:
 
