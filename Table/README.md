@@ -21,7 +21,17 @@ De tafel is kantelbaar waardoor het mogelijk is met een gereedschapswagen en ver
 
 De elektronica inclusief kabelgeleiders zijn gemonteerd op kleine moduleplaten, die met bouten, ringen en afstandbussen onderaan de tafel worden vastgemaakt. Als er nieuwe aansluitingen onder de moduleplaat moeten worden aangebracht, wordt met een klein hoekvormig hulpmiddel de module 90 graden omgeklapt zodat de aansluitingen niet hoeven te worden losgemaakt.
 
-![foto](./images/WorkingOnModule.png).
+![foto](./images/WorkingOnModule.png)
+
+Kabels worden weggewerkt in kabelgoten onder de tafel in combinatie met zgn. bindruggen voor een stapel A4 op de modules:
+
+![foto](./images/CableTray.JPG)
+
+Onder de tafel worden kleine bosjes kabels bijeen gehouden met een stukje plastic (van een bindrug), die met een lijmpistool op de bodemplaat is vastgeplakt:
+
+![foto](./images/CableFixer.JPG)
+
+Dit idee is afkomstig van "Schattenbahnhof – Anschluss, Verkabeln, Inbetriebnahme | Schreibtisch Modellbahn Spur N" van gebruiker N-Thusia MoBa op Youtube <https://www.youtube.com/watch?v=S9f-oZGuR1M&t=1009s>. Een zeer uitgebreide site met bouwtips trouwens.
 
 Voor de nabouwers zijn hier de afmetingen:
 
@@ -56,6 +66,15 @@ The elektronics including cable trays are mounted on small module plates which a
 
 ![foto](./images/WorkingOnModule.png).
 
+Cables are put into cable trays underneath the table and on the modules we use plastic rings (used to hold a pack of papers together) :
+
+![foto](./images/CableTray.JPG)
+
+On the bottom of the tables a small amount of cables is put together by adhesing a small plastic piece using a glue pistol:
+
+![foto](./images/CableFixer.JPG)
+
+This idea was taken from "Schattenbahnhof – Anschluss, Verkabeln, Inbetriebnahme | Schreibtisch Modellbahn Spur N" from user N-Thusia MoBa op Youtube <https://www.youtube.com/watch?v=S9f-oZGuR1M&t=1009s>. By the way a very extended site with construnction tips.
 
 To rebuild this table the dimensions are:
 
