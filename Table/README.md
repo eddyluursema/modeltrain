@@ -37,6 +37,41 @@ In de situatie van een modelspoorbaan is het zeer handig te weten (na het loshal
 
 ![zie](./images/DR4018_modeltrainsituation.jpg)
 
+**Kleurcodering seinen**
+
+|Kleur|Dikte|Betekenis|
+|-----|-----|---------|
+|<span style="color:red">Rood</span> |AWG24|Rood sein|
+|<span style="color:yellow">Geel</span> |AWG24|Geel sein|
+|<span style="color:green">Groen</span>|AWG24|Groen sein|
+|<span style="color:orange">Oranje</span>|AWG24|15V|
+
+**Kleurcodering wissels**
+
+|Kleur|Dikte|Betekenis|
+|-----|-----|---------|
+|<span style="color:brown">Bruin</span>|AWG24|Wissel activeren|
+|<span style="color:black">Zwart</span>|AWG24|15V|
+
+**Kleurcodering rails**
+
+|Kleur|Dikte|Betekenis|
+|-----|-----|---------|
+|<span style="color:red">Rood</span>|AWG24|DCC K rail|
+|<span style="color:blue">Blauw</span>|AWG24|DCC D rail (DCC J na diodebrug)|
+|<span style="color:gray">Grijs</span>|AWG24|Bezetmelder|
+
+**Kleurcodering verdeling**
+
+|Kleur|Dikte|Betekenis|
+|-----|-----|---------|
+|<span style="color:red">Rood</span>|AWG20|DCC K verdeling|
+|<span style="color:yellow">Geel</span>|AWG20|DCC J verdeling|
+|<span style="color:blue">Blauw</span>|AWG20|DCC D verdeling (DCC J na diodebrug)|
+|<span style="color:orange">Oranje</span>|AWG20|15V verdeling|
+|<span style="color:black">Zwart</span>|AWG20|0V verdeling|
+
+
 Voor de nabouwers zijn hier de afmetingen van de tafel:
 
 ![TableDesign3](./images/TableDesign3.png)
@@ -83,6 +118,40 @@ This idea was taken from "Schattenbahnhof – Anschluss, Verkabeln, Inbetriebnah
 In the situation of a modeltrain a very usefull tip for knowing which wire belongs to which signal (after disconnecting a DR4018) is to use coloured shrinking tube. This tip came from a college Theo Goumans from the Modeltrain Department of the Dutch Hobby Computer Club. Take also a look at the cable ties and coloured terminal crimps with the same colour as the wires:
 
 ![zie](./images/DR4018_modeltrainsituation.jpg).
+
+**Wire color signals**
+
+|Color|Diameter|Meaning|
+|-----|-----|---------|
+|<span style="color:red">Red</span> |AWG24|Red signal|
+|<span style="color:yellow">Yellow</span>  |AWG24|Yellow signal|
+|<span style="color:green">Green</span> |AWG24|Green signal|
+|<span style="color:orange">Orange</span>|AWG24|15V|
+
+**Wire color switches**
+
+|Color|Diameter|Meaning|
+|-----|-----|---------|
+|<span style="color:brown">Brown</span>|AWG24|Activate switch|
+|<span style="color:black">Black</span>|AWG24|15V|
+
+**Wire color rails**
+
+|Color|Diameter|Meaning|
+|-----|-----|---------|
+|<span style="color:red">Red</span>|AWG24|DCC K rail|
+|<span style="color:blue">Blue</span>|AWG24|DCC D rail (DCC J after diode bridge)|
+|<span style="color:gray">Gray</span>|AWG24|Occupation signal|
+
+**Wire color distribution**
+
+|Color|Diameter|Meaning|
+|-----|-----|---------|
+|<span style="color:red">Red</span>|AWG20|DCC K distribution|
+|<span style="color:yellow">Yellow</span>|AWG20|DCC J distribution|
+|<span style="color:blue">Blue</span>|AWG20|DCC D distribution (DCC J after diode bridge)|
+|<span style="color:orange">Orange</span>|AWG20|15V distribution|
+|<span style="color:black">Black</span>|AWG20|0V distribution|
 
 To rebuild this table the dimensions are:
 
