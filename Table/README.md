@@ -33,7 +33,11 @@ Onder de tafel worden kleine bosjes kabels bijeen gehouden met een stukje plasti
 
 Dit idee is afkomstig van "Schattenbahnhof – Anschluss, Verkabeln, Inbetriebnahme | Schreibtisch Modellbahn Spur N" van gebruiker N-Thusia MoBa op Youtube <https://www.youtube.com/watch?v=S9f-oZGuR1M&t=1009s>. Een zeer uitgebreide site met bouwtips trouwens.
 
-Voor de nabouwers zijn hier de afmetingen:
+In de situatie van een modelspoorbaan is het zeer handig te weten (na het loshalen van een DR4018) welke draden bij welk sein horen. Een tip van collega Theo Goumans van de HCCm. Hij gebruikt gekleurd krimpkous. Kijk ook naar de gebruikte kabelbinders en gekleurde adereindhulzen met dezelfde kleur als de bedrading:
+
+![zie](./images/DR4018_modeltrainsituation.jpg)
+
+Voor de nabouwers zijn hier de afmetingen van de tafel:
 
 ![TableDesign3](./images/TableDesign3.png)
 
@@ -74,7 +78,11 @@ On the bottom of the tables a small amount of cables is put together by adhesing
 
 ![foto](./images/CableFixer.JPG)
 
-This idea was taken from "Schattenbahnhof – Anschluss, Verkabeln, Inbetriebnahme | Schreibtisch Modellbahn Spur N" from user N-Thusia MoBa op Youtube <https://www.youtube.com/watch?v=S9f-oZGuR1M&t=1009s>. By the way a very extended site with construnction tips.
+This idea was taken from "Schattenbahnhof – Anschluss, Verkabeln, Inbetriebnahme | Schreibtisch Modellbahn Spur N" from user N-Thusia MoBa op Youtube <https://www.youtube.com/watch?v=S9f-oZGuR1M&t=1009s>. By the way a very extended site with construction tips.
+
+In the situation of a modeltrain a very usefull tip for knowing which wire belongs to which signal (after disconnecting a DR4018) is to use coloured shrinking tube. This tip came from a college Theo Goumans from the Modeltrain Department of the Dutch Hobby Computer Club. Take also a look at the cable ties and coloured terminal crimps with the same colour as the wires:
+
+![zie](./images/DR4018_modeltrainsituation.jpg).
 
 To rebuild this table the dimensions are:
 
