@@ -10,7 +10,13 @@ Een kleine experimentele printplaat is gebouwd met 16 LED's telkens in de kleure
 
 En gebouwd:
 
+
 ![DR4018testcircuit](./images/DR4018testcircuit.jpg).
+
+Voor de geïnteresseerden een geopende DR4018. Duidelijk rechtsonder de optocoupler, linksonder de gelijkrichter van de voeding, bovenin de buffers en rechts de PIC.
+
+![DR4018testcircuit](./images/DR4018Open.JPG).
+
 
 # ![English flag](../../images/gb.gif)English
 
@@ -22,5 +28,8 @@ A small printed experimental circuit board with 16 LED's in the colours red, yel
 
 And build:
 
-
 ![DR4018testcircuit](./images/DR4018testcircuit.jpg).
+
+An opened DR4018:
+
+![DR4018testcircuit](./images/DR4018Open.JPG).
