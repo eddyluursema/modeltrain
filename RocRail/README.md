@@ -14,6 +14,11 @@ Na een tip van Fred Jansen de algemene eigenschap van RocRail uitgeschakeld en d
 
 ![RocRail_reserve_second_next_block](./images/Loc_reserve_second_next_block.PNG)
 
+## Seinen buiten gebruik
+Soms is een sein voorzien van een grijze achtergrond. Dit sein is dan buiten gebruik. Selecteer het sein en klik op de rechtermuis en kies 'In gebruik nemen''.
+
+![RocRail_reserve_second_next_block](./images/SignalOutOfOrder.png)
+
 
 # ![English flag](../images/gb.gif) English
 
@@ -29,3 +34,8 @@ In the first design of a track plan with signals they only turned to red or yell
 After a tip by Fred Jansen the general setting of RocRail switched off and switch on per locomotiv. According to Fred RocRail will now **try** to reserve two blocks, but if not possible then only one.
 
 ![RocRail_reserve_second_next_block](./images/Loc_reserve_second_next_block.PNG)
+
+## Signals out of operation
+Sometimes a signal has a gray background meaning the signal is out of operation. Select the signal with the mouse and right click and choose 'Put into operation'.
+
+![RocRail_reserve_second_next_block](./images/SignalOutOfOrder_EN.png)
