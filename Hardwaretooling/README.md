@@ -9,15 +9,25 @@ Een paar handige stukken gereedschap en hulpmiddelen bij het bouwen van een mode
 * Loeplamp
 * Soldeerstation temperatuurgeregeld
 * Dremel
+* Soldeermat
 
 ![afbeelding](./images/SelfAdjustableCrimpingPlier_AWG24-10.png)
+
 ![afbeelding](./images/CrimpConnectors.jpg)
+
 ![afbeelding](./images/Toolcar.jpg)
+
 ![afbeelding](./images/Multimeter.jpg)
+
 ![afbeelding](./images/Striptool.png)
+
 ![afbeelding](./images/Magnifyinglamp.png)
+
 ![afbeelding](./images/SolderingStation.png)
+
 ![afbeelding](./images/Dremel.png)
+
+![afbeelding](./images/SolderingSilicon.PNG)
 
 # ![English flag](../images/gb.gif) English
 
@@ -32,12 +42,22 @@ Some handy tools for building your modeltrain:
 * Magnifying lamp
 * Solder station temperature regulated
 * Dremel
+* Soldering working area
 
 ![afbeelding](./images/SelfAdjustableCrimpingPlier_AWG24-10.png)
+
 ![afbeelding](./images/CrimpConnectors.jpg)
+
 ![afbeelding](./images/Toolcar.jpg)
+
 ![afbeelding](./images/Multimeter.jpg)
+
 ![afbeelding](./images/Striptool.png)
+
 ![afbeelding](./images/Magnifyinglamp.png)
+
 ![afbeelding](./images/SolderingStation.png)
+
 ![afbeelding](./images/Dremel.png)
+
+![afbeelding](./images/SolderingSilicon.PNG)
