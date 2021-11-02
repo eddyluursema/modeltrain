@@ -3,7 +3,7 @@
 ### Computerbesturing van de modelspoorbaan
 Er zijn diverse computerprogramma's verkrijgbaar voor het besturen van een modelspoorbaan. In de hieronder weergegeven vergelijking is zo objectief mogelijk geprobeerd op allerlei facetten deze programma's te vergelijken voor zowel de hobbyist als de commerciële gebruiker. Waar mogelijk kan meteen naar de bron worden gesprongen. In deze lijst staan de meeste populaire programma's zoals deze anno 2021 worden gebruikt in Nederland.
 
-Railware is opgenomen, omdat dit (volgens henzelf) wordt gebruikt op de grootste modelspoorbaan ter wereld [Miniatur Wunderland](https://www.miniatur-wunderland.de/) in Hamburg met 1000+ treinen op ong. 16 km rails op 1500 m2 tentoonstellingsruimte. [Hier](https://de.wikipedia.org/wiki/Liste_%C3%B6ffentlich_zug%C3%A4nglicher_Modelleisenbahnanlagen) een lijst met commerciële modelspoorbanen.
+Railware is opgenomen, omdat dit (volgens henzelf) wordt gebruikt op de grootste modelspoorbaan ter wereld [Miniatur Wunderland](https://www.miniatur-wunderland.de/) in Hamburg met 1000+ treinen op ong. 16 km rails op 1500 m2 tentoonstellingsruimte. [Hier](https://de.wikipedia.org/wiki/Liste_%C3%B6ffentlich_zug%C3%A4nglicher_Modelleisenbahnanlagen) een lijst met commerciële modelspoorbanen te vinden.
 
 Op deze [site](http://www.modellbahnsoftware.de/modellbahnsteuerung/railware/) is een overzicht te vinden van zo'n 40 in Duitsland gebruikte programma's.
 
@@ -18,7 +18,7 @@ Op deze [site](http://www.modellbahnsoftware.de/modellbahnsteuerung/railware/) i
 |Gebruikers                |[10000](https://forum.rocrail.net/viewforum.php?f=95)  |[4000](https://www.koploperforum.nl/)    |[8000](https://www.berros.eu/itrain/forum/)  |[21000](https://www.freiwald.com/forum/)⚠️[830](http://www.dutchroco.nl/)|[12500](https://www.windigipet.de/foren/index.php?action=forum#c1)     |8500 |?   |
 |Berichten                 |[250000](https://forum.rocrail.net/viewforum.php?f=95) |[50000](https://www.koploperforum.nl/)   |[170000](https://www.berros.eu/itrain/forum/)|[240000](https://www.freiwald.com/forum/)⚠️[11000](http://www.dutchroco.nl/)|[250000](https://www.windigipet.de/foren/index.php?action=forum#c1)    |34000|?   |
 |**Ondersteuning**         |       |        |      |               |          |     |
-|Video's      |Albert 45 |   |Fuller 52|Rudy 58        |    ||
+|Video's      |[Albert 45](https://www.youtube.com/c/AlbertGrit/videos) |[van den Burg 13](https://www.youtube.com/channel/UCkvh0krgm9D3vl87qfyJgXA/videos)|[Fuller 52](https://www.youtube.com/channel/UC9iZzS78ZpATbICDKWD8bAA/videos)|[Rudy 58](https://www.youtube.com/channel/UC8z5SHQhi9veBOAaFPZffNA/videos)|    ||
 |Cursussen      |hccm |hccm |hccm |         |    ||
 |Voorbeeldbaan      |hccm |hccm |hccm |         |    ||
 |**Prijs**    |       |        |      |               |          |     |
@@ -41,7 +41,7 @@ Op deze [site](http://www.modellbahnsoftware.de/modellbahnsteuerung/railware/) i
 
 ### **Platform**
 
-Gebruikers zijn erg kieskeurig in hun operating system op hun laptop. Met de komst van zeer compacte single board computers zoals de Raspberry Pi kan het handig zijn dat het programma ook op Linux draait.
+Gebruikers zijn erg kieskeurig in hun operating system op hun laptop. Met de komst van zeer compacte single board computers zoals de Raspberry Pi kan het handig zijn dat het programma ook op Linux draait. Met een Pi en een klein (touch) display kan een modelspoorbaan autonoom draaien zonder laptop.
 
 ### **Forum**
 

@@ -36,7 +36,7 @@ Ultra Serial Port Monitor|Free sniffer on COM-ports for studying Loconet-USB tra
 * Look for package 'autocomplete-emojis'
 * Install if necessary
 * From now emojis are supported with auto-complete (start typing : and one letter) and are visible in edit and preview mode.
-* Used on this site: ❌is called 'x' in that package so type ':' followed by 'x' (of course without the apostrophes), 👍 'thumbsup', ✔️ 'heavy_check_mark', ❗ 'heavy_exclamation_mark'
+* Used on this site: ❌is called 'x' in that package so type ':' followed by 'x' (of course without the apostrophes), 👍 'thumbsup', ✔️ 'heavy_check_mark', ❗ 'heavy_exclamation_mark', ⚠️ 'warning'
 
 👍Fine tuning Notepad++:
 
