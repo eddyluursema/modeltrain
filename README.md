@@ -5,7 +5,7 @@
 In deze repository worden diverse onderwerpen rondom mijn modelspoorbaan beschreven. Plaatjes zijn zelf gemaakt; indien ze van derden zijn staat de bron vermeld.
 Eddy Luursema November 2021
 
-0. Treinbesturing
+0. [Treinbesturingsprogramma's](/TrainControl/README.md)
 1. [Kopen of bouwen van schakeldecoders](/BuyorDIYSignaldecoders/README.md)
 2. [DR4018](/DR4018/README.md) gebruik, programmering en RocRail toepassen van de Digikeijs schakeldecoder     
 3.  [DR5000](/DR5000/README.md) gebruik, programmering en RocRail toepassen van het Digikeijs Command station

@@ -30,14 +30,14 @@ Op deze [site](http://www.modellbahnsoftware.de/modellbahnsteuerung/railware/) i
 |Jaar laatste versie|[2021 daily build](https://wiki.rocrail.net/doku.php?id=download-int) |  ||  | |[2021](https://www.jmri.org/releasenotes/jmri4.24.shtml)|2017|
 |Laatste versie| |  ||  | |[4.24](https://www.jmri.org/releasenotes/jmri4.24.shtml)|7|
 |Programmeertaal|C++ |Delphi  |Java|?  |? |Java |?|
-|Ontwikkelaars|Rob Versluis|Paul Haagsma|Xander Berkhout || | |
+|Ontwikkelaar(s)|Rob Versluis|Paul Haagsma|Xander Berkhout || | |
 |Team|?|?|?|?|18|?|?|
-|**[Taal programma](#taal_programma)**|NL,D,E + 40 |NL        |NL,D,E      |               |          |     |
-|**Documentatie**    |       |        |      |               |          |     |
+|**[Programmeertaal programma](#programmeertaal-programma)**|NL,D,E + 40 |NL        |NL,D,E      |               |          |     |
+|**[Documentatie](#documentatie)**    |       |        |      |               |          |     |
 |Taal|NL,D,E + 40 |NL  |NL,D,E|D,E  | | |D|
 |#blz| |  ||  | | |225
-|**Database**    |XML     |        |      |               |          |     |
-|**Commercieel**|     |[Miniworld Rotterdam](http://www.miniworldrotterdam.com/NL_partners.htm)        |      |               |          |     |[Miniatur Wunderland Hamburg](https://www.miniatur-wunderland.de/)|
+|**[Database](#database)**    |XML     |        |      |               |          |     |
+|**[Commercieel](#commercieel)**|     |[Miniworld Rotterdam](http://www.miniworldrotterdam.com/NL_partners.htm)        |      |               |          |     |[Miniatur Wunderland Hamburg](https://www.miniatur-wunderland.de/)|
 
 ### **Platform**
 
@@ -73,4 +73,11 @@ Voor de enthousiaste ontwikkelaars onder ons, die denken dat een treinbesturings
 
 Bij de meeste programma's er is maar één hoofdontwikkelaar en is onduidelijk wat er gebeurt als deze er mee stopt om wat vopor reden dan ook. Is er een team beschikbaar vanuit een bedrijf of zijn er enthousiaste opvolgers? Dit is vaak lastig te achterhalen.
 
-### **Taal programma**
+### **Programmeertaal programma**
+Pure technische interesse hoewel er bij mij als embedded software docent twijfels zijn bij het gebruik van Java.
+
+### **Documentatie**
+In welke talen is er documentatie en hoe groot is dat? Bij een Wiki zoals RocRail is het lastig het aantal bladzijden te tellen.
+
+### **Commercieel**
+Bestaan er permanente tentoonstellingen, die gebruik maken van het pakket?
