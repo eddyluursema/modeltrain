@@ -38,6 +38,11 @@ Ultra Serial Port Monitor|Free sniffer on COM-ports for studying Loconet-USB tra
 * From now emojis are supported with auto-complete (start typing : and one letter) and are visible in edit and preview mode.
 * Used on this site: ❌is called 'x' in that package so type ':' followed by 'x' (of course without the apostrophes), 👍 'thumbsup', ✔️ 'heavy_check_mark', ❗ 'heavy_exclamation_mark', ⚠️ 'warning'
 
+👍Using Markdown on Github:
+
+* You can not open a link in a new tab due to the rendering software of Github.
+* This engine also limits the use of colors.
+
 👍Fine tuning Notepad++:
 
 * Add the NppExport plugin. With this plugin it is possible to have a selected piece of formatted (colored) code exported to e.g. Word.

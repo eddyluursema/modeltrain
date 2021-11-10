@@ -5,11 +5,13 @@ Er zijn diverse computerprogramma's verkrijgbaar voor het besturen van een model
 
 Railware is opgenomen, omdat dit (volgens henzelf) wordt gebruikt op de grootste modelspoorbaan ter wereld [Miniatur Wunderland](https://www.miniatur-wunderland.de/) in Hamburg met 1000+ treinen op ong. 16 km rails op 1500 m2 tentoonstellingsruimte. [Hier](https://de.wikipedia.org/wiki/Liste_%C3%B6ffentlich_zug%C3%A4nglicher_Modelleisenbahnanlagen) is een lijst met commerciële modelspoorbanen te vinden.
 
-Op deze (site)[http://www.modellbahnsoftware.de/modellbahnsteuerung/railware/]{:target="_blank"} is een overzicht te vinden van zo'n 40 in Duitsland gebruikte programma's.
+Op deze
+site)[http://www.modellbahnsoftware.de/modellbahnsteuerung/railware/] is een overzicht te vinden van zo'n 40 in Duitsland gebruikte programma's.
 
 
 |             |[RocRail](https://wiki.rocrail.net/doku.php)|[Koploper](https://www.pahasoft.nl/)|[iTrain](https://www.berros.eu/nl/itrain/index.php)|[TrainController](https://www.freiwald.com/pages/traincontroller.htm)|[Windigipet](https://www.windigipet.de/foren/index.php)|[JMRI](https://www.jmri.org/)|[Railware](https://railware.de/)|
 |--------------------------|-------|--------|------|---------------|----------|-----|----|
+|Afkorting|RR|KLP|iT|TC|WDP|JMRI|RW|
 |**[Platform](#platform)** |       |        |      |               |          |     |
 |Windows                   |✔️    |✔️      |✔️   |✔️             |✔️        |✔️  |✔️  |
 |Linux                     |✔️    |❌      |✔️   |❌             |❌        |✔️  |❌  |
@@ -22,6 +24,7 @@ Op deze (site)[http://www.modellbahnsoftware.de/modellbahnsteuerung/railware/]{:
 |Max. views      |106K |6k2 |24k|79k|79k||
 |Cursussen      |hccm |hccm |hccm |         |    ||
 |Handleiding blz|❌ |431 |234 |417   |967 ||226|
+|Getting started| | | |   | |||
 |Wiki      |✔️ |❌ |❌ |✔️         |?    |?|
 |Taal|NL,D,E + 40 |NL  |NL,D,E|D,E  | | |D||Voorbeeldbaan      |hccm |hccm |hccm |         |    ||
 |**[Prijs](#prijs)**    |       |        |      |               |          |     |
@@ -29,6 +32,7 @@ Op deze (site)[http://www.modellbahnsoftware.de/modellbahnsteuerung/railware/]{:
 |Maximum versie|gratis |gratis  |[&euro;349](https://www.berros.eu/nl/itrain/pricing.php)|[&euro;559](https://www.freiwald.com/pages/register2.htm)|[&euro;449](https://www.windigipet.de/foren/index.php?page=menu_de_0301_00_00_page_preise) |gratis |[&euro;595](https://shop.railware.de/index.php?cPath=1)|
 |Proeflicentie|nvt |nvt  |[2 mnd](https://www.berros.eu/nl/itrain/pricing.php)|30 dgn   |[4 locs, 12 wissels](https://www.windigipet.de/foren/index.php?page=menu_de_0701_01_00_page_downloads2018) |nvt |?|
 |**[Software](#software)**    |       |        |      |               |          |     |
+|Architectuur|CS|Mono?|CS|CS|App|?|?|
 |Jaar 1e versie|[2002](https://wiki.rocrail.net/doku.php?id=credits-en)|||  | |[2003](https://www.jmri.org/releasenotes/jmri1.2.5.shtml) |[2003](https://doku.railware.de/aktuell/bericht1.html)|
 |Jaar laatste versie|[2021 daily build](https://wiki.rocrail.net/doku.php?id=download-int) |[2019](https://www.pahasoft.nl/)||  | |[2021](https://www.jmri.org/releasenotes/jmri4.24.shtml)|2017|
 |Laatste versie|daily build|[9.4](https://www.pahasoft.nl/)||  | |[4.24](https://www.jmri.org/releasenotes/jmri4.24.shtml)|7|
@@ -57,18 +61,18 @@ Het kan handig zijn een 'open' opslagformaat van baan, loc's, wissels en seinen 
 - Zelf een programma willen schrijven dat de database uitleest of manipuleert
 - Een testdatabases willen maken b.v. om in één keer 1000 loc's toe te voegen zonder oneindig met een editor te knippen en te plakken (ID's moeten immers uniek zijn)
 
-Uit de 3 voorbeeldatabases voor RocRail, Koploper en iTrain van de hccm is de structuur afgeleid.
+Uit de 3 voorbeeldatabases voor RR, KLP en iT van de hccm is de structuur afgeleid.
 
 ### **Forum**
-Gekeken is hoeveel gebruikers en berichten er op het forum staan. Bij b.v. RocRail moet je lid zijn om het aantal leden en berichten te kunnen zien.
+Gekeken is hoeveel gebruikers en berichten er op het forum staan. Bij b.v. RR moet je lid zijn om het aantal leden en berichten te kunnen zien.
 
-Bij Traincontroller staat een tweede aantal berichten; dit is het [DutchRoco](http://www.dutchroco.nl/) forum voor gecombineerd gebruik van Roco en Traincontroller.
+Bij TC staat een tweede aantal forumberichten; dit is het [DutchRoco](http://www.dutchroco.nl/) forum voor gecombineerd gebruik van Roco en TC.
 
 ### **Handleiding**
 Er is gekeken naar de handleiding van de laatste en meest uitgebreide versie. Van RocRail zijn er wel korte handleidingen, maar er wordt altijd verwezen naar de wiki.
 
 ### **Ondersteunde centrales**
-Het is een zeer complexe taak om alle programma’s te vergelijken op de mogelijk aan te sluiten centrales. Voor de computerzelfbouwhobbyist die b.v. DCC++ (https://dcc-ex.com/ ) wil gebruiken is de keuze beperkter (alleen RocRail en Windigipet). Indien de ontwikkeling van het programma is beëindigd zoals bij Koploper zal het lastiger worden de meest nieuw ontwikkelde centrales aan te sluiten. Bij Traincontroller [lijkt](http://www.bahn.jjhh.de/tc.htm) de Bronze-versie beperkt tot een enkele centrale.
+Het is een zeer complexe taak om alle programma’s te vergelijken op de mogelijk aan te sluiten centrales. Voor de computerzelfbouwhobbyist die b.v. DCC++ (https://dcc-ex.com/ ) wil gebruiken is de keuze beperkter (alleen RR en WDP). Indien de ontwikkeling van het programma is beëindigd zoals bij Koploper zal het lastiger worden de meest nieuw ontwikkelde centrales aan te sluiten. Bij Traincontroller [lijkt](http://www.bahn.jjhh.de/tc.htm) de Bronze-versie beperkt tot een enkele centrale.
 
 ### **Ondersteuning**
 Bij de video's is gezocht op de bijdrage met de meeste video's; bij Koploper zijn zeer recente video's genoemd.Van alle video's over een onderwerp is gekeken naar de meest bekeken cursusvideo (dus niet hoe mooi draait mijn baan met pakket X).
@@ -93,6 +97,13 @@ Alle programma’s moeten op de een of andere manier de mogelijke routes op het 
 Er bestaat een grote hoeveelheid commerciële en zelfbouw sein- en wisseldecoders en dito manieren van adresseren en aansturen. RocRail geeft daarvan een zeer uitgebreide beschrijving en aansturingsmogelijkheden (https://wiki.rocrail.net/doku.php?id=addressing-en ) met een bijbehorende complexe GUI . Uit de documentatie van de andere programma’s lijkt het wel of die complexiteit niet aanwezig of niet instelbaar is.
 
 ### **Software**
+De architectuur kan belangrijk zijn om de bediening met meerdere beeldschermen en/of bedieningspanelen in de vorm van een laptop, tablet of smartphon uit te kunnen voeren.
+
+* Bij Client Server (=CS) is er een computer ingericht als server voor de bewaking van alle treinen, wissels en seinen. Er kunnen meerdere clients worden verbonden. RR heeft een open CS-interface zodat een hobbyist zelf een nieuwe client kan bouwen. 
+* Bij een monolitische applicatie (=Mono) is er één programma dat op een laptop draait. Bij KPL is er in de handleiding sprake van max. 9 schermen, maar is niet beschreven hoe.
+* Bij b.v. WDP is er sprake van een app voor tablet en smartphone.
+
+
 Bij de keuze voor een besturingsprogramma kan hetr belangrijk zijn of er recentelijk nog gewerkt wordt aan verbeteringen en fouten worden verholpen.
 
 Voor de enthousiaste ontwikkelaars onder ons, die denken dat een treinbesturingsprogramma een appel en een eitje is, kijk even naar de ontwikkelhistorie van de meeste pakketten. Het duurt jaar zo niet een tiental jaren om zoiets te bouwen!
