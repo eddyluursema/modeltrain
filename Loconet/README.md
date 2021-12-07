@@ -2,17 +2,26 @@
 
 ## Loconet via USB
 
-Via https://download.cnet.com/Ultra-Serial-Port-Monitor/3000-2094_4-10969502.html een gratis sniffer gevonden om het Loconet-verkeer tussen laptop en DCC station te bestuderen. Vervolgens de GUI van het DCC station (DR5000) gebruikt om verkeer te genereren door loc's, seinen en wissels te bedienen, loc's over melders te laten rijden en CV-waarden te configureren.
+Via https://download.cnet.com/Ultra-Serial-Port-Monitor/3000-2094_4-10969502.html een gratis sniffer gevonden om het USB-Loconet-verkeer tussen laptop en het DCC command stationn te bestuderen. Vervolgens is de GUI van het DCC command station (DR5000) gebruikt om verkeer te genereren door loc's, seinen en wissels te bedienen, loc's over melders te laten rijden en CV-waarden te configureren.
 
-#### Loc-bediening
+## Loc-bediening
+
+De loc's worden bestuurd via de locomotieven-interface van de DR5000:
+
+
+![SWITCH-Loc_1_speed](./images/Loc_1_speed.PNG)
+
+Dit kan natuurlijk ook prima via de multiMaus (de BR204 heeft adres 3):
+
+![SWITCH-Loc_1_speed_multiMaus](./images/Loc_1_speed_multiMaus.jpg)
 
 De besturing van loc's staat vermeld in de  [Personal Edition van Loconet](https://www.digitrax.com/static/apps/cms/media/documents/loconet/loconetpersonaledition.pdf) van Digitrax. Zodra in de interface van het DCC station een loc-adres wordt gekozen, zien we een aanmelding in een zogenaamd slot. E0 06 62 is de aanmeldboodschap; de twee daarop volgende bytes het loc-adres waarbij van het tweede adresbyte het msb niet wordt meegenomen.
 
 |Loc |Actie       | Bericht         |
 |----|------------|-----------------|
-|5   |Aanmelden   |E0 06 62 00 05 7E|
-|6   |Aanmelden   |E0 06 62 00 06 7D|
-|7   |Aanmelden   |E0 06 62 00 07 7C|
+|1   |Aanmelden   |E0 06 62 00 01 7A|
+|2   |Aanmelden   |E0 06 62 00 02 79|
+|3   |Aanmelden   |E0 06 62 00 03 78|
 ...
 |127 |Aanmelden   |E0 06 62 00 7F 04|
 |128 |Aanmelden   |E0 06 62 01 00 7A|
@@ -22,32 +31,56 @@ De besturing van loc's staat vermeld in de  [Personal Edition van Loconet](https
 Volgens de Personal Edition van Loconet van Digitrax is het laatste byte de checksum zijnde de EXOR van alle bits in het bericht behalve de checksum zelf (pag. 6): **The CHECKSUM is the 1's COMPLEMENT of the byte wise Exclusive Or of all the
 bytes in the message, except the CHECKSUM itself.**
 
-Na het aanmelden krijgen loc's een volgnummer in de volgorde waarin ze een slot kregen toegewezen (3 was de eerste loc op de baan).
+Na het aanmelden krijgen loc's een volgnummer in de volgorde waarin ze een slot kregen toegewezen. Na het inschakelen van de DR5000 stond de GUI op adres 1. Deze eerste loc krijgt zo te zien slot 2 (2e byte) en de tweede slot 3. Het lijkt dat het slot-volgnummer in onderstaande berichten 1 hoger is dan het aanmeldvolgnummer.
 
-|Loc|Actie       | Bericht    |
+|Loc|Speed GUI   | Bericht    |
 |---|------------|------------|
-|1  |Speed 2     |A0 05 02 58 |
-|2  |Speed 2     |A0 04 02 59 |
-|3  |Speed 2     |A0 01 02 5C |
-|4  |Speed 2     |A0 03 02 5E |
-...
-|3  |Speed 0     |A0 01 00 5E |
-|3  |Speed 2     |A0 01 02 5C |
-|3  |Speed 3     |A0 01 03 5D |
-|3  |Speed 127   |A0 01 7F 21 |
-|3  |Vooruit     |A1 01 10 4F |
-|3  |Achteruit   |A1 01 30 6F |
-|3  |Licht aan   |A1 01 31 6E |
-|3  |Licht uit   |A1 01 21 7E |
-|4  |Speed 0     |A0 03 00 5C |
-|4  |Speed 127   |A0 03 7F 23 |
+|1  |Speed 1     |A0 02 02 5F |
+|1  |Speed 2     |A0 02 02 59 |
+|2  |Speed 2     |A0 03 02 5E |
+|3  |Speed 1     |A0 04 03 58 |
+|3  |Speed 126   |A0 04 7F 24 |
 
 De snelheden hierboven genoemd zijn afgeleid uit de logging van het DCC station en het bekijken van de Loconet-boodschap.
 Bij snelheden is het 3e byte de snelheid. Bijzonder is dat de rijrichting eenmalig wordt verzonden.
 
-#### Wisselbediening
+## Loc functies
 
- Met het DCC station worden wissels bediend:
+Het schakelen van lichten van de loc met adres 3 (slot 4). Pas op: alle functies kunnen gecombineerd worden zoals b.v. F1 en F2 aan:
+
+|Loc            |Bericht     |
+|---------------|------------|
+|Verlichting aan|A1 04 30 6A |
+|Verlichting aan|A1 04 20 7A |
+|F1 aan         |A1 04 21 7B |
+|F1 uit         |A1 04 20 7A |
+|F2 aan         |A1 04 22 78 |
+|F2 uit         |A1 04 20 7A |
+|F1 en F2 aan   |A1 04 23 79 |
+|....           ||
+|F12 aan        |A3 04 08 50 |
+|F12 uit        |A3 04 00 58 |
+|F13 aan        |D4 20 04 08 01 06 D4 20 04 05 00 0A|
+|F13 uit        |D4 20 04 08 00 07 D4 20 04 05 00 0A|
+|....           ||
+|F28 aan        |D4 20 04 09 00 06 D4 20 04 05 40 4A|
+|F28 uit        |D4 20 04 09 00 06 D4 20 04 05 00 0A
+
+
+## Wisselbediening
+
+ Met het DCC station worden wissels bediend. Eerst wissel 1 rood via de SWITCH-interface van de DR5000 en meteen daarna groen. Rood is afbuigend, groen rechtdoor; dit wordt duidelijk getoond in de logging van de DR5000.
+
+ ![SWITCH-interface](./images/Switch_1_red.PNG)
+
+ Dit is meteen te zien in de logging (met weer opvallend nummer één lager dan nummer in de GUI):
+
+ ![SWITCH-DR5000_Logging_1_red_green_red_green](./images/DR5000_Logging_1_red_green_red_green.PNG)
+
+
+ Hetzelfde kan bereikt worden door op de multiMaus rood/afbuigend te geven middels de rechter muisknop (witte cirkel):
+
+![SWITCH-Switch_1_red_multiMaus](./images/Switch_1_red_multiMaus.jpg)
 
 |Actie        | Bericht                  |
 |-------------|--------------------------|
@@ -76,7 +109,7 @@ Wissel 2 R klopt ook weer met een DIR = RED op adres 1 (in interface dus 2) met 
 ,ON=1 for Output ON, =0 FOR output OFF
  Note-,Immediate response of <0xB4><30><00> if command failed, otherwise no response**
 
-#### Melders
+## Melders
 
 We laten loc's rijden over de baan en deze passeren daarbij melders. In de baan zijn 12 melders aanwezig beginnend met adres 17 (in de gebruikersinterface).
 
@@ -113,7 +146,7 @@ B2 0C 40 01 B2 0C 60 21 B2 0D 40 00 B2 0D 60 20 B2 0E 40 03 B2 0E 60 23 B2 0F 40
 B2 00 40 0D B2 00 60 2D B2 01 40 0C B2 01 60 2C B2 02 40 0F B2 02 60 2F B2 03 40 0E B2 03 60 2E
 B2 04 40 09 B2 04 60 29 B2 05 40 08 B2 05 60 28 B2 06 40 0B B2 06 60 2B B2 07 40 0A B2 07 60 2A
 
-##### Power
+### Power
 
 |Actie    | Bericht    |
 |---------|------------|
@@ -122,11 +155,8 @@ B2 04 40 09 B2 04 60 29 B2 05 40 08 B2 05 60 28 B2 06 40 0B B2 06 60 2B B2 07 40
 
 Conform specs.
 
-##### Multimaus
 
-Ook opdrachten gegeven op de Multimaus. De resultaten van die acties verschijnen op Loconet. Bij wisselcommando's zijn ze identiek.
-
-#### CV programmeren
+## CV programmeren
 Via interface van de DR5000 een CV waarde geprogrammeerd bv. adres 9999
 
 |Adres|CV |Value|Bericht|
@@ -154,7 +184,7 @@ byte9-bit0 byte10 = CV-adres minus 1
 byte9-bit1 byte11 = CV-waarde
 
 
-# Loconet software
+## Loconet software
 
 https://github.com/mrrwa/LocoNet
 

@@ -41,7 +41,17 @@ Op adres 502 GROEN wordt output 3 van de DR4018 geactiveerd gedurende 0.5 s; bij
 
 Adres 503 en 504 geen actie.
 
-Vanaf adres 505 t/m adres 516 zal een GROEN de outputs 5 .. 16 activeren en ROOD decativeren.
+Vanaf adres 505 t/m adres 516 zal een GROEN de outputs 5 .. 16 activeren en dus de LED aanzetten en ROOD decativeren. Het linker sein zal het volgende beeld tonen:
+
+|505|506|507|Sein |
+|---|---|---|-----|
+|G  |R  |R  |Rood |
+|R  |G  |R  |Geel |
+|R  |R  |G  |Groen|
+
+Via de interface van b.v. een DR5000 kan dit eenvoudig worden getest b.v. een GEEL sein betekent 505 R, 506 G en 507 R:
+
+![Geel](./images/YellowSignalOn505506507.PNG)
 
 #### RocRail
 
@@ -88,7 +98,19 @@ A GREEN on adress 502 will activate output 3 of the DR4018 during 0.5 s; at RED 
 
 Adress 503 and 504 no action.
 
-From adress 505 until adress 516 a GREEN will activate output 5 .. 16 and RED will decativate it.
+From adress 505 until adress 516 a GREEN will activate output 5 .. 16 and so the LED is on and RED will decativate it.
+
+The leftmost signal will show:
+
+|505|506|507|Signal|
+|---|---|---|------|
+|G  |R  |R  |Red   |
+|R  |G  |R  |Yellow|
+|R  |R  |G  |Green |
+
+Through the interface of e.g. a DR5000 this can be tested easily. A yellow signal means 505 R, 506 G and 507 R:
+
+![Geel](./images/YellowSignalOn505506507.PNG)
 
 #### RocRail
 
