@@ -43,10 +43,10 @@ Een ? in onderstaand overzicht betekent 'ik heb het (nog) niet kunnen vinden'.
 |Jaar 1e versie|[2002](https://wiki.rocrail.net/doku.php?id=credits-en)|||  | |[2003](https://www.jmri.org/releasenotes/jmri1.2.5.shtml) |[2003](https://doku.railware.de/aktuell/bericht1.html)|
 |Jaar laatste versie|[2021 daily build](https://wiki.rocrail.net/doku.php?id=download-int) |[2019](https://www.pahasoft.nl/)||  |2021|[2021](https://www.jmri.org/releasenotes/jmri4.24.shtml)|2017|
 |Laatste versie|daily build|[9.4](https://www.pahasoft.nl/)|5|9|2021|[4.24](https://www.jmri.org/releasenotes/jmri4.24.shtml)|7|
-|Programmeertaal|C++ |Delphi  |Java|?  |VB|Java |?|
+|Programmeertaal|C++ |Delphi  |Java|?  |?|Java |?|
 |Ontwikkelaar(s)|Rob Versluis|Paul Haagsma|Xander Berkhout |Jürgen Freiwald|Peter Peterlin|-|Andrea Hinz|
 |Teamgrootte|1?|0?|1?|1?|18|community|[1](https://shop.railware.de/shop_content.php?coID=4)|
-|**[Database](#database)**    |XML     |Tekst|XML      |               |XML|     |
+|**[Database](#database)**    |XML     |Tekst|XML      |               |XML+DAT+MDB|     |
 |**[Commercieel](#commercieel)**|     |[Miniworld Rotterdam](http://www.miniworldrotterdam.com/NL_partners.htm)        |      |[12+](https://www.freiwald.com/seiten/references.htm#Ausstellungsanlagen)               |          |     |[Miniatur Wunderland Hamburg](https://www.miniatur-wunderland.de/)|
 
 Nadat hierboven niet-functionele aspecten van de verschillende programma's zijn vergeleken, gaat het nu verder met functionaliteiten.
@@ -72,7 +72,7 @@ Het kan handig zijn een 'open' opslagformaat van baan, loc's, wissels en seinen 
 - Een testdatabases willen maken b.v. om in één keer 1000 loc's toe te voegen zonder oneindig met een editor te knippen en te plakken (ID's moeten immers uniek zijn)
 - Fouten willen herstellen m.b.v. een gewone editor zoals Notepad++
 
-Uit de 3 voorbeeldatabases voor RR, KLP en iT van de hccm is deze structuur afgeleid.
+Uit de 3 voorbeeldatabases voor RR, KLP en iT van de hccm is deze structuur afgeleid. Bij WDP wordt een mix van XML-bestanden, maar ook .DAT (tekstopmaak) en .MDB (MS-Access) gebruikt.
 
 ### **Forum**
 Gekeken is hoeveel gebruikers en berichten er op het forum staan. Bij b.v. RR moet je lid zijn om het aantal leden en berichten te kunnen zien.

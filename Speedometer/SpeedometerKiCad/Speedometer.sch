@@ -1,0 +1,290 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Speedometer"
+Date ""
+Rev "V0.1"
+Comp "Eddy Luursema"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 62103615
+P 5150 4150
+F 0 "R?" H 5220 4196 50  0000 L CNN
+F 1 "Build in" H 5220 4105 50  0000 L CNN
+F 2 "" V 5080 4150 50  0001 C CNN
+F 3 "~" H 5150 4150 50  0001 C CNN
+	1    5150 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4000 5150 2300
+$Comp
+L Device:R R?
+U 1 1 621055C5
+P 3850 4150
+F 0 "R?" H 3920 4196 50  0000 L CNN
+F 1 "Build in" H 3920 4105 50  0000 L CNN
+F 2 "" V 3780 4150 50  0001 C CNN
+F 3 "~" H 3850 4150 50  0001 C CNN
+	1    3850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:IR26-21C_L110_TR8 D1
+U 1 1 62105DF1
+P 3850 5000
+F 0 "D1" V 3889 4882 50  0000 R CNN
+F 1 "Infrared LED" V 3798 4882 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 3850 5200 50  0001 C CNN
+F 3 "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf" H 3850 5000 50  0001 C CNN
+	1    3850 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3850 4000 3850 2300
+$Comp
+L Device:Q_Photo_NPN_EC Q1
+U 1 1 6210BBE0
+P 4450 5000
+F 0 "Q1" H 4641 5046 50  0000 L CNN
+F 1 "IRdetect" H 4641 4955 50  0000 L CNN
+F 2 "" H 4650 5100 50  0001 C CNN
+F 3 "~" H 4450 5000 50  0001 C CNN
+	1    4450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6210CEFE
+P 4550 4150
+F 0 "R1" H 4620 4196 50  0000 L CNN
+F 1 "1k" H 4620 4105 50  0000 L CNN
+F 2 "" V 4480 4150 50  0001 C CNN
+F 3 "~" H 4550 4150 50  0001 C CNN
+	1    4550 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2300 3850 2300
+$Comp
+L LED:IR26-21C_L110_TR8 D2
+U 1 1 62115874
+P 5150 5000
+F 0 "D2" V 5189 4882 50  0000 R CNN
+F 1 "Infrared LED" V 5098 4882 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 5150 5200 50  0001 C CNN
+F 3 "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf" H 5150 5000 50  0001 C CNN
+	1    5150 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 5600 2400 5400
+Wire Wire Line
+	5150 4300 5150 4850
+$Comp
+L Device:Q_Photo_NPN_EC Q2
+U 1 1 6211B2C1
+P 5700 5000
+F 0 "Q2" H 5891 5046 50  0000 L CNN
+F 1 "IRdetect" H 5891 4955 50  0000 L CNN
+F 2 "" H 5900 5100 50  0001 C CNN
+F 3 "~" H 5700 5000 50  0001 C CNN
+	1    5700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6211B3ED
+P 5800 4150
+F 0 "R2" H 5870 4196 50  0000 L CNN
+F 1 "1k" H 5870 4105 50  0000 L CNN
+F 2 "" V 5730 4150 50  0001 C CNN
+F 3 "~" H 5800 4150 50  0001 C CNN
+	1    5800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega328-AU U1
+U 1 1 620FD490
+P 2400 3900
+F 0 "U1" H 2400 2311 50  0000 C CNN
+F 1 "ATmega328-AU" H 2400 2220 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 2400 3900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 2400 3900 50  0001 C CNN
+	1    2400 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5200 4550 5600
+Connection ~ 4550 5600
+Connection ~ 5150 2300
+Wire Wire Line
+	5150 2300 5800 2300
+Wire Wire Line
+	4550 5600 5150 5600
+Wire Wire Line
+	5150 5150 5150 5600
+Connection ~ 5150 5600
+Connection ~ 3850 2300
+Wire Wire Line
+	3850 2300 4550 2300
+Wire Wire Line
+	4550 4300 4550 4700
+Wire Wire Line
+	2400 5600 3550 5600
+Wire Wire Line
+	3850 5150 3850 5600
+Connection ~ 3850 5600
+Wire Wire Line
+	3850 5600 4550 5600
+Wire Wire Line
+	3850 4300 3850 4850
+Wire Wire Line
+	4550 4000 4550 2300
+Connection ~ 4550 2300
+Wire Wire Line
+	4550 2300 5150 2300
+Wire Wire Line
+	5800 4000 5800 2300
+Wire Wire Line
+	3000 4700 4550 4700
+Connection ~ 4550 4700
+Wire Wire Line
+	4550 4700 4550 4800
+Wire Wire Line
+	3000 4600 5800 4600
+$Comp
+L Display_Character:EA_T123X-I2C U?
+U 1 1 6212AC92
+P 4000 1500
+F 0 "U?" H 4430 1546 50  0000 L CNN
+F 1 "OLED I2C" H 4430 1455 50  0000 L CNN
+F 2 "Display:EA_T123X-I2C" H 4000 900 50  0001 C CNN
+F 3 "http://www.lcd-module.de/pdf/doma/t123-i2c.pdf" H 4000 1000 50  0001 C CNN
+	1    4000 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1200 3300 1200
+Wire Wire Line
+	3300 1200 3300 4100
+Wire Wire Line
+	3300 4100 3000 4100
+Wire Wire Line
+	3500 1300 3400 1300
+Wire Wire Line
+	3400 1300 3400 4000
+Wire Wire Line
+	3000 4000 3400 4000
+Wire Wire Line
+	4000 1000 4000 900 
+Wire Wire Line
+	2400 900  2400 2300
+Wire Wire Line
+	2400 900  4000 900 
+$Comp
+L Connector:XLR3_Switched J1
+U 2 1 621380B0
+P 6750 4550
+F 0 "J1" V 6796 4321 50  0000 R CNN
+F 1 "RESET" V 6705 4321 50  0000 R CNN
+F 2 "" H 6750 4650 50  0001 C CNN
+F 3 " ~" H 6750 4650 50  0001 C CNN
+	2    6750 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 3700 6850 4250
+Wire Wire Line
+	6750 4850 6750 5600
+$Comp
+L Device:R R3
+U 1 1 6213B606
+P 6850 3050
+F 0 "R3" H 6920 3096 50  0000 L CNN
+F 1 "1k" H 6920 3005 50  0000 L CNN
+F 2 "" V 6780 3050 50  0001 C CNN
+F 3 "~" H 6850 3050 50  0001 C CNN
+	1    6850 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2300 6850 2300
+Wire Wire Line
+	6850 2300 6850 2900
+Connection ~ 5800 2300
+Wire Wire Line
+	6850 3200 6850 3700
+Connection ~ 6850 3700
+Connection ~ 6750 5600
+Connection ~ 6850 2300
+$Comp
+L Connector:XLR3_Switched J2
+U 2 1 621422F5
+P 7750 4550
+F 0 "J2" V 7796 4321 50  0000 R CNN
+F 1 "SCALE" V 7705 4321 50  0000 R CNN
+F 2 "" H 7750 4650 50  0001 C CNN
+F 3 " ~" H 7750 4650 50  0001 C CNN
+	2    7750 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 4850 7750 5600
+$Comp
+L Device:R R4
+U 1 1 621422FD
+P 7850 3050
+F 0 "R4" H 7920 3096 50  0000 L CNN
+F 1 "1k" H 7920 3005 50  0000 L CNN
+F 2 "" V 7780 3050 50  0001 C CNN
+F 3 "~" H 7850 3050 50  0001 C CNN
+	1    7850 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2300 7850 2900
+Wire Wire Line
+	7850 3200 7850 3600
+Wire Wire Line
+	3000 3600 7850 3600
+Connection ~ 7850 3600
+Wire Wire Line
+	7850 3600 7850 4250
+Wire Wire Line
+	6850 2300 7850 2300
+Wire Wire Line
+	6750 5600 7750 5600
+Wire Wire Line
+	3000 3700 6850 3700
+Wire Wire Line
+	5150 5600 5800 5600
+Wire Wire Line
+	5800 4300 5800 4600
+Wire Wire Line
+	5800 4600 5800 4800
+Connection ~ 5800 4600
+Wire Wire Line
+	5800 5200 5800 5600
+Connection ~ 5800 5600
+Wire Wire Line
+	5800 5600 6750 5600
+Wire Wire Line
+	4000 2000 3550 2000
+Wire Wire Line
+	3550 2000 3550 5600
+Connection ~ 3550 5600
+Wire Wire Line
+	3550 5600 3850 5600
+Wire Wire Line
+	2400 2300 2400 2400
+Connection ~ 2400 2300
+$EndSCHEMATC

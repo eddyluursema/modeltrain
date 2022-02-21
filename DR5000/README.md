@@ -26,6 +26,12 @@
 
 * Experimenteer met het rijden van een loc met een bepaald adres
 
+## DR5000 S88
+
+Zorg er voor dat als S88 niet gebruikt wordt het aantal S88-modules op 0 wordt gezet (default 16). Indien per ongeluk de Loconetbezetmelders bij 1 beginnen conflicteert dit met de niet-aanwezig maar wel geconfigureerde eerste 16 S88-melders ([zie ook de website van Digikeijs](https://support.digikeijs.com/hc/nl/articles/360003501257-LocoNet-adres-1-t-m-16-geven-foutmelding)).
+
+![DR5000_S88_Off](../DR5000/images/DR5000_S88_Off.png)
+
 ## DR5000 logging
 
 Indien in het schakelcherm logging is ingeschakeld verschijnt b.v.
@@ -52,9 +58,20 @@ Indien in het schakelcherm logging is ingeschakeld verschijnt b.v.
 
 ![RocRailproperties2](./images/RocRailproperties2.png)  ![RocRailproperties3](./images/RocRailproperties3.png)
 
+## TCPIP
+
+* Klik op de UTP-stekker in de grafische weergave van de DR5000
+* Wijzig eventueel het IP-adres
+* Zet het DR5000-protocol op Loconet over TCP/IP Binary
+
+
+![DR5000_TCP.png](./images/DR5000_TCP.png)
+
+***Let op: ook al staan de configuratiegegevens van de DR5000 omtrent TCPIP ingevuld de bediening vanuit de DR5000-interface wordt nog steeds via de USB uitgevoerd. Na het verbreken van de USB-verbinding werkt de GUI van de DR5000 zelf niet langer!***
+
 ## Loc adres wijzigen
 
-Het is niet gelukt om m.b.v. de MultiMaus in combinatie met de DR5000 een nieuwe loc (standaard geleverd met adres 3) een nieuw adres te geven. Dit kan wel via het scherm CV programmering. Kies als adres 3 (het standaard adres) en CV 1 (de CV van het loc adres) en geef het nieuwe adres op; in dit geval 5.
+Het is niet mogelijk om m.b.v. de MultiMaus in combinatie met de DR5000 een nieuwe loc (standaard geleverd met adres 3) een nieuw adres te geven op het hoofdspoor; dit zou via een apart programeerspoor moeten. Dit kan wel via het scherm CV programmering via POM (Programming On Main). Kies als adres 3 (het standaard adres) en CV 1 (de CV van het loc adres) en geef het nieuwe adres op; in dit geval 5.
 
 ![RocRailproperties1](./images/LocAdres.PNG)
 
@@ -86,6 +103,12 @@ Het is niet gelukt om m.b.v. de MultiMaus in combinatie met de DR5000 een nieuwe
 
 * Experiment driving a loc with the given adress
 
+## DR5000 S88
+
+Make sure when not using the S88 the number of S88 modules must be set to 0 (default 16). If the Loconet sensors are configured to 1 by accident this could otherwise conflict with the configured but absent S888 sensors ([see also the website of Digikeijs](https://support.digikeijs.com/hc/en-us/articles/360003501257-LocoNet-addresses-1-to-16-gives-an-error)).
+
+![DR5000_S88_Off](../DR5000/images/DR5000_S88_Off.png)
+
 ## DR5000 logging
 
 If enabled speed changes are visible in the logging
@@ -112,8 +135,18 @@ If enabled speed changes are visible in the logging
 
 ![RocRailproperties2](./images/RocRailproperties2.png)  ![RocRailproperties3](./images/RocRailproperties3.png)
 
+## TCPIP
+
+* Click on the UTP-plug in grafical image of the DR5000
+* Change the IP adress if neccessary
+* Change the DR5000 protocol to Loconet over TCP/IP Binary
+
+![DR5000_TCP.png](./images/DR5000_TCP.png)
+
+***Attention: Even if the configuration poarameters on TCPIP of the DR5000 are known the control from the DR5000 interface is still running through the USB cable. After disconnecting the USB the GUI of the DR5000 itself will no longer function!***
+
 ## Change loc adress
 
-To change the adress of a new loc with the MultiMaus in combination with the DR5000 was unsuccesfull (standard a new loc has adress 3). This can be done by the CV programming form. Choose adress 3 (the standaard adress) and CV 1 (the CV of the loc adress) and enter the new adress; in this example 5.
+To change the adress of a new loc with the MultiMaus in combination with the DR5000 is only possible using a programming track (standard a new loc has adress 3). This can be done on the main track using POM (Programming On Main) by the CV programming form. Choose adress 3 (the standaard adress) and CV 1 (the CV of the loc adress) and enter the new adress; in this example 5.
 
 ![RocRailproperties1](./images/LocAdres.PNG)

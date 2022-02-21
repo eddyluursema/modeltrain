@@ -10,6 +10,7 @@ Een paar handige stukken gereedschap en hulpmiddelen bij het bouwen van een mode
 * Soldeerstation temperatuurgeregeld
 * Dremel
 * Soldeermat
+* Soldeertipreiniger
 
 ![afbeelding](./images/SelfAdjustableCrimpingPlier_AWG24-10.png)
 
@@ -28,6 +29,8 @@ Een paar handige stukken gereedschap en hulpmiddelen bij het bouwen van een mode
 ![afbeelding](./images/Dremel.png)
 
 ![afbeelding](./images/SolderingSilicon.PNG)
+
+![afbeelding](./images/SolderIronTipCleaner.jpg)
 
 # ![English flag](../images/gb.gif) English
 
@@ -43,6 +46,7 @@ Some handy tools for building your modeltrain:
 * Solder station temperature regulated
 * Dremel
 * Soldering working area
+* Soldering tip cleaner
 
 ![afbeelding](./images/SelfAdjustableCrimpingPlier_AWG24-10.png)
 
@@ -61,3 +65,5 @@ Some handy tools for building your modeltrain:
 ![afbeelding](./images/Dremel.png)
 
 ![afbeelding](./images/SolderingSilicon.PNG)
+
+![afbeelding](./images/SolderIronTipCleaner.jpg)

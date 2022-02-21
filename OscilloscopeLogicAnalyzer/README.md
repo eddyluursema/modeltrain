@@ -16,6 +16,7 @@ Na een stuk literatuuronderzoek is onderstaand overzicht samengesteld. Zodra har
 |DSO FNIRSI 150      |1      |-       |200kHz| -       |❌ |&euro;13   |&euro;52|
 |USB LA 24M          |-      |8       |24MHz |I2C/SPI  |✔️ |&euro; 5   |&euro; 10|
 |Picoscope 2205A MSO |2      |16      |25MHz |I2C/SPI  |✔️ |-          |&euro; 500|
+|LHT00SU1            |1      |8       |24MHz |I2C/SPI  |✔️ |&euro;22   |-|
 
 ## DSO FNIRSI 150
 ![DSO FIRSI 150](./images/DSOFNIRSI150.PNG)
@@ -29,9 +30,13 @@ Na een stuk literatuuronderzoek is onderstaand overzicht samengesteld. Zodra har
 [Meetrapport](./USBLA24M/README.md)
 
 
+## LHT00SU1
+
+![LHT00SU1](./images/LHT00SU1.png)
+
+
 ## Picoscope 2205 MSO
 
 ![Picoscope2205MSO](./images/Picoscope2205MSO.jpeg)
-
 
 # ![English flag](../images/gb.gif)English

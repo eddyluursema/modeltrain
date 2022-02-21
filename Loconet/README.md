@@ -131,13 +131,6 @@ We laten loc's rijden over de baan en deze passeren daarbij melders. In de baan 
 
 L als bit5 van <IN2> geeft IN- of UITrijden aan. Melder 17 bij het inrijden (ws. intern adres 16) heeft een Loconet-adres met A6 = 1 -> 64. Zou de tekst kunnen zijn dat bij gebruik van de DR4088 als bezetmelder A1 en A0 altijd 0 zijn en dus het adres gedeeld moet worden door 4? Melder 18 (intern 17) heeft adres A6 = 1 dus 64 wat weer 16 zou kunnen betekenen, maar I=1 betekent waarschijnlijk het lsb van het adres hoewel dit niet zo duidelijk in de specificaties staat.
 
-**; <0xB2>, <IN1>, <IN2>, <CHK>
-<IN1> =<0,A6,A5,A4- A3,A2,A1,A0>, 7 ls adr bits. A1,A0 select 1 of 4 inputs pairs in a DS54
-<IN2> =<0,X,I,L- A10,A9,A8,A7> Report/status bits and 4 MS adr bits.
-"I"=0 for DS54 "aux" inputs and 1 for "switch" inputs mapped to 4K SENSOR space.
-(This is effectively a least significant adr bit when using DS54 input configuration)
-"L"=0 for input SENSOR now 0V (LO) , 1 for Input sensor >=+6V (HI)
-"X"=1, control bit , 0 is RESERVED for future!**
 
 😃Als de power wordt uit- en weer ingeschakeld zal de bezetmelder van alle 32 melders de toestand in één boodschap weergeven (het feit dat er 32 zijn i.p.v. de 16 ingesteld bij de DR4088 zou te maken kunnen hebben met het feit dat de DR5000 standaard staat ingesteld op 16 S88 ingangen):
 
@@ -182,6 +175,14 @@ byte6 * 128 + byte 7 = adres
 byte9-bit0 byte10 = CV-adres minus 1
 
 byte9-bit1 byte11 = CV-waarde
+
+
+## Loconet via TCPIP
+
+Configureer RocRail voor het besturen van een DR5000 via TCP/IP. De berichten zijn identiek. Door een opname te maken van het inschakelen van de voedingsspanning via RocRail vangt Wireshark dezelfde berichten af. Hier B2 08 40 05 en dat is melder 17 uit. Ieder Loconet-bericht is ook één TCP-IP-pakket. 
+
+![X](./images/DR5000_TCPIP_LOconet_Binary_FeedbackSensor_17_OFF.png)
+
 
 
 ## Loconet software

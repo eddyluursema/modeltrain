@@ -12,7 +12,7 @@ Atom|Text editor for Markdown documentation files used on Github|Free|
 Notepad++|Text editor plain ASCII files|Free|
 Github|Versioning software; command line commit to Github. Install only. No knowledge needed.|Free|
 Github desktop|Commit the work on your local laptop to Github through nice Windows form instead of Git commands|Free|
-Snipping tool Windows|Making screenshots and svae as PNG, GIF or JPG|Free|
+Snipping tool Windows|Making screenshots and svae as PNG, GIF or JPG. Today replaced by build-in function in Windows (SHIFT+Windows+S)|Free|
 Paint 3D Windows|Editing screenshots as PNG files
 Inkscape|SVG editor|Free|
 BeyondCompare|View and show differences between two text files or code pieces
@@ -20,12 +20,14 @@ BeyondCompare|View and show differences between two text files or code pieces
 SketchUp|Design physical table|Free|
 DR5000 Configuration|Basic software for Digikeijs DR5000 DCC command station configuration & control. Also needed to configure DR4018 and DR4088.|Free|
 RocRail|Model railroad software to control locomotives, signals and switches avoiding collisions etc. etc. independant of DCC command station|Free|
+WinDigipet|Model railroad software to control locomotives, signals and switches avoiding collisions etc. etc. independant of DCC command station|&euro;489|
 Fritzing|Electronic schema design tool. Can also make a wiring diagram. Support is a problem.|Free|
 KiCAD|Alternative electronic schema design tool. Can **not** make a wiring diagram.|Free|
 Arduino IDE|Building Arduino programs and upload into Arduino like controllers|Free|
 Picoscope|Mixed Signal Oscilloscope software|Free|
 PulseView|Cheap logic analyzer software with protocol recognition like USB, I2C|Free|
 PuTTY|Terminal emulator|Free|
+Wireshark|Tool to capture Ethernet traffic|Free|
 Ultra Serial Port Monitor|Free sniffer on COM-ports for studying Loconet-USB traffic  https://download.cnet.com/Ultra-Serial-Port-Monitor/3000-2094_4-10969502.html|Free|
 
 👍Fine tuning Atom:
@@ -42,6 +44,7 @@ Ultra Serial Port Monitor|Free sniffer on COM-ports for studying Loconet-USB tra
 
 * You can not open a link in a new tab due to the rendering software of Github.
 * This rendering engine also limits the use of colors.
+* An anchor inside a page can fail when capitals and/or spaces are used. According to [this link](https://stackoverflow.com/questions/6695439/how-to-link-to-a-named-anchor-in-multimarkdown) the anchor must use lower case letters and space in the paragraph name should be replaced by a -. So the paragraph header ** The Header can be reffered to with anchor [ Link to Header ]( # the-header )
 
 👍Fine tuning Notepad++:
 

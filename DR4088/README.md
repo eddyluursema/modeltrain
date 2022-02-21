@@ -1,5 +1,12 @@
 # ![Nederlandse vlag](../images/nl.gif) Nederlands
 
+## Voorbeeld DR4088 met Loconet
+In de Nederlandse handleiding staat niet meteen een voorbeeld van DR4088 met Loconet-verbindingen; er staan alleen voorbeelden met S88. In de Duitse handleiding staat wel het volgende:
+
+![DR5000_DR4088LN_schema](./images/DR5000_DR4088LN_schema.PNG)
+
+Duidelijk is het gebruik van Loconet bij de eerste drie DR4088; daarna gaat men verder met S88.
+
 ## Aansluitschema
 
 Volgens diverse Nederlandse bronnen zoals [link](https://encyclopedie.beneluxspoor.net/index.php?title=Diodeschakeling) en [link](https://www.nproject.org/nl/modelspoor-digitaal-en-dcc/diodeschakeling-voor-toepassing-in-ongedetecteerde-secties-bij-een-digitale-modelbaan) en een uit Engeland [link](http://www.wiringfordcc.com/blockdet.htm) vermelden dat niet-gedetecteerde stukken rails via een diodebrug met de centrale moeten worden verbonden om zo het spanningsverlies over deze brug gelijk te maken aan het spanningsverlies over de brug in de bezetmelder. Er is maar één diodebrug in de baan; alle niet-gedetecteerde stukken rails zijn met elkaar verbonden.
@@ -89,6 +96,13 @@ Indien in het schakelcherm logging is ingeschakeld verschijnt b.v.
 
 
 # ![English flag](../images/gb.gif) English
+
+## Example of DR4088 with Loconet
+In the English manual there is no example of DR4088 with Loconet wiring; only S88 are described. In the German manual there is an example:
+
+![DR5000_DR4088LN_schema](./images/DR5000_DR4088LN_schema.PNG)
+
+As can be seen Loconet interconnects the first three DR4088; from there S88 is used.
 
 ## Wiring
 
