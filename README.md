@@ -23,7 +23,7 @@ Eddy Luursema Februari 2022
 16. [Projecten](./Projects.md) in de toekomst
 17. Gebruik van [github en github-desktop](/Github/README.md) voor documentatie
 18. [Arduino cursus](/ArduinoCourse/README.md)
-19. [Speedometer](/Speedometer/READ.me)
+19. [Speedometer](/Speedometer/README.md)
 
 # ![English flag](./images/gb.gif)English
 
@@ -48,4 +48,4 @@ Eddy Luursema  February 2022
 16. [Projects](./Projects.md#English) in the futuure
 17. Using [github and github-desktop](/Github/README.md#English) for documentation
 18. [Arduino course](/ArduinoCourse/README.md#English)
-19. [Speedometer](/Speedometer/READ.me)
+19. [Speedometer](/Speedometer/README.md)
