@@ -582,7 +582,7 @@ void loop() {
 }
 ```
 
-This program is handy to test the installation even when the detetctors are installed on the wooden gate.
+This program is handy to test the installation even when the detectors are installed on the wooden gate.
 
 ## Speed from L to R with two sensors
 
@@ -642,7 +642,7 @@ The speed of a BR204 by Fleischmann is almost constant between 121.93 and 122.30
 
 ## Gateway time measurement
 
-If the signals from the IR detetctors are showing any bouncing effects is unknown. Therefore a simple logic analyzer was used to inspect the signals.
+Whether the signals from the IR detectors are showing any bouncing effects is unknown. Therefore a simple logic analyzer was used to inspect the signals.
 
 Left to right from the front of the locomotive is 1.653 ms
 
