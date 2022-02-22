@@ -46,7 +46,7 @@ De constructie is zwart gemaakt om reflectie van buitenlicht te verminderen.
 
 ## Snelheid op modelspoorbaan berekenen
 
-Gegeven dat een locomotief op een modelspoorbaan een bepaalde afstand L aflegt in T milliseconde betekent dat de locomotief rijdt met een snelheid van:
+Gegeven dat een locomotief op een modelspoorbaan een bepaalde afstand L mm aflegt in T milliseconde betekent dat de locomotief rijdt met een snelheid van:
 
 S = L / T mm/ms  (millimeter / milliseconde)
 
