@@ -38,6 +38,8 @@ De twee IR-LED's hebben ingebouwde serieweerstanden. De IR-foto-sensoren moeten 
 
 ![Upside](./images/Upside.jpg)
 
+![Upside](./images/Sideview.jpg)
+
 ![PCB](./images/PCB.jpg)
 
 ![GateWay](./images/GateWay.jpg)
@@ -531,6 +533,8 @@ The two IR-LED's have resisters build in. The IR-foto-sensors need a 1k serial r
 ## Construction
 
 ![Upside](./images/Upside.jpg)
+
+![Upside](./images/Sideview.jpg)
 
 ![PCB](./images/PCB.jpg)
 
