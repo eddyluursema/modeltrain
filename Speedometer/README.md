@@ -34,6 +34,16 @@ De speedometer is gebaseerd op een eenvoudige Arduino Nano met twee infrarood li
 
 De twee IR-LED's hebben ingebouwde serieweerstanden. De IR-foto-sensoren moeten een 1k serieweerstand hebben volgens de leverancier.
 
+## Constructie
+
+![Upside](./images/Upside.jpg)
+
+![PCB](./images/PCB.jpg)
+
+![GateWay](./images/GateWay.jpg)
+
+De constructie is zwart gemaakt om reflectie van buitenlicht te verminderen.
+
 ## Snelheid op modelspoorbaan berekenen
 
 Gegeven dat een locomotief op een modelspoorbaan een bepaalde afstand L aflegt in T milliseconde betekent dat de locomotief rijdt met een snelheid van:
@@ -136,6 +146,7 @@ Met dit prototype kan prima worden gewerkt als van L->R wordt gereden en de scha
 ## Lichtsluis tijdsmeting
 
 Omdat het onbekend is of er door het onderbreken van de lichtstraal contactdender kan ontstaan net als bij een drukknop zijn met een eenvoudige logic analyzer de signalen van links en rechts bekeken en nagemeten of de tijd klopt met die in de software:
+
 Links naar rechts op de voorzijde van de loc 1.653 ms zou betekenen
 
 ![Output](./images/LA_LR_front.png)
@@ -144,7 +155,7 @@ Op de achterzijde 1.650 ms:
 
 ![Output](./images/LA_LR_back.png)
 
-Echter er brandden op de gebruikte baan een aantal rode seinen; deze geven zoals zal blijken helaas ook infrarode straling af. Deze seinen zijn nu uitgeschakeld; dit was mogelijk omdat de seindecoders zo zijn ingesteld dat deze geen seinbeelden geven, maar de individuele LED’s afzonderlijk bestuurbaar zijn.
+Echter er brandden op de gebruikte baan een aantal rode seinen; deze geven zoals zal blijken helaas ook infrarode straling af. Deze seinen zijn nu uitgeschakeld; dit was mogelijk omdat de seindecoders zo zijn ingesteld dat deze geen seinbeelden geven, maar de individuele LED’s afzonderlijk bestuurbaar zijn. Ook is later de constructie zwart geschilderd.
 
 ![Output](./images/DisturbanceRedSignal.jpg)
 
@@ -521,6 +532,16 @@ In this document a simple speedometer for the model railroad is given. For model
 
 The two IR-LED's have resisters build in. The IR-foto-sensors need a 1k serial resistor according to the website.
 
+## Construction
+
+![Upside](./images/Upside.jpg)
+
+![PCB](./images/PCB.jpg)
+
+![GateWay](./images/GateWay.jpg)
+
+The construction is painted black to prevent reflection from outside light..
+
 ## Speed on a model railroad
 
 Given the fact that a locomotive on a model railroad runs for a distance of L mm in T milliseconds means the locomotive has a speed of:
@@ -631,7 +652,7 @@ The back of the loc is 1.650 ms:
 
 ![Output](./images/LA_LR_back.png)
 
-The signal left shows some strange behaviour due to the fact that a red signal was standing just in from of the wooden tunnel. Swithing off this red train signal resulted in a nice clean digital signal.
+The signal left shows some strange behaviour due to the fact that a red signal was standing just in from of the wooden tunnel. Swithing off this red train signal resulted in a nice clean digital signal. Later on the construction was painted black.
 
 ![Output](./images/DisturbanceRedSignal.jpg)
 
